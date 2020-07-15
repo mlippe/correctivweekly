@@ -1,0 +1,167 @@
+@import "./components/NavBar/NavBar.scss";
+@import "./components/WeeklyQuizCard/WeeklyQuizCard.scss";
+@import "./components/QuizArchive/QuizArchive.scss";
+@import "./components/MoneyStats/MoneyStats.scss";
+@import "./components/MoneyStats/odometer.scss";
+@import "./components/Footer/Footer.scss";
+@import "./components/Profile/Profile.scss";
+@import "./components/Leaderboard/Leaderboard.scss";
+@import "./components/Quiz/QuizInteractives/QuizInteractives.scss";
+@import "./components/Quiz/QuizComponent.scss";
+@import "./components/Quiz/QuizResults/QuizResults.scss";
+
+
+:root {
+  --bg: #242424;
+  --white: #fff;
+  --brand: #F24D63;
+}
+
+html {
+  background: var(--bg);
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body, #root {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+  -webkit-tap-highlight-color: transparent; /* for removing the highlight */
+}
+
+h1 {
+  font-size: 42px;
+  line-height: 48px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 22px;
+}
+
+h5 {
+  font-size: 14px; 
+  line-height: 18px;
+  color: #8C8C8C;
+  text-transform: uppercase;
+  float: right;
+}
+
+a { 
+  text-decoration: none;
+  color: var(--white)
+}
+
+button {
+  outline: none;
+  background: transparent;
+  
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+
+  &.big {
+    padding: 7px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: var(--white);
+    border-radius: 35px;
+    border: 1px solid rgba(255,255,255, 0.5);
+    transition: background-color 0.3s ease, border 0.3s ease, color 0.3s ease;
+
+    &:active {
+      background-color: var(--white);
+      border: 1px solid var(--white);
+      color: var(--bg);
+    }
+  }
+
+  &.small {
+    padding: 5px 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--white);
+    border-radius: 35px;
+    border: 1px solid rgba(255,255,255, 0.5);
+    transition: background-color 0.3s ease, border 0.3s ease, color 0.3s ease;
+
+    &:active {
+      background-color: var(--white);
+      border: 1px solid var(--white);
+      color: var(--bg);
+    }
+  }
+}
+
+.yellow-gradient {
+  background: linear-gradient(#B29543, #8D6249);
+  box-shadow: 0 5px 15px 0 rgba(129, 96, 5, 0.4);
+}
+
+.purple-gradient {
+  background: linear-gradient(#723EA0, #494F8D);
+  box-shadow: 0 5px 15px 0 rgba(81, 86, 196, 0.4);
+}
+
+.pink-gradient {
+  background: linear-gradient(#9B43B1, #8D496A);
+  box-shadow: 0 5px 15px 0 rgba(141, 73, 107, 0.5);
+}
+
+.green-gradient {
+  background: linear-gradient(#7DA23F, #498D51);
+  box-shadow: 0 5px 15px 0 rgba(74, 141, 80, 0.5);
+}
+
+
+// scroll animation
+
+.scroll-animation {
+  transform: translate3d(0, 2vh, 0);
+  opacity: 0;
+  transition: opacity 1s ease, transform 1.3s ease;
+
+  &.animation-visible {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+
+// VIEWS
+
+.App {
+  margin: 90px 16px 0;
+  height: calc(100% - 90px);
+  position: relative;
+  font-family: "Poppins", sans-serif; /* 400 -> regular, 700 -> bold */
+  color: var(--white);
+  font-weight: 700;
+}
+
+.quiz-view {
+  position: fixed;
+  width: calc(100% - 32px);
+  height: calc(100% - 90px);
+}

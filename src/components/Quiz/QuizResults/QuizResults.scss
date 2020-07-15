@@ -1,0 +1,39 @@
+.quiz-results {
+  position: relative;
+  z-index: 20;
+
+  .results-top {
+    margin: -90px -16px 0;
+    padding: 90px 16px 50px;
+
+    &.positive {
+      background: linear-gradient(#cae76a, var(--bg));
+    }
+
+    &.negative {
+      background: linear-gradient(#b83c89, var(--bg));
+    }
+
+    img {
+      width: 150%;
+      margin-left: -25%;
+      margin-top: -25%;
+      margin-bottom: -25%;
+      min-height: 50vh;
+    }
+
+    .subtitle {
+      margin-top: 10px;
+      font-size: 22px;
+      line-height: 26px;
+    }
+  }
+
+  .results-stats {
+    .title {
+      float: none;
+      margin-bottom: 20px;
+      margin-left: 30px;
+    }
+  }
+}

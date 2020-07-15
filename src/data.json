@@ -1,0 +1,280 @@
+{
+  "data": {
+    "user": {
+      "donats": 5
+    },
+    "quiz": {
+      "questions": [
+        {
+          "id": 1,
+          "title": "Stimmt es, dass Bielefeld existiert oder jemals existiert hat?",
+          "truth": true,
+          "results": {
+            "subtitle": "Es gibt aktuell keine Belege dafür, dass Bielefeld existiert oder jemals existiert hat.",
+            "chatbot": [
+              {
+                "type": "text",
+                "content": "Tja Brudi ,was denkst du dir denn? Bielefeld geht nicht und gibts nicht!"
+              },
+              {
+                "type": "text",
+                "content": "Wie kaputt kann man denn sein?"
+              }
+            ],
+            "originalArticle": {
+              "url": "http:correctiv",
+              "image": "image src",
+              "source": "Quelle",
+              "title": "Ich bin ein Artikel"
+            },
+            "moreInfo": {
+              "articles": [
+                {
+                  "url": "www.deinemudda.org",
+                  "image": "image src",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführender Artikel"
+                },
+                {
+                  "url": "www.deinemudda.org",
+                  "image": "image src",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführender Artikel"
+                },
+                {
+                  "url": "www.deinemudda.org",
+                  "image": "image src",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführender Artikel"
+                }
+              ],
+              "videos": [
+                {
+                  "url": "www.deinemudda.org",
+                  "image": "image src",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführendes Video"
+                },
+                {
+                  "url": "www.deinemudda.org",
+                  "image": "image src",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführendes Video"
+                },
+                {
+                  "url": "www.deinemudda.org",
+                  "image": "image src",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführendes Video"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": 2,
+          "title": "Stimmt es, dass Maggie immer hunger hat oder immer müde ist oder beides?",
+          "truth": false,
+          "results": {
+            "subtitle": "Es gibt aktuell keine Belege dafür, dass Maggie immer hunger hat oder immer müde ist oder beides.",
+            "chatbot": [
+              {
+                "type": "text",
+                "content": "Yaaaaaaaa was geht aaaaaab"
+              },
+              {
+                "type": "text",
+                "content": "Weiterer glorreicher Input des Chatbots"
+              }
+            ],
+            "originalArticle": {
+              "url": "http:correctiv",
+              "image": "image src",
+              "source": "Quelle",
+              "title": "Ich bin ein Artikel"
+            },
+            "moreInfo": {
+              "articles": [
+                {
+                  "url": "www.deinemudda.org",
+                  "image": "image src",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführender Artikel"
+                },
+                {
+                  "url": "www.deinemudda.org",
+                  "image": "image src",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführender Artikel"
+                },
+                {
+                  "url": "www.deinemudda.org",
+                  "image": "image src",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführender Artikel"
+                }
+              ],
+              "videos": [
+                {
+                  "url": "www.deinemudda.org",
+                  "image": "image src",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführendes Video"
+                },
+                {
+                  "url": "www.deinemudda.org",
+                  "image": "image src",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführendes Video"
+                },
+                {
+                  "url": "www.deinemudda.org",
+                  "image": "image src",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführendes Video"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "archivedQuiz": {
+      "questions": [
+        {
+          "id": 1,
+          "title": "Loooool, ich bin archiviert. Stimmt? Oder nicht?",
+          "truth": true,
+          "results": {
+            "chatbot": [
+              {
+                "type": "text",
+                "content": "Tja Brudi ,was denkst du dir denn? Bielefeld geht nicht und gibts nicht!"
+              },
+              {
+                "type": "text",
+                "content": "Wie kaputt kann man denn sein?"
+              }
+            ],
+            "originalArticle": {
+              "url": "http:correctiv",
+              "image": "image src",
+              "source": "Quelle",
+              "title": "Ich bin ein Artikel"
+            },
+            "moreInfo": {
+              "articles": [
+                {
+                  "url": "www.deinemudda.org",
+                  "image": "image src",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführender Artikel"
+                },
+                {
+                  "url": "www.deinemudda.org",
+                  "image": "image src",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführender Artikel"
+                },
+                {
+                  "url": "www.deinemudda.org",
+                  "image": "image src",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführender Artikel"
+                }
+              ],
+              "videos": [
+                {
+                  "url": "www.deinemudda.org",
+                  "image": "image src",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführendes Video"
+                },
+                {
+                  "url": "www.deinemudda.org",
+                  "image": "image src",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführendes Video"
+                },
+                {
+                  "url": "www.deinemudda.org",
+                  "image": "image src",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführendes Video"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": 2,
+          "title": "Stimmt es, dass Maggie immer hunger hat oder immer müde ist oder beides?",
+          "truth": false,
+          "results": {
+            "chatbot": [
+              {
+                "type": "text",
+                "content": "Yaaaaaaaa was geht aaaaaab"
+              },
+              {
+                "type": "text",
+                "content": "Weiterer glorreicher Input des Chatbots"
+              }
+            ],
+            "originalArticle": {
+              "url": "http:correctiv",
+              "image": "image src",
+              "source": "Quelle",
+              "title": "Ich bin ein Artikel"
+            },
+            "moreInfo": {
+              "articles": [
+                {
+                  "url": "www.deinemudda.org",
+                  "image": "image src",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführender Artikel"
+                },
+                {
+                  "url": "www.deinemudda.org",
+                  "image": "image src",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführender Artikel"
+                },
+                {
+                  "url": "www.deinemudda.org",
+                  "image": "image src",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführender Artikel"
+                }
+              ],
+              "videos": [
+                {
+                  "url": "www.deinemudda.org",
+                  "image": "image src",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführendes Video"
+                },
+                {
+                  "url": "www.deinemudda.org",
+                  "image": "image src",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführendes Video"
+                },
+                {
+                  "url": "www.deinemudda.org",
+                  "image": "image src",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführendes Video"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "asd": "asd"
+        }
+      ]
+    }
+  }
+}

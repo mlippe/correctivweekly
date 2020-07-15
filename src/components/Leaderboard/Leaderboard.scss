@@ -1,0 +1,149 @@
+.leaderboard-view {
+  .leaderboard-top {
+    background: linear-gradient(#6778C4, #242424);
+    padding-bottom: 50px;
+    margin: -90px -16px;
+
+    img {
+      margin-top: 40px;
+      width: 100%;
+      min-height: 100vw;
+    }
+  }
+
+  .top-ten {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #AAAAAA;
+    .top-ten-entry {
+      margin-top: 60px;
+      display: flex;
+      flex-direction: row;
+
+      h3 {
+        font-size: 22px;
+        line-height: 24px;
+      }
+
+      .number {
+        font-size: 32px;
+        line-height: 32px;
+        white-space: nowrap;
+        font-weight: 600;
+        width: 30px;
+      }
+
+      .image-container {
+        img {
+          width: 100%;
+          max-width: 100px;
+          margin: -20px 15px 0;
+        }
+      }
+
+      .data-container {
+        display: flex;
+        flex-direction: column;
+
+        .top {
+          margin-bottom: 15px;
+
+          .user-title {
+            margin-top: 3px;
+            font-size: 14px;
+            line-height: 16px;
+            color: var(--brand);
+            text-transform: uppercase;
+          }
+        }
+
+        .bottom {
+          display: flex;
+          
+          .score {
+            margin-right: 40px;
+          }
+
+          .data-subtitle {
+            font-size: 14px;
+            color: #8C8C8C;
+            line-height: 22px;
+            text-transform: uppercase;
+
+          }
+        }
+      }
+    }
+  }
+
+  .more-scores {
+    position: relative;
+
+    .gradient {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background: linear-gradient(rgba(36, 36, 36, 0), #242424 95%);
+    }
+
+    .more-scores-entry {
+      margin-top: 45px;
+      display: flex;
+      flex-direction: row;
+
+      h3 {
+        font-size: 22px;
+        line-height: 24px;
+      }
+
+      .number {
+        font-size: 24px;
+        line-height: 24px;
+        white-space: nowrap;
+        font-weight: 600;
+        width: 15px;
+      }
+
+      .image-container {
+        img {
+          width: 100%;
+          max-width: 60px;
+          margin: -15px 25px 0 15px;
+        }
+      }
+
+      .data-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .left {
+          margin-bottom: 15px;
+
+          .user-title {
+            margin-top: 3px;
+            font-size: 14px;
+            line-height: 16px;
+            color: var(--brand);
+            text-transform: uppercase;
+          }
+        }
+
+        .right {
+          display: flex;
+          margin-left: 10px;
+
+          .data-subtitle {
+            font-size: 14px;
+            color: #8C8C8C;
+            line-height: 22px;
+            text-transform: uppercase;
+
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.quiz-component {
+  height: 100%;
+
+  .quiz-card {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 125px);
+    padding: 20px;
+    font-size: 38px;
+    line-height: 44px;
+    z-index: 100;
+    border-radius: 10px;
+  }
+
+  .answer-overlay {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 20;
+    opacity: 0;
+
+    span {
+      display: block;
+      font-size: 34px;
+      line-height: 36px;
+      text-transform: uppercase;
+      margin-bottom: 25px;
+    }
+
+    &.right-answer  {
+      background: linear-gradient(#a8e063, #56ab2f);
+    }
+
+    &.wrong-answer  {
+      background: linear-gradient(#F5515F, #9F041B);
+    }
+  }
+}

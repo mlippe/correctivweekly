@@ -1,0 +1,97 @@
+.money-stats {
+  margin-top: 40px;
+
+  .total-number-wrap {
+    display: flex;
+    align-items: center;
+    font-size: 80px;
+
+    .odometer {
+      min-width: 280px;
+      margin-left: -9px;
+    }
+
+    .odometer-value {
+      text-align: center;
+    }
+
+    span.currency {
+      display: inline-block;
+      font-size: 50px;
+      margin-left: 8px;
+      margin-top: 16px;
+    }
+  }
+  h4 {
+    margin-top: -15px;
+  }
+
+  .impact-article {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+
+    .date {
+      font-size: 16px;
+      line-height: 20px;
+      text-transform: uppercase;
+
+    }
+
+    .headline {
+      font-size: 42px; 
+      line-height: 44px;
+      hyphens: auto;
+      word-break: break-word;
+    }
+
+    .impact-container {
+      position: relative;
+      transition: max-height 1.5s ease;
+
+      &.collapsed {
+        max-height: 150px;
+        overflow: hidden;
+
+        .gradient-overlay {
+          opacity: 1;
+        }
+      }
+
+      .impact {
+        font-size: 20px;
+        line-height: 26px;
+        color: var(--brand);
+      }
+
+       .gradient-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: linear-gradient(rgba(36, 36, 36, 0), #242424 90%);
+        opacity: 0;
+        transition: opacity 0.8s ease;
+
+        &::after {
+          content: "Mehr >";
+          position: absolute;
+          bottom: 15px;
+          right: 0;
+          font-size: 14px; 
+          line-height: 18px;
+          color: #8C8C8C;
+          text-transform: uppercase;
+        }
+      }
+
+      a {
+        display: block;
+        margin-top: 15px;
+      }
+
+    }
+
+  }
+}
