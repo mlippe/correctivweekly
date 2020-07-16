@@ -8,18 +8,16 @@ export default function QuizInteractives(props) {
   const [tipOpacity, setTipOpacity] = React.useState(1);
   const [slotTop, setSlotTop] = React.useState(0);
 
-  //console.log(props.quizData);
-
   return (
     <motion.div
       initial={{
         y: "2vh",
-        opacity: 0
+        opacity: 0,
       }}
       animate={{
         y: 0,
         opacity: 1,
-        transition: { duration: 1.2, ease: "easeOut" }
+        transition: { duration: 1.2, ease: "easeOut" },
       }}
       className={"quiz-interactives"}
     >
@@ -28,6 +26,8 @@ export default function QuizInteractives(props) {
         answerStatus={props.answerStatus}
         setTipOpacity={setTipOpacity}
         setQuestionActive={props.setQuestionActive}
+        setResultsActive={props.setResultsActive}
+        setInteractivesActive={props.setInteractivesActive}
         donatCount={props.donatCount}
         setDonatCount={props.setDonatCount}
       />

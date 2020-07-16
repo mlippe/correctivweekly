@@ -4,32 +4,37 @@ import QuizCard from "./QuizCard";
 import QuizResults from "./QuizResults/QuizResults";
 
 export default function QuizComponent(props) {
-  const [questionActive, setQuestionActive] = React.useState(false);
-  const [resultsActive, setResultsActive] = React.useState(false);
-  const [answerStatus, setAnswerStatus] = React.useState(null);
-
   return (
     <div className={"quiz-component"}>
-      <QuizInteractives
-        setQuestionActive={setQuestionActive}
-        answerStatus={answerStatus}
-        donatCount={props.donatCount}
-        setDonatCount={props.setDonatCount}
-        quizData={props.quizData.questions[props.currentQuestion]}
-      />
-      {questionActive ? (
+      {props.interactivesActive ? (
+        <QuizInteractives
+          setQuestionActive={props.setQuestionActive}
+          setResultsActive={props.setResultsActive}
+          setInteractivesActive={props.setInteractivesActive}
+          answerStatus={props.answerStatus}
+          donatCount={props.donatCount}
+          setDonatCount={props.setDonatCount}
+          quizData={props.quizData.questions[props.currentQuestion]}
+        />
+      ) : null}
+      {props.questionActive ? (
         <QuizCard
-          setQuestionActive={setQuestionActive}
-          setAnswerStatus={setAnswerStatus}
-          setResultsActive={setResultsActive}
+          setQuestionActive={props.setQuestionActive}
+          setAnswerStatus={props.setAnswerStatus}
           question={props.quizData.questions[props.currentQuestion].title}
           truth={props.quizData.questions[props.currentQuestion].truth}
         />
       ) : null}
-      {resultsActive ? (
+      {props.resultsActive ? (
         <QuizResults
-          answerStatus={answerStatus}
+          answerStatus={props.answerStatus}
           results={props.quizData.questions[props.currentQuestion].results}
+          currentQuestion={props.currentQuestion}
+          setCurrentQuestion={props.setCurrentQuestion}
+          setResultsActive={props.setResultsActive}
+          setQuestionActive={props.setQuestionActive}
+          setInteractivesActive={props.setInteractivesActive}
+          setAnswerStatus={props.setAnswerStatus}
         />
       ) : null}
     </div>

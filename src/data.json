@@ -11,61 +11,86 @@
           "truth": true,
           "results": {
             "subtitle": "Es gibt aktuell keine Belege dafür, dass Bielefeld existiert oder jemals existiert hat.",
+            "posPercentStat": 78,
             "chatbot": [
               {
                 "type": "text",
+                "delay": 1500,
                 "content": "Tja Brudi ,was denkst du dir denn? Bielefeld geht nicht und gibts nicht!"
               },
               {
                 "type": "text",
+                "delay": 3000,
                 "content": "Wie kaputt kann man denn sein?"
+              },
+              {
+                "type": "text",
+                "delay": 3800,
+                "content": "Schau mal, ich hab hier was cooles gefunden:"
+              },
+              {
+                "type": "image",
+                "delay": 4800,
+                "content": "question1/graph-1.svg",
+                "source": "Effects of Air Temperature and Relative Humidity on Coronavirus Survival on Surfaces",
+                "sourceUrl": "https://www.hallo.de"
+              },
+              {
+                "type": "text",
+                "delay": 5800,
+                "content": "Schau mal, ich hab hier was cooles gefunden:"
+              },
+              {
+                "type": "separator",
+                "delay": 6300,
+                "content": "Fun Facts"
               }
             ],
             "originalArticle": {
-              "url": "http:correctiv",
-              "image": "image src",
-              "source": "Quelle",
-              "title": "Ich bin ein Artikel"
+              "url": "https://www.correctiv.org",
+              "image": "question1/original-article.jpg",
+              "source": "correctiv.org",
+              "title": "Ich bin ein Artikel und ich habe einen langen Titel"
             },
             "moreInfo": {
               "articles": [
                 {
-                  "url": "www.deinemudda.org",
-                  "image": "image src",
+                  "url": "https://www.deinemudda.org",
+                  "image": "question1/more-articles.jpg",
                   "source": "Quelle",
-                  "title": "Ich bin ein weiterführender Artikel"
+                  "title": "Ich bin ein weiterführender Artikel1"
                 },
                 {
-                  "url": "www.deinemudda.org",
-                  "image": "image src",
+                  "url": "https://www.deinemudda.org",
+                  "image": "question1/more-articles.jpg",
                   "source": "Quelle",
-                  "title": "Ich bin ein weiterführender Artikel"
+                  "title": "Ich bin ein weiterführender Artikel2"
                 },
                 {
-                  "url": "www.deinemudda.org",
-                  "image": "image src",
+                  "url": "https://www.deinemudda.org",
+                  "image": "question1/more-articles.jpg",
                   "source": "Quelle",
-                  "title": "Ich bin ein weiterführender Artikel"
+                  "title": "Ich bin ein weiterführender Artikel3"
                 }
               ],
               "videos": [
                 {
-                  "url": "www.deinemudda.org",
-                  "image": "image src",
+                  "url": "https://www.deinemudda.org",
+                  "image": "question1/more-videos.jpg",
                   "source": "Quelle",
-                  "title": "Ich bin ein weiterführendes Video"
+                  "title": "Ich bin ein weiterführendes Video1"
                 },
                 {
-                  "url": "www.deinemudda.org",
-                  "image": "image src",
+                  "url": "https://www.deinemudda.org",
+                  "image": "question1/more-videos.jpg",
                   "source": "Quelle",
-                  "title": "Ich bin ein weiterführendes Video"
+                  "title": "Ich bin ein weiterführendes Video2"
                 },
                 {
-                  "url": "www.deinemudda.org",
-                  "image": "image src",
+                  "url": "https://www.deinemudda.org",
+                  "image": "question1/more-videos.jpg",
                   "source": "Quelle",
-                  "title": "Ich bin ein weiterführendes Video"
+                  "title": "Ich bin ein weiterführendes Video3"
                 }
               ]
             }
@@ -76,42 +101,67 @@
           "title": "Stimmt es, dass Maggie immer hunger hat oder immer müde ist oder beides?",
           "truth": false,
           "results": {
-            "subtitle": "Es gibt aktuell keine Belege dafür, dass Maggie immer hunger hat oder immer müde ist oder beides.",
+            "subtitle": "Es gibt aktuell keine Belege dafür, dass Bielefeld existiert oder jemals existiert hat.",
+            "posPercentStat": 78,
             "chatbot": [
               {
                 "type": "text",
-                "content": "Yaaaaaaaa was geht aaaaaab"
+                "delay": 1500,
+                "content": "Tja Brudi ,was denkst du dir denn? Bielefeld geht nicht und gibts nicht!"
               },
               {
                 "type": "text",
-                "content": "Weiterer glorreicher Input des Chatbots"
+                "delay": 3000,
+                "content": "Wie kaputt kann man denn sein?"
+              },
+              {
+                "type": "text",
+                "delay": 3800,
+                "content": "Schau mal, ich hab hier was cooles gefunden:"
+              },
+              {
+                "type": "image",
+                "delay": 4800,
+                "content": "question1/graph-1.svg",
+                "source": "Effects of Air Temperature and Relative Humidity on Coronavirus Survival on Surfaces",
+                "sourceUrl": "https://www.hallo.de"
+              },
+              {
+                "type": "text",
+                "delay": 5800,
+                "content": "Schau mal, ich hab hier was cooles gefunden:"
+              },
+              {
+                "type": "separator",
+                "delay": 6300,
+                "content": "Fun Facts"
               }
             ],
             "originalArticle": {
-              "url": "http:correctiv",
-              "image": "image src",
-              "source": "Quelle",
-              "title": "Ich bin ein Artikel"
+              "url": "https://www.correctiv.org",
+              "image": "question1/original-article.jpg",
+              "source": "correctiv.org",
+              "title": "Ich bin ein Artikel und ich habe einen langen Titel"
             },
             "moreInfo": {
               "articles": [
                 {
                   "url": "www.deinemudda.org",
-                  "image": "image src",
+                  "image": "question1/more-articles.jpg",
                   "source": "Quelle",
-                  "title": "Ich bin ein weiterführender Artikel"
+                  "title": "Ich bin ein weiterführender Artikel1"
                 },
                 {
                   "url": "www.deinemudda.org",
-                  "image": "image src",
+                  "image": "question1/more-articles.jpg",
                   "source": "Quelle",
-                  "title": "Ich bin ein weiterführender Artikel"
+                  "title": "Ich bin ein weiterführender Artikel2"
                 },
                 {
                   "url": "www.deinemudda.org",
-                  "image": "image src",
+                  "image": "question1/more-articles.jpg",
                   "source": "Quelle",
-                  "title": "Ich bin ein weiterführender Artikel"
+                  "title": "Ich bin ein weiterführender Artikel3"
                 }
               ],
               "videos": [

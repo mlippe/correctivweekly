@@ -1,3 +1,13 @@
+.quiz-view {
+  width: 100%;
+
+  &.fixed {
+    position: fixed;
+    width: calc(100% - 32px);
+    height: calc(100% - 90px);
+  }
+}
+
 .quiz-component {
   height: 100%;
 
@@ -32,12 +42,12 @@
       margin-bottom: 25px;
     }
 
-    &.right-answer  {
+    &.right-answer {
       background: linear-gradient(#a8e063, #56ab2f);
     }
 
-    &.wrong-answer  {
-      background: linear-gradient(#F5515F, #9F041B);
+    &.wrong-answer {
+      background: linear-gradient(#f5515f, #9f041b);
     }
   }
 }

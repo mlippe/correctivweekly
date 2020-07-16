@@ -10,27 +10,28 @@
 @import "./components/Quiz/QuizComponent.scss";
 @import "./components/Quiz/QuizResults/QuizResults.scss";
 
-
 :root {
   --bg: #242424;
   --white: #fff;
-  --brand: #F24D63;
+  --brand: #f24d63;
 }
 
 html {
   background: var(--bg);
 }
 
-html, body, #root {
-  height: 100%;
-}
+// html,
+// body,
+// #root {
+//   height: 100%;
+// }
 
-body, #root {
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
+// body,
+// #root {
+//   // position: absolute;
+//   // top: 0;
+//   width: 100%;
+// }
 
 * {
   margin: 0;
@@ -50,6 +51,11 @@ h1 {
   line-height: 48px;
 }
 
+h2 {
+  font-size: 22px;
+  line-height: 26px;
+}
+
 h3 {
   font-size: 20px;
   line-height: 22px;
@@ -62,22 +68,22 @@ h4 {
 }
 
 h5 {
-  font-size: 14px; 
+  font-size: 14px;
   line-height: 18px;
-  color: #8C8C8C;
+  color: #8c8c8c;
   text-transform: uppercase;
   float: right;
 }
 
-a { 
+a {
   text-decoration: none;
-  color: var(--white)
+  color: var(--white);
 }
 
 button {
   outline: none;
   background: transparent;
-  
+
   font-family: "Poppins", sans-serif;
   font-weight: 700;
 
@@ -87,7 +93,7 @@ button {
     text-transform: uppercase;
     color: var(--white);
     border-radius: 35px;
-    border: 1px solid rgba(255,255,255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
     transition: background-color 0.3s ease, border 0.3s ease, color 0.3s ease;
 
     &:active {
@@ -103,7 +109,7 @@ button {
     text-transform: uppercase;
     color: var(--white);
     border-radius: 35px;
-    border: 1px solid rgba(255,255,255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
     transition: background-color 0.3s ease, border 0.3s ease, color 0.3s ease;
 
     &:active {
@@ -115,25 +121,24 @@ button {
 }
 
 .yellow-gradient {
-  background: linear-gradient(#B29543, #8D6249);
+  background: linear-gradient(#b29543, #8d6249);
   box-shadow: 0 5px 15px 0 rgba(129, 96, 5, 0.4);
 }
 
 .purple-gradient {
-  background: linear-gradient(#723EA0, #494F8D);
+  background: linear-gradient(#723ea0, #494f8d);
   box-shadow: 0 5px 15px 0 rgba(81, 86, 196, 0.4);
 }
 
 .pink-gradient {
-  background: linear-gradient(#9B43B1, #8D496A);
+  background: linear-gradient(#9b43b1, #8d496a);
   box-shadow: 0 5px 15px 0 rgba(141, 73, 107, 0.5);
 }
 
 .green-gradient {
-  background: linear-gradient(#7DA23F, #498D51);
+  background: linear-gradient(#7da23f, #498d51);
   box-shadow: 0 5px 15px 0 rgba(74, 141, 80, 0.5);
 }
-
 
 // scroll animation
 
@@ -148,7 +153,6 @@ button {
   }
 }
 
-
 // VIEWS
 
 .App {
@@ -158,10 +162,4 @@ button {
   font-family: "Poppins", sans-serif; /* 400 -> regular, 700 -> bold */
   color: var(--white);
   font-weight: 700;
-}
-
-.quiz-view {
-  position: fixed;
-  width: calc(100% - 32px);
-  height: calc(100% - 90px);
 }

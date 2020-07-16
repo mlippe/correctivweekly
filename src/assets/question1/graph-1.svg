@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="251px" viewBox="0 0 320 251" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 4</title>
+    <g id="UI-Variants" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Copy-35" transform="translate(-31.000000, -1715.000000)">
+            <g id="content" transform="translate(-29.000000, 31.000000)">
+                <g id="stats" transform="translate(45.000000, 1355.000000)">
+                    <g id="stat" transform="translate(0.000000, 313.000000)">
+                        <g id="graph">
+                            <g id="Group-4" transform="translate(16.172152, 16.000000)">
+                                <g id="lines" transform="translate(28.855696, 0.000000)" stroke="#AAAAAA" stroke-linecap="square">
+                                    <g id="lines-2" opacity="0.400000006" transform="translate(35.298719, 0.000000)">
+                                        <line x1="1.12655485" y1="0.5" x2="1.12655485" y2="223.643452" id="Line"></line>
+                                        <line x1="43.935639" y1="0.5" x2="43.935639" y2="223.643452" id="Line"></line>
+                                        <line x1="86.7447231" y1="0.5" x2="86.7447231" y2="223.643452" id="Line"></line>
+                                        <line x1="129.553807" y1="0.5" x2="129.553807" y2="223.643452" id="Line"></line>
+                                        <line x1="172.362891" y1="0.5" x2="172.362891" y2="223.643452" id="Line"></line>
+                                    </g>
+                                    <g opacity="0.399399909" transform="translate(0.000000, 22.000000)" id="Line">
+                                        <line x1="0.374306936" y1="1.5" x2="242.20808" y2="1.5"></line>
+                                        <line x1="0.374306936" y1="38" x2="242.20808" y2="38"></line>
+                                        <line x1="0.374306936" y1="74" x2="242.20808" y2="74"></line>
+                                        <line x1="0.374306936" y1="110" x2="242.20808" y2="110"></line>
+                                        <line x1="0.374306936" y1="146" x2="242.20808" y2="146"></line>
+                                        <line x1="0.374306936" y1="182" x2="242.20808" y2="182"></line>
+                                    </g>
+                                </g>
+                                <g id="graphs" transform="translate(28.855696, 33.000000)">
+                                    <g id="Group-6" transform="translate(0.000000, 27.000000)">
+                                        <line x1="0.43164557" y1="0.5" x2="239.994937" y2="6.8401706" id="Path-2" stroke="#48A9A6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></line>
+                                        <text id="20°C" font-family="Poppins-SemiBold, Poppins" font-size="17" font-weight="500" fill="#48A9A6">
+                                            <tspan x="246.251" y="29">20°C</tspan>
+                                        </text>
+                                        <text id="40°C" font-family="Poppins-SemiBold, Poppins" font-size="17" font-weight="500" fill="#E08E45">
+                                            <tspan x="246.789" y="131">40°C</tspan>
+                                        </text>
+                                    </g>
+                                    <g id="Group-6">
+                                        <line x1="0.43164557" y1="27.5" x2="239.994937" y2="23.8450858" id="Path-2" stroke="#6681F1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></line>
+                                        <text id="4°C" font-family="Poppins-SemiBold, Poppins" font-size="17" font-weight="500" fill="#6681F1">
+                                            <tspan x="246.533" y="18">4°C</tspan>
+                                        </text>
+                                    </g>
+                                    <path d="M0.214083761,27.4328862 L27.9890609,80.041817 C32.8883562,89.3216333 43.556279,102.096091 51.8038631,108.564429 L64.7722354,118.735143 C73.0254921,125.207931 87.2906792,134.345607 96.6221755,139.138425 L105.315328,143.603377 C114.652307,148.399011 130.732583,152.356017 141.221218,152.441512 L146.431858,152.483986 C156.925154,152.569519 173.936021,152.662688 184.429402,152.692092 L208.282527,152.758932 L239.994937,152.758932" id="Path-3" stroke="#E08E45" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </g>
+                                <g id="graphs-copy" transform="translate(28.855696, 36.000000)"></g>
+                                <g id="numbers" transform="translate(0.000000, 11.000000)" fill="#AAAAAA" font-family="Poppins-SemiBold, Poppins" font-size="16" font-weight="500">
+                                    <g id="left-numbers" transform="translate(0.000000, 0.000000)">
+                                        <g id="Group-5" transform="translate(11.316456, 0.000000)">
+                                            <text id="1">
+                                                <tspan x="2.48962025" y="17">1</tspan>
+                                            </text>
+                                        </g>
+                                        <text id="-1">
+                                            <tspan x="5.352" y="91">-1</tspan>
+                                        </text>
+                                        <text id="-2">
+                                            <tspan x="1.576" y="127">-2</tspan>
+                                        </text>
+                                        <text id="-3">
+                                            <tspan x="1.048" y="163">-3</tspan>
+                                        </text>
+                                        <text id="-4">
+                                            <tspan x="0.2" y="197">-4</tspan>
+                                        </text>
+                                        <text id="0">
+                                            <tspan x="11.3164557" y="54">0</tspan>
+                                        </text>
+                                    </g>
+                                    <g id="numbers-down" transform="translate(48.891139, 217.000000)">
+                                        <text id="24h">
+                                            <tspan x="0.888" y="17">24h</tspan>
+                                        </text>
+                                        <text id="48h">
+                                            <tspan x="43.752" y="17">48h</tspan>
+                                        </text>
+                                        <text id="72h">
+                                            <tspan x="88.192" y="17">72h</tspan>
+                                        </text>
+                                        <text id="96h">
+                                            <tspan x="129.712" y="17">96h</tspan>
+                                        </text>
+                                        <text id="120h">
+                                            <tspan x="169.928" y="17">120h</tspan>
+                                        </text>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

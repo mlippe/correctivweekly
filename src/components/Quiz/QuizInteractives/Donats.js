@@ -7,21 +7,16 @@ export default function Donats(props) {
   let initialState;
 
   React.useEffect(() => {
-    const imageList = [donat];
-    imageList.forEach((image) => {
-      new Image().src = image;
-    });
+    if (props.donatCount >= 4) {
+      initialState = "";
+    } else if (props.donatCount === 3) {
+      initialState = "two-left";
+    } else if (props.donatCount === 2) {
+      initialState = "one-left";
+    } else if (props.donatCount <= 1) {
+      initialState = "zero-left";
+    }
   });
-
-  if (props.donatCount >= 4) {
-    initialState = "";
-  } else if (props.donatCount === 3) {
-    initialState = "two-left";
-  } else if (props.donatCount === 2) {
-    initialState = "one-left";
-  } else if (props.donatCount <= 1) {
-    initialState = "zero-left";
-  }
 
   const [uiDonatCount, setUiDonatCount] = React.useState(props.donatCount);
   const [dragging, setDragging] = React.useState(initialState);
@@ -38,14 +33,31 @@ export default function Donats(props) {
 
   React.useEffect(() => {
     if (props.answerStatus) {
+      // correct answer response
       setDragClasses();
-      resetDonat();
-      setWhileDragging({
-        scale: 1,
-        filter: "none",
-        transition: {},
-      });
+      let countInt = parseInt(uiDonatCount, 10);
+      let newCount = countInt + 1;
+      setUiDonatCount(newCount);
+
+      const sequence = async () => {
+        await donatAnimation.start({
+          x: 0,
+          y: 0,
+          scale: 1,
+        });
+
+        return await showResults();
+      };
+
+      function showResults() {
+        props.setDonatCount(newCount);
+        props.setResultsActive(true);
+        props.setInteractivesActive(false);
+      }
+
+      sequence();
     } else if (props.answerStatus === false) {
+      // wrong answer response
       const newCount = props.donatCount - 1;
 
       const sequence = async () => {
@@ -64,8 +76,14 @@ export default function Donats(props) {
             ease: "easeOut",
           },
         });
-        return await props.setDonatCount(newCount);
+        return await showResults();
       };
+
+      function showResults() {
+        props.setDonatCount(newCount);
+        props.setResultsActive(true);
+        props.setInteractivesActive(false);
+      }
 
       sequence();
     }

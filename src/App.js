@@ -51,7 +51,7 @@ export default function App() {
         <Route
           path="/profile"
           exact
-          render={props => (
+          render={(props) => (
             <Profile
               {...props}
               donatCount={donatCount}
@@ -63,7 +63,7 @@ export default function App() {
         <Route
           path="/quiz"
           exact
-          render={props => (
+          render={(props) => (
             <Quiz
               {...props}
               donatCount={donatCount}
@@ -77,7 +77,7 @@ export default function App() {
         <Route
           path="/archived-quiz"
           exact
-          render={props => (
+          render={(props) => (
             <ArchivedQuiz
               {...props}
               donatCount={donatCount}

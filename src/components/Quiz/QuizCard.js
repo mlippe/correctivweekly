@@ -82,10 +82,8 @@ export default function QuizCard(props) {
 
         if (props.truth) {
           props.setAnswerStatus(true);
-          props.setResultsActive(true);
         } else {
           props.setAnswerStatus(false);
-          props.setResultsActive(true);
         }
       }, 1000);
     } else if (
@@ -115,10 +113,8 @@ export default function QuizCard(props) {
 
         if (!props.truth) {
           props.setAnswerStatus(true);
-          props.setResultsActive(true);
         } else {
           props.setAnswerStatus(false);
-          props.setResultsActive(true);
         }
       }, 1000);
     } else {

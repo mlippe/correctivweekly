@@ -23,7 +23,7 @@ export default function ResultsTop(props) {
       )}
 
       <div className="subtitle">{props.subtitle}</div>
-      <ResultsStats />
+      <ResultsStats posPercentStat={props.posPercentStat} />
     </div>
   );
 }
