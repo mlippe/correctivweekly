@@ -5,27 +5,19 @@ import donat from "../../../assets/donat.png";
 
 export default function Donats(props) {
   let initialState;
-
-  React.useEffect(() => {
-    if (props.donatCount >= 4) {
-      initialState = "";
-    } else if (props.donatCount === 3) {
-      initialState = "two-left";
-    } else if (props.donatCount === 2) {
-      initialState = "one-left";
-    } else if (props.donatCount <= 1) {
-      initialState = "zero-left";
-    }
-  });
+  if (props.donatCount >= 4) {
+    initialState = "";
+  } else if (props.donatCount === 3) {
+    initialState = "two-left";
+  } else if (props.donatCount === 2) {
+    initialState = "one-left";
+  } else if (props.donatCount <= 1) {
+    initialState = "zero-left";
+  }
 
   const [uiDonatCount, setUiDonatCount] = React.useState(props.donatCount);
   const [dragging, setDragging] = React.useState(initialState);
   const [isDraggable, setDraggable] = React.useState(true);
-  const [whileDragging, setWhileDragging] = React.useState({
-    scale: 1.3,
-    filter: "drop-shadow(0px 20px 15px rgba(144,85,31,0.4))",
-    transition: {},
-  });
   const [donatHeight, setDonatHeight] = React.useState();
 
   const donatAnimation = useAnimation();
@@ -164,7 +156,11 @@ export default function Donats(props) {
           dragMomentum={true}
           onDragEnd={donatDragEnd}
           onDragStart={donatDragStart}
-          whileTap={whileDragging}
+          whileTap={{
+            scale: 1.3,
+            filter: "drop-shadow(0px 20px 15px rgba(144,85,31,0.4))",
+            transition: {},
+          }}
           ref={draggableDonat}
         >
           <img src={donat} alt={"donat"} />

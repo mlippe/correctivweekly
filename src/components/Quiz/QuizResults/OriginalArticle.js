@@ -1,16 +1,14 @@
 import React from "react";
 import { useInView } from "react-intersection-observer";
-import { motion } from "framer-motion";
 
 export default function OriginalArticle(props) {
   const [visible, setVisible] = React.useState("");
   const [imageItem, setImageItem] = React.useState("");
 
   const [ref, inView] = useInView({
-    threshold: 0.3,
+    threshold: 0,
+    rootMargin: "0px 0px -20% 0px",
   });
-
-  console.log(props.articleData);
 
   React.useEffect(() => {
     if (inView) {
@@ -20,7 +18,7 @@ export default function OriginalArticle(props) {
 
   React.useEffect(() => {
     setImageItem(require(`../../../assets/${props.articleData.image}`));
-  }, []);
+  }, [props.articleData.image]);
 
   return (
     <div className={"original-article scroll-animation " + visible} ref={ref}>

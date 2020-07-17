@@ -10,7 +10,7 @@ export default function VideoCard(props) {
           <img
             className={"cover-image"}
             src={require(`../../../assets/${props.image}`)}
-            alt="video image"
+            alt="video"
           />
         </div>
         <div className="text-container">

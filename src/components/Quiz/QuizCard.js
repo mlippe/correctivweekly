@@ -83,10 +83,6 @@ export default function QuizCard(props) {
     const xVelocity = info.velocity.x;
     const xThreshold = window.innerWidth / 2.5;
 
-    console.log("xValue", xValue);
-    console.log("xVelocity", xVelocity);
-    console.log("xThreshold", xThreshold);
-
     if (xValue > xThreshold || (xValue <= xThreshold && xVelocity > 400)) {
       // right edge
       cardSwipe.start({
@@ -196,7 +192,7 @@ export default function QuizCard(props) {
         <span>Stimmt!</span>
       </motion.div>
       <motion.div className="wrong-answer answer-overlay" animate={negSwipe}>
-        <span>Falsch!</span>
+        <span>Stimmt nicht!</span>
       </motion.div>
     </>
   );

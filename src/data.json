@@ -1,7 +1,7 @@
 {
   "data": {
     "user": {
-      "donats": 5
+      "donats": 2
     },
     "quiz": {
       "questions": [
@@ -15,34 +15,28 @@
             "chatbot": [
               {
                 "type": "text",
-                "delay": 1500,
                 "content": "Tja Brudi, was denkst du dir denn? Bielefeld geht nicht und gibts nicht!"
               },
               {
                 "type": "text",
-                "delay": 3000,
                 "content": "Wie kaputt kann man denn sein?"
               },
               {
                 "type": "text",
-                "delay": 3800,
                 "content": "Schau mal, ich hab hier was cooles gefunden:"
               },
               {
                 "type": "image",
-                "delay": 4800,
                 "content": "question1/graph-1.svg",
                 "source": "Effects of Air Temperature and Relative Humidity on Coronavirus Survival on Surfaces",
                 "sourceUrl": "https://www.hallo.de"
               },
               {
                 "type": "text",
-                "delay": 5800,
                 "content": "Schau mal, ich hab hier was cooles gefunden:"
               },
               {
                 "type": "separator",
-                "delay": 6300,
                 "content": "Fun Facts"
               }
             ],
@@ -98,42 +92,36 @@
         },
         {
           "id": 2,
-          "title": "Stimmt es, dass Maggie immer hunger hat oder immer müde ist oder beides?",
-          "truth": false,
+          "title": "Stimmt es, dass Maggie immer hungrig ist?",
+          "truth": true,
           "results": {
-            "subtitle": "Es gibt aktuell keine Belege dafür, dass Bielefeld existiert oder jemals existiert hat.",
-            "posPercentStat": 78,
+            "subtitle": "Es gibt aktuell keine Belege dafür, dass Maggie immer hungrig ist.",
+            "posPercentStat": 34,
             "chatbot": [
               {
                 "type": "text",
-                "delay": 1500,
-                "content": "Tja Brudi ,was denkst du dir denn? Bielefeld geht nicht und gibts nicht!"
+                "content": "Tja Brudi, Maggie ist halt immer Hungrig!"
               },
               {
                 "type": "text",
-                "delay": 3000,
                 "content": "Wie kaputt kann man denn sein?"
               },
               {
                 "type": "text",
-                "delay": 3800,
                 "content": "Schau mal, ich hab hier was cooles gefunden:"
               },
               {
                 "type": "image",
-                "delay": 4800,
                 "content": "question1/graph-1.svg",
                 "source": "Effects of Air Temperature and Relative Humidity on Coronavirus Survival on Surfaces",
                 "sourceUrl": "https://www.hallo.de"
               },
               {
                 "type": "text",
-                "delay": 5800,
                 "content": "Schau mal, ich hab hier was cooles gefunden:"
               },
               {
                 "type": "separator",
-                "delay": 6300,
                 "content": "Fun Facts"
               }
             ],
@@ -146,19 +134,19 @@
             "moreInfo": {
               "articles": [
                 {
-                  "url": "www.deinemudda.org",
+                  "url": "https://www.deinemudda.org",
                   "image": "question1/more-articles.jpg",
                   "source": "Quelle",
                   "title": "Ich bin ein weiterführender Artikel1"
                 },
                 {
-                  "url": "www.deinemudda.org",
+                  "url": "https://www.deinemudda.org",
                   "image": "question1/more-articles.jpg",
                   "source": "Quelle",
                   "title": "Ich bin ein weiterführender Artikel2"
                 },
                 {
-                  "url": "www.deinemudda.org",
+                  "url": "https://www.deinemudda.org",
                   "image": "question1/more-articles.jpg",
                   "source": "Quelle",
                   "title": "Ich bin ein weiterführender Artikel3"
@@ -166,22 +154,22 @@
               ],
               "videos": [
                 {
-                  "url": "www.deinemudda.org",
-                  "image": "image src",
+                  "url": "https://www.deinemudda.org",
+                  "image": "question1/more-videos.jpg",
                   "source": "Quelle",
-                  "title": "Ich bin ein weiterführendes Video"
+                  "title": "Ich bin ein weiterführendes Video1"
                 },
                 {
-                  "url": "www.deinemudda.org",
-                  "image": "image src",
+                  "url": "https://www.deinemudda.org",
+                  "image": "question1/more-videos.jpg",
                   "source": "Quelle",
-                  "title": "Ich bin ein weiterführendes Video"
+                  "title": "Ich bin ein weiterführendes Video2"
                 },
                 {
-                  "url": "www.deinemudda.org",
-                  "image": "image src",
+                  "url": "https://www.deinemudda.org",
+                  "image": "question1/more-videos.jpg",
                   "source": "Quelle",
-                  "title": "Ich bin ein weiterführendes Video"
+                  "title": "Ich bin ein weiterführendes Video3"
                 }
               ]
             }

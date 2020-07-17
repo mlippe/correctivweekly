@@ -1,6 +1,5 @@
 import React from "react";
 import { useInView } from "react-intersection-observer";
-import { motion } from "framer-motion";
 import ArticleCard from "./ArticleCard";
 import VideoCard from "./VideoCard";
 
@@ -16,8 +15,6 @@ export default function MoreInfo(props) {
       setVisible("animation-visible");
     }
   }, [inView]);
-
-  console.log(props.infoData);
 
   return (
     <div className={"more-info scroll-animation " + visible} ref={ref}>

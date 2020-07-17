@@ -7,6 +7,7 @@ export default function Quiz(props) {
   const [interactivesActive, setInteractivesActive] = React.useState(true);
   const [answerStatus, setAnswerStatus] = React.useState(null);
   const [viewFixed, setViewFixed] = React.useState(true);
+  const [quizDone, setQuizDone] = React.useState(false);
 
   return (
     <div className={viewFixed ? "quiz-view fixed" : "quiz-view"}>
@@ -25,6 +26,8 @@ export default function Quiz(props) {
         currentQuestion={props.currentQuestion}
         setCurrentQuestion={props.setCurrentQuestion}
         setViewFixed={setViewFixed}
+        quizDone={quizDone}
+        setQuizDone={setQuizDone}
       />
     </div>
   );

@@ -8,6 +8,7 @@ export default function ResultsStats(props) {
 
   const [ref, inView] = useInView({
     threshold: 0.7,
+    triggerOnce: true,
   });
 
   React.useEffect(() => {
@@ -36,7 +37,7 @@ export default function ResultsStats(props) {
         <div className="bar" style={{ width: negWidth + "%" }} />
         <div className="text-wrapper">
           <div className="percentage">{100 - props.posPercentStat}%</div>
-          <div className="answered">Wählten "Falsch"</div>
+          <div className="answered">Wählten "Stimmt nicht"</div>
         </div>
       </div>
     </div>

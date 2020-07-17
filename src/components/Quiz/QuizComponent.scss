@@ -11,6 +11,33 @@
 .quiz-component {
   height: 100%;
 
+  .quiz-done-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .emoji {
+      font-size: 60px;
+    }
+
+    h2 {
+      margin-top: 5px;
+      width: 90%;
+      text-align: center;
+    }
+
+    h5 {
+      margin: 30px 0;
+      width: 80%;
+      text-align: center;
+    }
+    button {
+      margin-bottom: 50px;
+    }
+  }
+
   .quiz-card {
     position: relative;
     width: 100%;

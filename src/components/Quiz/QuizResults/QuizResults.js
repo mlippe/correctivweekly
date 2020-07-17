@@ -1,30 +1,68 @@
 import React from "react";
 import ResultsTop from "./ResultsTop";
 import { ReactComponent as Arrow } from "../../../assets/arrow-white.svg";
-import { motion } from "framer-motion";
+import { motion, useAnimation } from "framer-motion";
 import CorrectiBot from "./CorrectiBot";
 import OriginalArticle from "./OriginalArticle";
 import { Link } from "react-router-dom";
 import MoreInfo from "./MoreInfo";
+import { useInView } from "react-intersection-observer";
 
 export default function QuizResults(props) {
-  const [scrollHint, setScrollHint] = React.useState(true);
+  const scrollHintAnimation = useAnimation();
+  const [nextButtonVisible, setNextButtonVisible] = React.useState(false);
+  const [ref, inView] = useInView({
+    threshold: 0,
+  });
 
   React.useEffect(() => {
+    //scrollHintAnimation.start({ y: 0, opacity: 1 });
     if (props.interactivesActive) {
       setTimeout(() => {
         props.setInteractivesActive(false);
         props.setViewFixed(false);
-      }, 1800);
+      }, 2500);
     }
+    // eslint-disable-next-line
   }, [props.interactivesActive]);
 
-  function panHandler(event, info) {
-    setScrollHint(false);
+  React.useEffect(() => {
+    if (inView) {
+      setNextButtonVisible(true);
+    } else {
+      setNextButtonVisible(false);
+    }
+  }, [inView]);
+
+  function panStartHandler(event, info) {
+    let timeOut;
+    scrollHintAnimation.start({ y: "100%", opacity: 0 });
+    clearTimeout(timeOut);
+
+    if (nextButtonVisible) {
+      return;
+    }
+
+    timeOut = setTimeout(() => {
+      scrollHintAnimation.start({ y: 0, opacity: 1 });
+    }, 2500);
   }
 
   function clickHandler() {
-    const nextQuestion = props.currentQuestion + 1;
+    let nextQuestion;
+    console.log(
+      "props.currentQuestion + 1 ",
+      props.currentQuestion + 1,
+      "props.totalQuestions ",
+      props.totalQuestions
+    );
+
+    if (props.currentQuestion + 1 < props.totalQuestions) {
+      nextQuestion = props.currentQuestion + 1;
+    } else if (props.currentQuestion + 1 === props.totalQuestions) {
+      nextQuestion = props.currentQuestion;
+      props.setQuizDone(true);
+    }
     props.setResultsActive(false);
     props.setQuestionActive(false);
     props.setAnswerStatus(null);
@@ -36,7 +74,7 @@ export default function QuizResults(props) {
   return (
     <motion.div
       className={"quiz-results"}
-      onPanStart={panHandler}
+      onPanStart={panStartHandler}
       initial={{
         y: "-60px",
         opacity: 0,
@@ -45,7 +83,7 @@ export default function QuizResults(props) {
         y: 0,
         opacity: 1,
         transition: {
-          duration: 2,
+          duration: 1,
           type: "spring",
           stiffness: 200,
           damping: 15,
@@ -58,18 +96,21 @@ export default function QuizResults(props) {
         animate={{
           opacity: 1,
           transition: {
-            duration: 1,
-            delay: 1,
+            duration: 0.5,
+            delay: 0.5,
           },
         }}
       />
-      {scrollHint ? (
-        <div className="scroll-down-hint">
-          <div className="arrow">
-            <Arrow />
-          </div>
+
+      <motion.div
+        className="scroll-down-hint"
+        animate={scrollHintAnimation}
+        transition={{ type: "tween", ease: "easeInOut", duration: 0.6 }}
+      >
+        <div className="arrow">
+          <Arrow />
         </div>
-      ) : null}
+      </motion.div>
 
       {props.answerStatus ? (
         <motion.div
@@ -99,7 +140,7 @@ export default function QuizResults(props) {
       <CorrectiBot botData={props.results.chatbot} />
       <OriginalArticle articleData={props.results.originalArticle} />
       <MoreInfo infoData={props.results.moreInfo} />
-      <div className={"bottom-button-container"}>
+      <div className={"bottom-button-container"} ref={ref}>
         <Link to={"/quiz"}>
           <button className="big" onClick={clickHandler}>
             Nächste Frage
