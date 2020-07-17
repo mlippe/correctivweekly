@@ -2,6 +2,7 @@ import React from "react";
 import positive from "../../../assets/positive.png";
 import negative from "../../../assets/negative.png";
 import ResultsStats from "./ResultsStats";
+import { motion } from "framer-motion";
 
 export default function ResultsTop(props) {
   return (
@@ -10,6 +11,17 @@ export default function ResultsTop(props) {
         props.answerStatus ? "results-top positive" : "results-top negative"
       }
     >
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{
+          opacity: 1,
+          transition: {
+            duration: 1,
+            delay: 1,
+          },
+        }}
+        className={"background"}
+      />
       {props.answerStatus ? (
         <>
           <img src={positive} alt="positive icon" />
@@ -21,7 +33,6 @@ export default function ResultsTop(props) {
           <h1 className="title">Leider Falsch!</h1>
         </>
       )}
-
       <div className="subtitle">{props.subtitle}</div>
       <ResultsStats posPercentStat={props.posPercentStat} />
     </div>

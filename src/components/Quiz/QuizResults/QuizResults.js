@@ -10,6 +10,15 @@ import MoreInfo from "./MoreInfo";
 export default function QuizResults(props) {
   const [scrollHint, setScrollHint] = React.useState(true);
 
+  React.useEffect(() => {
+    if (props.interactivesActive) {
+      setTimeout(() => {
+        props.setInteractivesActive(false);
+        props.setViewFixed(false);
+      }, 1800);
+    }
+  }, [props.interactivesActive]);
+
   function panHandler(event, info) {
     setScrollHint(false);
   }
@@ -19,6 +28,7 @@ export default function QuizResults(props) {
     props.setResultsActive(false);
     props.setQuestionActive(false);
     props.setAnswerStatus(null);
+    props.setViewFixed(true);
     props.setCurrentQuestion(nextQuestion);
     props.setInteractivesActive(true);
   }
@@ -28,19 +38,57 @@ export default function QuizResults(props) {
       className={"quiz-results"}
       onPanStart={panHandler}
       initial={{
+        y: "-60px",
         opacity: 0,
       }}
       animate={{
+        y: 0,
         opacity: 1,
-        transition: { duration: 1, ease: "easeOut" },
+        transition: {
+          duration: 2,
+          type: "spring",
+          stiffness: 200,
+          damping: 15,
+        },
       }}
     >
+      <motion.div
+        className="background"
+        initial={{ opacity: 0 }}
+        animate={{
+          opacity: 1,
+          transition: {
+            duration: 1,
+            delay: 1,
+          },
+        }}
+      />
       {scrollHint ? (
         <div className="scroll-down-hint">
           <div className="arrow">
             <Arrow />
           </div>
         </div>
+      ) : null}
+
+      {props.answerStatus ? (
+        <motion.div
+          className="correct-answer-next"
+          initial={{ opacity: 0 }}
+          animate={{
+            opacity: 1,
+            transition: {
+              duration: 3,
+              delay: 3,
+            },
+          }}
+        >
+          <Link to={"/quiz"}>
+            <button className="small" onClick={clickHandler}>
+              Weiter {">"}
+            </button>
+          </Link>
+        </motion.div>
       ) : null}
 
       <ResultsTop
@@ -51,11 +99,13 @@ export default function QuizResults(props) {
       <CorrectiBot botData={props.results.chatbot} />
       <OriginalArticle articleData={props.results.originalArticle} />
       <MoreInfo infoData={props.results.moreInfo} />
-      <Link to={"/quiz"}>
-        <button className="big" onClick={clickHandler}>
-          Nächste Frage
-        </button>
-      </Link>
+      <div className={"bottom-button-container"}>
+        <Link to={"/quiz"}>
+          <button className="big" onClick={clickHandler}>
+            Nächste Frage
+          </button>
+        </Link>
+      </div>
     </motion.div>
   );
 }

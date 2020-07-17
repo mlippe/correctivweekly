@@ -10,7 +10,6 @@ export default function QuizComponent(props) {
         <QuizInteractives
           setQuestionActive={props.setQuestionActive}
           setResultsActive={props.setResultsActive}
-          setInteractivesActive={props.setInteractivesActive}
           answerStatus={props.answerStatus}
           donatCount={props.donatCount}
           setDonatCount={props.setDonatCount}
@@ -33,8 +32,10 @@ export default function QuizComponent(props) {
           setCurrentQuestion={props.setCurrentQuestion}
           setResultsActive={props.setResultsActive}
           setQuestionActive={props.setQuestionActive}
+          interactivesActive={props.interactivesActive}
           setInteractivesActive={props.setInteractivesActive}
           setAnswerStatus={props.setAnswerStatus}
+          setViewFixed={props.setViewFixed}
         />
       ) : null}
     </div>

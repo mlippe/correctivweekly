@@ -4,10 +4,10 @@
   .total-number-wrap {
     display: flex;
     align-items: center;
-    font-size: 80px;
+    font-size: 75px;
 
     .odometer {
-      min-width: 280px;
+      min-width: 260px;
       margin-left: -9px;
     }
 
@@ -35,11 +35,10 @@
       font-size: 16px;
       line-height: 20px;
       text-transform: uppercase;
-
     }
 
     .headline {
-      font-size: 42px; 
+      font-size: 42px;
       line-height: 44px;
       hyphens: auto;
       word-break: break-word;
@@ -64,7 +63,7 @@
         color: var(--brand);
       }
 
-       .gradient-overlay {
+      .gradient-overlay {
         position: absolute;
         top: 0;
         left: 0;
@@ -79,9 +78,9 @@
           position: absolute;
           bottom: 15px;
           right: 0;
-          font-size: 14px; 
+          font-size: 14px;
           line-height: 18px;
-          color: #8C8C8C;
+          color: #8c8c8c;
           text-transform: uppercase;
         }
       }
@@ -90,8 +89,6 @@
         display: block;
         margin-top: 15px;
       }
-
     }
-
   }
 }

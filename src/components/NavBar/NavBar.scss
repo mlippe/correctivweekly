@@ -7,7 +7,7 @@
   padding: 0 16px;
   display: flex;
   justify-content: space-between;
-  align-items: center; 
+  align-items: center;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   z-index: 999999;
@@ -15,7 +15,7 @@
 
   .left,
   .right {
-    margin-top: 5px;
+    margin-top: 3px;
   }
 
   .donat-count {
@@ -29,37 +29,47 @@
     .number {
       margin-left: 7px;
       font-size: 24px;
-      opacity: .75;
+      opacity: 0.75;
     }
   }
 
   .center {
-    font-size: 18px; 
-    opacity: .75;
+    font-size: 18px;
+    opacity: 0.75;
 
     &.progress {
       opacity: 1;
 
       .of {
         font-size: 12px;
-        opacity: .75;
+        opacity: 0.75;
       }
-
     }
   }
 
   .logo {
-    width: 100px;
     opacity: 0.75;
+
+    a {
+      display: flex;
+      align-items: center;
+    }
+    span {
+      margin-right: 4px;
+      margin-bottom: 7px;
+      margin-left: -11px;
+      font-weight: 400;
+      opacity: 0.6;
+    }
 
     svg {
       height: 100%;
-      width: 100%;
+      width: 80px;
     }
   }
 
   .logo-container {
-    opacity: .75;
+    opacity: 0.75;
 
     svg {
       height: 25px;
@@ -68,6 +78,6 @@
   }
 
   .logo-container > *:first-child {
-      margin-right: 20px
+    margin-right: 20px;
   }
 }

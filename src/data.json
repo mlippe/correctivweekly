@@ -7,7 +7,7 @@
       "questions": [
         {
           "id": 1,
-          "title": "Stimmt es, dass Bielefeld existiert oder jemals existiert hat?",
+          "title": "Stimmt es, dass Bielefeld nicht existiert oder jemals existiert hat?",
           "truth": true,
           "results": {
             "subtitle": "Es gibt aktuell keine Belege dafür, dass Bielefeld existiert oder jemals existiert hat.",
@@ -16,7 +16,7 @@
               {
                 "type": "text",
                 "delay": 1500,
-                "content": "Tja Brudi ,was denkst du dir denn? Bielefeld geht nicht und gibts nicht!"
+                "content": "Tja Brudi, was denkst du dir denn? Bielefeld geht nicht und gibts nicht!"
               },
               {
                 "type": "text",

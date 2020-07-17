@@ -52,9 +52,7 @@ export default function Donats(props) {
       function showResults() {
         props.setDonatCount(newCount);
         props.setResultsActive(true);
-        props.setInteractivesActive(false);
       }
-
       sequence();
     } else if (props.answerStatus === false) {
       // wrong answer response
@@ -82,9 +80,7 @@ export default function Donats(props) {
       function showResults() {
         props.setDonatCount(newCount);
         props.setResultsActive(true);
-        props.setInteractivesActive(false);
       }
-
       sequence();
     }
     // eslint-disable-next-line
@@ -119,11 +115,13 @@ export default function Donats(props) {
         x: 0,
         y: props.slotTop - donatHeight + 15,
         scale: 1,
+        transition: {
+          ease: [0.16, 1, 0.3, 1],
+          type: "tween",
+          duration: 2,
+        },
       });
       setDraggable(false);
-      setWhileDragging({
-        x: [-10, 10, -5, 5, 0],
-      });
       props.setTipOpacity(0);
       props.setQuestionActive(true);
     }

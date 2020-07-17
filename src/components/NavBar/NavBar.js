@@ -11,7 +11,7 @@ import { ReactComponent as SettingsIc } from "../../assets/settings.svg";
 export default function NavBar(props) {
   React.useEffect(() => {
     const imageList = [donat];
-    imageList.forEach(image => {
+    imageList.forEach((image) => {
       new Image().src = image;
     });
   });
@@ -85,6 +85,7 @@ export default function NavBar(props) {
           <div className={"left"}>
             <div className={"logo"}>
               <Link to={"/"}>
+                <span>{"<"}</span>
                 <LogoIc />
               </Link>
             </div>

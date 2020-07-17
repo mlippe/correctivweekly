@@ -12,14 +12,41 @@ export default function QuizCard(props) {
     y: 0,
     opacity: 1,
     transition: {
-      delay: 0.35,
+      delay: 0.75,
       y: { type: "spring", stiffness: 100, damping: 15 },
       default: { duration: 0.8 },
     },
   });
 
+  const sequence = async () => {
+    await cardSwipe.start({
+      y: 0,
+      opacity: 1,
+      transition: {
+        delay: 0.35,
+        y: { type: "spring", stiffness: 100, damping: 15 },
+        default: { duration: 0.8 },
+      },
+    });
+
+    return await cardSwipe.start({
+      x: [0, -42, 42, 0],
+      rotateZ: [0, -2, 2, 0],
+      transition: {
+        delay: 1,
+        duration: 1.2,
+        ease: "easeInOut",
+        loop: Infinity,
+        repeatDelay: 2,
+      },
+    });
+  };
+  sequence();
+
   function dragHandler(event, info) {
     const xValue = info.point.x;
+
+    cardSwipe.stop();
 
     cardSwipe.start({
       rotate: xValue / 50,
