@@ -5,6 +5,7 @@ import SwiperCore, { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.scss";
 import "swiper/components/pagination/pagination.scss";
+import ReactPlayer from "react-player";
 
 import clip1 from "../../assets/start/dragdonat.mov";
 import poster1 from "../../assets/start/dragdonat.jpg";
@@ -27,8 +28,8 @@ export default function Onboarding(props) {
 
     props.setLastSlide(false);
     let currentVideo = event.slides[event.activeIndex].children[0].children[0];
-    currentVideo.currentTime = 0;
-    currentVideo.play();
+    //currentVideo.currentTime = 0;
+    //currentVideo.play();
   }
 
   return (
@@ -55,9 +56,14 @@ export default function Onboarding(props) {
       >
         <SwiperSlide>
           <div className="animation-wrap">
-            <video loop muted poster={poster1}>
-              <source src={clip1} type="video/mp4" />
-            </video>
+            <ReactPlayer
+              url={clip1}
+              loop={true}
+              muted={true}
+              playsinline
+              playing={true}
+              volume={0}
+            />
           </div>
           <div className="text-wrap">
             <h2>Schalte Fragenkarten mit Donats frei.</h2>
