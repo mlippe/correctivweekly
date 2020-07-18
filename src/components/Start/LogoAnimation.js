@@ -11,11 +11,11 @@ export default function LogoAnimation(props) {
         scale: 1,
         opacity: 0.9,
         transition: {
-          delay: 1,
+          delay: 0.5,
           duration: 5,
           type: "spring",
           stiffness: 200,
-          damping: 20,
+          damping: 22,
         },
       });
 
@@ -23,8 +23,8 @@ export default function LogoAnimation(props) {
         scale: [1, 0.9, 100],
         opacity: [0.9, 0.75, 0],
         transition: {
-          delay: 1,
-          duration: 2,
+          delay: 1.4,
+          duration: 1.4,
           ease: "easeOut",
         },
       });
@@ -51,7 +51,7 @@ export default function LogoAnimation(props) {
           transition: { duration: 1, delay: 1.3 },
         }}
       >
-        <h2>Das Quiz zu den Nachrichten</h2>
+        <h2>Check Deine Realität!</h2>
       </motion.div>
     </motion.div>
   );

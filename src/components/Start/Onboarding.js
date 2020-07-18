@@ -51,10 +51,31 @@ export default function Onboarding(props) {
         onSlideChange={(event) => slideChangeHandler(event)}
       >
         <SwiperSlide>
+          <div className="welcome">
+            <div className="big">
+              Wilkommen bei Correctiv Weekly!
+              <br />
+              <br />
+              Das Quiz über aktuelle Nachrichten
+            </div>
+            <motion.div
+              initial={{ x: "5px", opacity: 0 }}
+              animate={{
+                x: 0,
+                opacity: 1,
+                transition: { delay: 2, duration: 0.75 },
+              }}
+              className="tip"
+            >
+              Wischen zum Fortsetzen {">"}
+            </motion.div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
           <SlideContent
             source={clip1}
             poster={poster1}
-            text={"Schalte Fragenkarten mit Donats frei."}
+            text={"Benutze Donats, um Fragen freizuschalten."}
             tip={true}
           />
         </SwiperSlide>
@@ -67,26 +88,22 @@ export default function Onboarding(props) {
         </SwiperSlide>
         <SwiperSlide>
           <SlideContent
-            source={clip3}
-            poster={poster3}
-            text={"Nach Deiner Antwort bekommst du Infos zur Frage."}
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <SlideContent
             source={clip4}
             poster={poster4}
-            text={"Antwortest Du richtig, behälst Du deinen Donat."}
+            text={"Antwortest Du richtig, behälst Du den Donat."}
           />
         </SwiperSlide>
         <SwiperSlide>
           <SlideContent
             source={clip5}
             poster={poster4}
-            text={"Antwortest Du falsch, verlierst Du deinen Donat."}
+            text={"Antwortest Du falsch, verlierst Du einen Donat."}
           />
         </SwiperSlide>
         <SwiperSlide className="last-slide">
+          <div className="logo-container">
+            <div className="subline">Check Deine Realität!</div>
+          </div>
           <h1>Alles klar?</h1>
           <Link to={"/home"}>
             <button className="big">Los Gehts!</button>

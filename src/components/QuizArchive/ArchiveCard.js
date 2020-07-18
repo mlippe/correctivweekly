@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 export default function ArchiveCard(props) {
   const [randomColor, setRandomColor] = React.useState(null);
@@ -74,12 +75,20 @@ export default function ArchiveCard(props) {
   }, []);
 
   return (
-    <Link to={"/archived-quiz"}>
-      <div className={"archive-card " + randomColor}>
-        <div className={"year-number"}>{currentYear}</div>
-        <div className={"week"}>{currentWeek}</div>
-      </div>
-    </Link>
+    <motion.div
+      className="card"
+      whileTap={{
+        y: "3px",
+        transition: { duration: 0.2, delay: 0, ease: "easeOut" },
+      }}
+    >
+      <Link to={"/archived-quiz"}>
+        <div className={"archive-card " + randomColor}>
+          <div className={"year-number"}>{currentYear}</div>
+          <div className={"week"}>{currentWeek}</div>
+        </div>
+      </Link>
+    </motion.div>
   );
 }
 

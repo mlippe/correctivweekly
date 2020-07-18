@@ -40,19 +40,6 @@ export default function SlideContent(props) {
       <div className="text-wrap">
         <h2>{props.text}</h2>
       </div>
-      {props.tip ? (
-        <motion.div
-          initial={{ x: "5px", opacity: 0 }}
-          animate={{
-            x: 0,
-            opacity: 1,
-            transition: { delay: 2, duration: 0.75 },
-          }}
-          className="tip"
-        >
-          Wischen zum Fortsetzen {">"}
-        </motion.div>
-      ) : null}
     </div>
   );
 }

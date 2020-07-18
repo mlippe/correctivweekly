@@ -6,7 +6,8 @@ export default function QuizArchive() {
   const [visible, setVisible] = React.useState("");
 
   const [ref, inView] = useInView({
-    threshold: 0.5,
+    threshold: 0,
+    rootMargin: "0px 0px -10% 0px",
   });
 
   React.useEffect(() => {

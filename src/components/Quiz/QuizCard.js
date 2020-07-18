@@ -45,7 +45,6 @@ export default function QuizCard(props) {
 
   function dragHandler(event, info) {
     const xValue = info.point.x;
-
     cardSwipe.stop();
 
     cardSwipe.start({
@@ -79,16 +78,18 @@ export default function QuizCard(props) {
 
   function dragEndHandler(event, info) {
     // WHEN CARD IS RELEASED
-    const xValue = info.point.x;
+    let xValue = info.point.x;
     const xVelocity = info.velocity.x;
     const xThreshold = window.innerWidth / 2.5;
 
-    if (xValue > xThreshold || (xValue <= xThreshold && xVelocity > 400)) {
+    if (xValue > xThreshold || (xValue <= xThreshold && xVelocity > 750)) {
+      xValue < xThreshold ? (xValue = xThreshold) : (xValue = xValue);
+
       // right edge
       cardSwipe.start({
         y: 0,
         x: xValue + 250,
-        rotate: xValue / 50,
+        rotate: xValue / 40,
         opacity: 0,
       });
 
@@ -111,13 +112,14 @@ export default function QuizCard(props) {
       }, 1000);
     } else if (
       xValue < -xThreshold ||
-      (xValue > -xThreshold && xVelocity < -400)
+      (xValue > -xThreshold && xVelocity < -750)
     ) {
+      xValue > -xThreshold ? (xValue = -xThreshold) : (xValue = xValue);
       // left edge
       cardSwipe.start({
         y: 0,
         x: xValue - 250,
-        rotate: xValue / 50,
+        rotate: xValue / 40,
         opacity: 0,
         transitionEnd: { display: "none" },
       });
@@ -146,6 +148,7 @@ export default function QuizCard(props) {
         y: 0,
         x: 0,
         rotate: 0,
+        rotateZ: 0,
         opacity: 1,
       });
       posSwipe.start({

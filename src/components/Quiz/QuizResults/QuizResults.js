@@ -1,7 +1,7 @@
 import React from "react";
 import ResultsTop from "./ResultsTop";
 import { ReactComponent as Arrow } from "../../../assets/arrow-white.svg";
-import { motion, useAnimation } from "framer-motion";
+import { motion, useAnimation, useAnimatedState } from "framer-motion";
 import CorrectiBot from "./CorrectiBot";
 import OriginalArticle from "./OriginalArticle";
 import { Link } from "react-router-dom";
@@ -10,18 +10,31 @@ import { useInView } from "react-intersection-observer";
 
 export default function QuizResults(props) {
   const scrollHintAnimation = useAnimation();
+  const backgroundAnimation = useAnimation();
   const [nextButtonVisible, setNextButtonVisible] = React.useState(false);
   const [ref, inView] = useInView({
     threshold: 0,
   });
 
   React.useEffect(() => {
-    //scrollHintAnimation.start({ y: 0, opacity: 1 });
     if (props.interactivesActive) {
-      setTimeout(() => {
+      const bgSequence = async () => {
+        await backgroundAnimation.start({
+          opacity: 1,
+          transition: {
+            duration: 1,
+          },
+        });
         props.setInteractivesActive(false);
         props.setViewFixed(false);
-      }, 2500);
+        scrollHintAnimation.start({
+          y: 0,
+          opacity: 1,
+          transition: { delay: 0.3 },
+        });
+        return;
+      };
+      bgSequence();
     }
     // eslint-disable-next-line
   }, [props.interactivesActive]);
@@ -35,17 +48,18 @@ export default function QuizResults(props) {
   }, [inView]);
 
   function panStartHandler(event, info) {
-    let timeOut;
-    scrollHintAnimation.start({ y: "100%", opacity: 0 });
-    clearTimeout(timeOut);
+    const sequence = async () => {
+      await scrollHintAnimation.start({ y: "60px", opacity: 0 });
+      return await showAgain();
+    };
 
-    if (nextButtonVisible) {
-      return;
+    function showAgain() {
+      if (nextButtonVisible) {
+        return;
+      }
+      scrollHintAnimation.start({ y: 0, opacity: 1, transition: { delay: 3 } });
     }
-
-    timeOut = setTimeout(() => {
-      scrollHintAnimation.start({ y: 0, opacity: 1 });
-    }, 2500);
+    sequence();
   }
 
   function clickHandler() {
@@ -76,7 +90,7 @@ export default function QuizResults(props) {
       className={"quiz-results"}
       onPanStart={panStartHandler}
       initial={{
-        y: "-60px",
+        y: "-20px",
         opacity: 0,
       }}
       animate={{
@@ -84,27 +98,20 @@ export default function QuizResults(props) {
         opacity: 1,
         transition: {
           duration: 1,
-          type: "spring",
-          stiffness: 200,
-          damping: 15,
+          ease: "easeOut",
         },
       }}
     >
       <motion.div
         className="background"
         initial={{ opacity: 0 }}
-        animate={{
-          opacity: 1,
-          transition: {
-            duration: 0.5,
-            delay: 0.5,
-          },
-        }}
+        animate={backgroundAnimation}
       />
 
       <motion.div
         className="scroll-down-hint"
         animate={scrollHintAnimation}
+        initial={{ y: "60px", opacity: 0 }}
         transition={{ type: "tween", ease: "easeInOut", duration: 0.6 }}
       >
         <div className="arrow">

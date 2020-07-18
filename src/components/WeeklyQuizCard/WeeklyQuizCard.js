@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useInView } from "react-intersection-observer";
+import { motion } from "framer-motion";
 
 export default function WeeklyQuizCard() {
   const [visible, setVisible] = React.useState("");
@@ -87,7 +88,11 @@ export default function WeeklyQuizCard() {
   }, []);
 
   return (
-    <div
+    <motion.div
+      whileTap={{
+        y: "3px",
+        transition: { duration: 0.2, delay: 0, ease: "easeOut" },
+      }}
       className={
         "weekly-quiz-card scroll-animation " + randomColor + " " + visible
       }
@@ -103,6 +108,6 @@ export default function WeeklyQuizCard() {
           <button className={"button big"}>Spielen</button>
         </Link>
       </div>
-    </div>
+    </motion.div>
   );
 }

@@ -58,7 +58,7 @@
     .swiper-slide {
       width: 100%;
       height: 100%;
-      background: var(--bg);
+      background: rgb(37, 36, 38);
       border-radius: 10px;
       will-change: box-shadow;
       transition: box-shadow 0.1s ease;
@@ -77,17 +77,36 @@
         height: 100%;
       }
 
-      .tip {
-        position: absolute;
-        right: 15px;
-        bottom: 5px;
-        font-size: 12px;
-        text-transform: uppercase;
-        color: grey;
+      .welcome {
+        width: 100%;
+        .big {
+          font-size: 36px;
+          line-height: 42px;
+        }
+
+        @media screen and (max-height: 550px) {
+          .big {
+            font-size: 32px;
+            line-height: 38px;
+          }
+        }
+
+        .tip {
+          position: absolute;
+          right: 25px;
+          bottom: 10px;
+          font-size: 15px;
+          text-transform: uppercase;
+          color: rgb(255, 255, 255);
+        }
       }
 
       h2 {
         text-align: center;
+        margin-bottom: 10px;
+        z-index: 2;
+        position: relative;
+        background: rgb(37, 36, 38);
       }
 
       .animation-wrap {
@@ -101,7 +120,9 @@
       }
 
       .text-wrap {
-        margin: 15px 0;
+        height: 20%;
+        display: flex;
+        align-items: flex-end;
       }
 
       &.last-slide {

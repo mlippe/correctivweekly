@@ -17,23 +17,49 @@ export default function ResultsTop(props) {
           opacity: 1,
           transition: {
             duration: 1,
-            delay: 1,
           },
         }}
         className={"background"}
       />
+
       {props.answerStatus ? (
         <>
           <img src={positive} alt="positive icon" />
-          <h1 className="title">Korrekt!</h1>
+          <motion.div
+            className="content-wrap"
+            initial={{ y: "50px", opacity: 0 }}
+            animate={{
+              opacity: 1,
+              y: 0,
+              transition: {
+                duration: 1,
+              },
+            }}
+          >
+            <h1 className="title">Korrekt!</h1>
+            <div className="subtitle">{props.subtitle}</div>
+          </motion.div>
         </>
       ) : (
         <>
           <img src={negative} alt="negative icon" />
-          <h1 className="title">Leider Falsch!</h1>
+          <motion.div
+            className="content-wrap"
+            initial={{ y: "50px", opacity: 0 }}
+            animate={{
+              opacity: 1,
+              y: 0,
+              transition: {
+                duration: 1,
+              },
+            }}
+          >
+            <h1 className="title">Leider Falsch!</h1>
+            <div className="subtitle">{props.subtitle}</div>
+          </motion.div>
         </>
       )}
-      <div className="subtitle">{props.subtitle}</div>
+
       <ResultsStats posPercentStat={props.posPercentStat} />
     </div>
   );

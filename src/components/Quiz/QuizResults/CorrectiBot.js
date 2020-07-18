@@ -1,5 +1,5 @@
 import React from "react";
-import bot from "../../../assets/correctibot.png";
+import bot from "../../../assets/correctibot_2.png";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import BotBubble from "./BotBubble";
@@ -24,26 +24,15 @@ export default function CorrectiBot(props) {
     if (inView) {
       setVisible("animation-visible");
       imageAnimation.start({
-        y: 0,
         opacity: 1,
         transition: {
-          delay: 0.5,
-          duration: 1,
-          type: "spring",
-          stiffness: 200,
-          damping: 15,
+          duration: 0.5,
         },
       });
-
       textAnimation.start({
-        y: 0,
         opacity: 1,
         transition: {
-          delay: 1.3,
-          duration: 1,
-          type: "spring",
-          stiffness: 200,
-          damping: 15,
+          duration: 0.5,
         },
       });
     }
@@ -60,25 +49,23 @@ export default function CorrectiBot(props) {
       <div className={"intro scroll-animation " + visible} ref={ref}>
         <motion.div
           initial={{
-            y: "20px",
             opacity: 0,
           }}
           animate={imageAnimation}
           className="image-container"
         >
-          <img src={bot} alt="negative icon" />
-          <div className="gradient" />
+          <img src={bot} alt="bot " />
         </motion.div>
         <motion.div
           className="text-wrap"
           initial={{
-            y: "20px",
             opacity: 0,
           }}
           animate={textAnimation}
         >
-          <h1>Hallo, ich bin CorrectiBot!</h1>
-          <h2>Ich versorge Dich mit relevanten Hintergrund-Infos zum Thema:</h2>
+          <div className="active-dot" />
+          <h1>CorrectiBot</h1>
+          <h2>versorgt dich mit Hintergrund-Infos zum Thema</h2>
         </motion.div>
       </div>
       <div

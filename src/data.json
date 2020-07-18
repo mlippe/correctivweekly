@@ -7,6 +7,188 @@
       "questions": [
         {
           "id": 1,
+          "title": "Hat der Bundestag kürzlich den Ausnahmezustand bis 2022 verlängert?",
+          "truth": false,
+          "results": {
+            "subtitle": "Es gibt aktuell keine Belege dafür, dass Bielefeld existiert oder jemals existiert hat.",
+            "posPercentStat": 78,
+            "chatbot": [
+              {
+                "type": "text",
+                "content": "Bielefeld! Ein interessantes Thema. Du hast doch sicherlich mal von der Bielefeld-Verschwörung gehört?"
+              },
+              {
+                "type": "text",
+                "content": "Die Bürgermeisterin hat 2019 sogar einen Wettbewerb ausgerufen, um der Verschwörung ein für alle Male ein Ende zu setzten."
+              },
+              {
+                "type": "text",
+                "content": "Bei dem Wettbewerb wurde 1 Million Euro Preisgeld darauf ausgesetzt, zu beweisen, dass Bielefeld nicht existiert."
+              },
+              {
+                "type": "text",
+                "content": "Schau mal, ich hab hier was cooles gefunden:"
+              },
+              {
+                "type": "image",
+                "content": "question1/graph-1.svg",
+                "source": "Effects of Air Temperature and Relative Humidity on Coronavirus Survival on Surfaces",
+                "sourceUrl": "https://www.hallo.de"
+              },
+              {
+                "type": "text",
+                "content": "Schau mal, ich hab hier was cooles gefunden:"
+              },
+              {
+                "type": "separator",
+                "content": "Fun Facts"
+              }
+            ],
+            "originalArticle": {
+              "url": "https://www.correctiv.org",
+              "image": "question1/original-article.jpg",
+              "source": "correctiv.org",
+              "title": "Ich bin ein Artikel und ich habe einen langen Titel"
+            },
+            "moreInfo": {
+              "articles": [
+                {
+                  "url": "https://www.deinemudda.org",
+                  "image": "question1/more-articles.jpg",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführender Artikel1"
+                },
+                {
+                  "url": "https://www.deinemudda.org",
+                  "image": "question1/more-articles.jpg",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführender Artikel2"
+                },
+                {
+                  "url": "https://www.deinemudda.org",
+                  "image": "question1/more-articles.jpg",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführender Artikel3"
+                }
+              ],
+              "videos": [
+                {
+                  "url": "https://www.deinemudda.org",
+                  "image": "question1/more-videos.jpg",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführendes Video1"
+                },
+                {
+                  "url": "https://www.deinemudda.org",
+                  "image": "question1/more-videos.jpg",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführendes Video2"
+                },
+                {
+                  "url": "https://www.deinemudda.org",
+                  "image": "question1/more-videos.jpg",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführendes Video3"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": 2,
+          "title": "Stimmt es, dass Bielefeld nicht existiert oder jemals existiert hat?",
+          "truth": false,
+          "results": {
+            "subtitle": "Es gibt aktuell keine Belege dafür, dass Bielefeld existiert oder jemals existiert hat.",
+            "posPercentStat": 78,
+            "chatbot": [
+              {
+                "type": "text",
+                "content": "Bielefeld! Ein interessantes Thema. Du hast doch sicherlich mal von der Bielefeld-Verschwörung gehört?"
+              },
+              {
+                "type": "text",
+                "content": "Die Bürgermeisterin hat 2019 sogar einen Wettbewerb ausgerufen, um der Verschwörung ein für alle Male ein Ende zu setzten."
+              },
+              {
+                "type": "text",
+                "content": "Bei dem Wettbewerb wurde 1 Million Euro Preisgeld darauf ausgesetzt, zu beweisen, dass Bielefeld nicht existiert."
+              },
+              {
+                "type": "text",
+                "content": "Schau mal, ich hab hier was cooles gefunden:"
+              },
+              {
+                "type": "image",
+                "content": "question1/graph-1.svg",
+                "source": "Effects of Air Temperature and Relative Humidity on Coronavirus Survival on Surfaces",
+                "sourceUrl": "https://www.hallo.de"
+              },
+              {
+                "type": "text",
+                "content": "Schau mal, ich hab hier was cooles gefunden:"
+              },
+              {
+                "type": "separator",
+                "content": "Fun Facts"
+              }
+            ],
+            "originalArticle": {
+              "url": "https://www.correctiv.org",
+              "image": "question1/original-article.jpg",
+              "source": "correctiv.org",
+              "title": "Ich bin ein Artikel und ich habe einen langen Titel"
+            },
+            "moreInfo": {
+              "articles": [
+                {
+                  "url": "https://www.deinemudda.org",
+                  "image": "question1/more-articles.jpg",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführender Artikel1"
+                },
+                {
+                  "url": "https://www.deinemudda.org",
+                  "image": "question1/more-articles.jpg",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführender Artikel2"
+                },
+                {
+                  "url": "https://www.deinemudda.org",
+                  "image": "question1/more-articles.jpg",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführender Artikel3"
+                }
+              ],
+              "videos": [
+                {
+                  "url": "https://www.deinemudda.org",
+                  "image": "question1/more-videos.jpg",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführendes Video1"
+                },
+                {
+                  "url": "https://www.deinemudda.org",
+                  "image": "question1/more-videos.jpg",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführendes Video2"
+                },
+                {
+                  "url": "https://www.deinemudda.org",
+                  "image": "question1/more-videos.jpg",
+                  "source": "Quelle",
+                  "title": "Ich bin ein weiterführendes Video3"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "archivedQuiz": {
+      "questions": [
+        {
+          "id": 1,
           "title": "Stimmt es, dass Bielefeld nicht existiert oder jemals existiert hat?",
           "truth": false,
           "results": {
@@ -96,19 +278,23 @@
         },
         {
           "id": 2,
-          "title": "Stimmt es, dass Maggie immer hungrig ist?",
-          "truth": true,
+          "title": "Stimmt es, dass Bielefeld nicht existiert oder jemals existiert hat?",
+          "truth": false,
           "results": {
-            "subtitle": "Es gibt aktuell keine Belege dafür, dass Maggie immer hungrig ist.",
-            "posPercentStat": 34,
+            "subtitle": "Es gibt aktuell keine Belege dafür, dass Bielefeld existiert oder jemals existiert hat.",
+            "posPercentStat": 78,
             "chatbot": [
               {
                 "type": "text",
-                "content": "Tja Brudi, Maggie ist halt immer Hungrig!"
+                "content": "Bielefeld! Ein interessantes Thema. Du hast doch sicherlich mal von der Bielefeld-Verschwörung gehört?"
               },
               {
                 "type": "text",
-                "content": "Wie kaputt kann man denn sein?"
+                "content": "Die Bürgermeisterin hat 2019 sogar einen Wettbewerb ausgerufen, um der Verschwörung ein für alle Male ein Ende zu setzten."
+              },
+              {
+                "type": "text",
+                "content": "Bei dem Wettbewerb wurde 1 Million Euro Preisgeld darauf ausgesetzt, zu beweisen, dass Bielefeld nicht existiert."
               },
               {
                 "type": "text",
@@ -178,143 +364,95 @@
               ]
             }
           }
-        }
-      ]
-    },
-    "archivedQuiz": {
-      "questions": [
-        {
-          "id": 1,
-          "title": "Loooool, ich bin archiviert. Stimmt? Oder nicht?",
-          "truth": true,
-          "results": {
-            "chatbot": [
-              {
-                "type": "text",
-                "content": "Tja Brudi ,was denkst du dir denn? Bielefeld geht nicht und gibts nicht!"
-              },
-              {
-                "type": "text",
-                "content": "Wie kaputt kann man denn sein?"
-              }
-            ],
-            "originalArticle": {
-              "url": "http:correctiv",
-              "image": "image src",
-              "source": "Quelle",
-              "title": "Ich bin ein Artikel"
-            },
-            "moreInfo": {
-              "articles": [
-                {
-                  "url": "www.deinemudda.org",
-                  "image": "image src",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführender Artikel"
-                },
-                {
-                  "url": "www.deinemudda.org",
-                  "image": "image src",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführender Artikel"
-                },
-                {
-                  "url": "www.deinemudda.org",
-                  "image": "image src",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführender Artikel"
-                }
-              ],
-              "videos": [
-                {
-                  "url": "www.deinemudda.org",
-                  "image": "image src",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführendes Video"
-                },
-                {
-                  "url": "www.deinemudda.org",
-                  "image": "image src",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführendes Video"
-                },
-                {
-                  "url": "www.deinemudda.org",
-                  "image": "image src",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführendes Video"
-                }
-              ]
-            }
-          }
         },
         {
-          "id": 2,
-          "title": "Stimmt es, dass Maggie immer hunger hat oder immer müde ist oder beides?",
+          "id": 3,
+          "title": "Stimmt es, dass Bielefeld nicht existiert oder jemals existiert hat?",
           "truth": false,
           "results": {
+            "subtitle": "Es gibt aktuell keine Belege dafür, dass Bielefeld existiert oder jemals existiert hat.",
+            "posPercentStat": 78,
             "chatbot": [
               {
                 "type": "text",
-                "content": "Yaaaaaaaa was geht aaaaaab"
+                "content": "Bielefeld! Ein interessantes Thema. Du hast doch sicherlich mal von der Bielefeld-Verschwörung gehört?"
               },
               {
                 "type": "text",
-                "content": "Weiterer glorreicher Input des Chatbots"
+                "content": "Die Bürgermeisterin hat 2019 sogar einen Wettbewerb ausgerufen, um der Verschwörung ein für alle Male ein Ende zu setzten."
+              },
+              {
+                "type": "text",
+                "content": "Bei dem Wettbewerb wurde 1 Million Euro Preisgeld darauf ausgesetzt, zu beweisen, dass Bielefeld nicht existiert."
+              },
+              {
+                "type": "text",
+                "content": "Schau mal, ich hab hier was cooles gefunden:"
+              },
+              {
+                "type": "image",
+                "content": "question1/graph-1.svg",
+                "source": "Effects of Air Temperature and Relative Humidity on Coronavirus Survival on Surfaces",
+                "sourceUrl": "https://www.hallo.de"
+              },
+              {
+                "type": "text",
+                "content": "Schau mal, ich hab hier was cooles gefunden:"
+              },
+              {
+                "type": "separator",
+                "content": "Fun Facts"
               }
             ],
             "originalArticle": {
-              "url": "http:correctiv",
-              "image": "image src",
-              "source": "Quelle",
-              "title": "Ich bin ein Artikel"
+              "url": "https://www.correctiv.org",
+              "image": "question1/original-article.jpg",
+              "source": "correctiv.org",
+              "title": "Ich bin ein Artikel und ich habe einen langen Titel"
             },
             "moreInfo": {
               "articles": [
                 {
-                  "url": "www.deinemudda.org",
-                  "image": "image src",
+                  "url": "https://www.deinemudda.org",
+                  "image": "question1/more-articles.jpg",
                   "source": "Quelle",
-                  "title": "Ich bin ein weiterführender Artikel"
+                  "title": "Ich bin ein weiterführender Artikel1"
                 },
                 {
-                  "url": "www.deinemudda.org",
-                  "image": "image src",
+                  "url": "https://www.deinemudda.org",
+                  "image": "question1/more-articles.jpg",
                   "source": "Quelle",
-                  "title": "Ich bin ein weiterführender Artikel"
+                  "title": "Ich bin ein weiterführender Artikel2"
                 },
                 {
-                  "url": "www.deinemudda.org",
-                  "image": "image src",
+                  "url": "https://www.deinemudda.org",
+                  "image": "question1/more-articles.jpg",
                   "source": "Quelle",
-                  "title": "Ich bin ein weiterführender Artikel"
+                  "title": "Ich bin ein weiterführender Artikel3"
                 }
               ],
               "videos": [
                 {
-                  "url": "www.deinemudda.org",
-                  "image": "image src",
+                  "url": "https://www.deinemudda.org",
+                  "image": "question1/more-videos.jpg",
                   "source": "Quelle",
-                  "title": "Ich bin ein weiterführendes Video"
+                  "title": "Ich bin ein weiterführendes Video1"
                 },
                 {
-                  "url": "www.deinemudda.org",
-                  "image": "image src",
+                  "url": "https://www.deinemudda.org",
+                  "image": "question1/more-videos.jpg",
                   "source": "Quelle",
-                  "title": "Ich bin ein weiterführendes Video"
+                  "title": "Ich bin ein weiterführendes Video2"
                 },
                 {
-                  "url": "www.deinemudda.org",
-                  "image": "image src",
+                  "url": "https://www.deinemudda.org",
+                  "image": "question1/more-videos.jpg",
                   "source": "Quelle",
-                  "title": "Ich bin ein weiterführendes Video"
+                  "title": "Ich bin ein weiterführendes Video3"
                 }
               ]
             }
           }
-        },
-        {
-          "asd": "asd"
         }
       ]
     }
