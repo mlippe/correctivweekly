@@ -5,7 +5,6 @@ import SwiperCore, { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.scss";
 import "swiper/components/pagination/pagination.scss";
-import ReactPlayer from "react-player";
 
 import clip1 from "../../assets/start/dragdonat.mov";
 import poster1 from "../../assets/start/dragdonat.jpg";
@@ -16,6 +15,7 @@ import poster3 from "../../assets/start/results.jpg";
 import clip4 from "../../assets/start/rightanswer.mov";
 import poster4 from "../../assets/start/rightanswer.jpg";
 import clip5 from "../../assets/start/wronganswer.mov";
+import SlideContent from "./SlideContent";
 
 SwiperCore.use([Pagination]);
 
@@ -23,13 +23,9 @@ export default function Onboarding(props) {
   function slideChangeHandler(event) {
     if (event.activeIndex === event.slides.length - 1) {
       props.setLastSlide(true);
-      return;
+    } else {
+      props.setLastSlide(false);
     }
-
-    props.setLastSlide(false);
-    let currentVideo = event.slides[event.activeIndex].children[0].children[0];
-    //currentVideo.currentTime = 0;
-    //currentVideo.play();
   }
 
   return (
@@ -55,70 +51,35 @@ export default function Onboarding(props) {
         onSlideChange={(event) => slideChangeHandler(event)}
       >
         <SwiperSlide>
-          <div className="animation-wrap">
-            <ReactPlayer
-              url={clip1}
-              loop={true}
-              muted={true}
-              playsinline
-              playing={true}
-              volume={0}
-            />
-          </div>
-          <div className="text-wrap">
-            <h2>Schalte Fragenkarten mit Donats frei.</h2>
-          </div>
-          <motion.div
-            initial={{ x: "5px", opacity: 0 }}
-            animate={{
-              x: 0,
-              opacity: 1,
-              transition: { delay: 2, duration: 0.75 },
-            }}
-            className="tip"
-          >
-            Wischen zum Fortsetzen {">"}
-          </motion.div>
+          <SlideContent
+            source={clip1}
+            text={"Schalte Fragenkarten mit Donats frei."}
+            tip={true}
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <div className="animation-wrap">
-            <video loop muted poster={poster2}>
-              <source src={clip2} type="video/mp4" />
-            </video>
-          </div>
-          <div className="text-wrap">
-            <h2>Wische rechts oder links um Fragen zu beantworten.</h2>
-          </div>
+          <SlideContent
+            source={clip2}
+            text={"Wische rechts oder links um Fragen zu beantworten."}
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <div className="animation-wrap">
-            <video loop muted poster={poster3}>
-              <source src={clip3} type="video/mp4" />
-            </video>
-          </div>
-          <div className="text-wrap">
-            <h2>Nach Deiner Antwort bekommst du Infos zur Frage.</h2>
-          </div>
+          <SlideContent
+            source={clip3}
+            text={"Nach Deiner Antwort bekommst du Infos zur Frage."}
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <div className="animation-wrap">
-            <video loop muted poster={poster4}>
-              <source src={clip4} type="video/mp4" />
-            </video>
-          </div>
-          <div className="text-wrap">
-            <h2>Antwortest Du richtig, behälst Du deinen Donat.</h2>
-          </div>
+          <SlideContent
+            source={clip4}
+            text={"Antwortest Du richtig, behälst Du deinen Donat."}
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <div className="animation-wrap">
-            <video loop muted poster={poster4}>
-              <source src={clip5} type="video/mp4" />
-            </video>
-          </div>
-          <div className="text-wrap">
-            <h2>Antwortest Du falsch, verlierst Du deinen Donat.</h2>
-          </div>
+          <SlideContent
+            source={clip5}
+            text={"Antwortest Du falsch, verlierst Du deinen Donat."}
+          />
         </SwiperSlide>
         <SwiperSlide className="last-slide">
           <h1>Alles klar?</h1>
