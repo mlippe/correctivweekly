@@ -14,7 +14,7 @@ export default function SlideContent(props) {
     if (inView) {
       setTimeout(() => {
         setIsPlaying(true);
-      }, 500);
+      }, 300);
     } else {
       setIsPlaying(false);
     }
@@ -25,6 +25,9 @@ export default function SlideContent(props) {
       <div className="animation-wrap">
         <ReactPlayer
           url={props.source}
+          config={{
+            file: { attributes: { poster: props.poster } },
+          }}
           loop={true}
           muted={true}
           playsinline

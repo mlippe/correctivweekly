@@ -23,6 +23,8 @@ export default function Donats(props) {
   const donatAnimation = useAnimation();
   const draggableDonat = React.useRef();
 
+  console.log("window.innerHeight: ", window.innerHeight);
+
   React.useEffect(() => {
     if (props.answerStatus) {
       // correct answer response
@@ -97,6 +99,8 @@ export default function Donats(props) {
 
   function donatDragEnd(event, info) {
     const dragAmount = info.point;
+
+    console.log("donatHeigt: ", donatHeight, "props.slotTop: ", props.slotTop);
 
     if (dragAmount.y + donatHeight < props.slotTop - donatHeight / 1.5) {
       setDragClasses();

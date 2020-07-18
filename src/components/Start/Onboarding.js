@@ -53,6 +53,7 @@ export default function Onboarding(props) {
         <SwiperSlide>
           <SlideContent
             source={clip1}
+            poster={poster1}
             text={"Schalte Fragenkarten mit Donats frei."}
             tip={true}
           />
@@ -60,24 +61,28 @@ export default function Onboarding(props) {
         <SwiperSlide>
           <SlideContent
             source={clip2}
+            poster={poster2}
             text={"Wische rechts oder links um Fragen zu beantworten."}
           />
         </SwiperSlide>
         <SwiperSlide>
           <SlideContent
             source={clip3}
+            poster={poster3}
             text={"Nach Deiner Antwort bekommst du Infos zur Frage."}
           />
         </SwiperSlide>
         <SwiperSlide>
           <SlideContent
             source={clip4}
+            poster={poster4}
             text={"Antwortest Du richtig, behälst Du deinen Donat."}
           />
         </SwiperSlide>
         <SwiperSlide>
           <SlideContent
             source={clip5}
+            poster={poster4}
             text={"Antwortest Du falsch, verlierst Du deinen Donat."}
           />
         </SwiperSlide>

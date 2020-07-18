@@ -8,6 +8,8 @@ export default function QuizInteractives(props) {
   const [tipOpacity, setTipOpacity] = React.useState(1);
   const [slotTop, setSlotTop] = React.useState(0);
 
+  console.log("slotTop: ", slotTop);
+
   return (
     <motion.div
       initial={{

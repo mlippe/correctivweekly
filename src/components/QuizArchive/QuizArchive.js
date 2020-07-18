@@ -6,7 +6,7 @@ export default function QuizArchive() {
   const [visible, setVisible] = React.useState("");
 
   const [ref, inView] = useInView({
-    threshold: 0.5
+    threshold: 0.5,
   });
 
   React.useEffect(() => {
@@ -27,7 +27,7 @@ export default function QuizArchive() {
         <ArchiveCard weeksBehind={6} />
         <ArchiveCard weeksBehind={7} />
       </div>
-      <h5>Alle zeigen ></h5>
+      <h5>Alle zeigen {">"}</h5>
     </div>
   );
 }
