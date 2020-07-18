@@ -13,7 +13,8 @@
     "react-intersection-observer": "8.26.2",
     "react-odometerjs": "2.1.1",
     "react-router-dom": "5.2.0",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "swiper": "^6.0.4"
   },
   "devDependencies": {
     "typescript": "3.8.3"

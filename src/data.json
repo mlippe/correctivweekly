@@ -8,18 +8,22 @@
         {
           "id": 1,
           "title": "Stimmt es, dass Bielefeld nicht existiert oder jemals existiert hat?",
-          "truth": true,
+          "truth": false,
           "results": {
             "subtitle": "Es gibt aktuell keine Belege dafür, dass Bielefeld existiert oder jemals existiert hat.",
             "posPercentStat": 78,
             "chatbot": [
               {
                 "type": "text",
-                "content": "Tja Brudi, was denkst du dir denn? Bielefeld geht nicht und gibts nicht!"
+                "content": "Bielefeld! Ein interessantes Thema. Du hast doch sicherlich mal von der Bielefeld-Verschwörung gehört?"
               },
               {
                 "type": "text",
-                "content": "Wie kaputt kann man denn sein?"
+                "content": "Die Bürgermeisterin hat 2019 sogar einen Wettbewerb ausgerufen, um der Verschwörung ein für alle Male ein Ende zu setzten."
+              },
+              {
+                "type": "text",
+                "content": "Bei dem Wettbewerb wurde 1 Million Euro Preisgeld darauf ausgesetzt, zu beweisen, dass Bielefeld nicht existiert."
               },
               {
                 "type": "text",

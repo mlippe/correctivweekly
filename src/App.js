@@ -9,6 +9,7 @@ import Profile from "./pages/Profile.js";
 import Leaderboard from "./pages/Leaderboard.js";
 import Quiz from "./pages/Quiz.js";
 import ArchivedQuiz from "./pages/ArchivedQuiz.js";
+import Start from "./pages/Start.js";
 
 import data from "./data.json";
 
@@ -24,6 +25,8 @@ export default function App() {
   let location = useLocation();
   React.useEffect(() => {
     if (location.pathname === "/") {
+      setCurrentView("start");
+    } else if (location.pathname === "/home") {
       setCurrentView("home");
     } else if (location.pathname === "/profile") {
       setCurrentView("profile");
@@ -47,7 +50,8 @@ export default function App() {
         currentQuestion={currentQuestion}
       />
       <Switch>
-        <Route path="/" exact component={Home} />
+        <Route path="/" exact component={Start} />
+        <Route path="/home" exact component={Home} />
         <Route
           path="/profile"
           exact
