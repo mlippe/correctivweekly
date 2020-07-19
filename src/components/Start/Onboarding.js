@@ -10,8 +10,6 @@ import clip1 from "../../assets/start/dragdonat.mov";
 import poster1 from "../../assets/start/dragdonat.jpg";
 import clip2 from "../../assets/start/leftright.mov";
 import poster2 from "../../assets/start/leftright.jpg";
-import clip3 from "../../assets/start/results.mov";
-import poster3 from "../../assets/start/results.jpg";
 import clip4 from "../../assets/start/rightanswer.mov";
 import poster4 from "../../assets/start/rightanswer.jpg";
 import clip5 from "../../assets/start/wronganswer.mov";

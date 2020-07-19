@@ -36,6 +36,7 @@ export default function CorrectiBot(props) {
         },
       });
     }
+    // eslint-disable-next-line
   }, [inView]);
 
   React.useEffect(() => {

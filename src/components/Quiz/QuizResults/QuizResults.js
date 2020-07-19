@@ -1,7 +1,7 @@
 import React from "react";
 import ResultsTop from "./ResultsTop";
 import { ReactComponent as Arrow } from "../../../assets/arrow-white.svg";
-import { motion, useAnimation, useAnimatedState } from "framer-motion";
+import { motion, useAnimation } from "framer-motion";
 import CorrectiBot from "./CorrectiBot";
 import OriginalArticle from "./OriginalArticle";
 import { Link } from "react-router-dom";

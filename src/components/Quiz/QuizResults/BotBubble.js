@@ -42,6 +42,7 @@ export default function BotBubble(props) {
     } else {
       setVisible("");
     }
+    // eslint-disable-next-line
   }, [inView, props.delay]);
 
   React.useEffect(() => {

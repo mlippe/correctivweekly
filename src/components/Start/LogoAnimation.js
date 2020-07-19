@@ -33,6 +33,7 @@ export default function LogoAnimation(props) {
     };
 
     sequence();
+    // eslint-disable-next-line
   }, []);
 
   return (

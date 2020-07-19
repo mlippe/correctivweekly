@@ -15,7 +15,11 @@ export default function QuizComponent(props) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, type: "spring" }}
         >
-          <div className="emoji">👏</div>
+          <div className="emoji">
+            <span role="img" aria-label="clapping hands">
+              👏
+            </span>
+          </div>
           <h1>Glückwunsch!</h1>
           <h2>Du hast dieses Quiz durchgespielt!</h2>
           <h5>Mehr Quizzes findest Du im Quizarchiv auf der Startseite.</h5>

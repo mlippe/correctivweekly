@@ -83,6 +83,7 @@ export default function QuizCard(props) {
     const xThreshold = window.innerWidth / 2.5;
 
     if (xValue > xThreshold || (xValue <= xThreshold && xVelocity > 750)) {
+      // eslint-disable-next-line
       xValue < xThreshold ? (xValue = xThreshold) : (xValue = xValue);
 
       // right edge
@@ -114,6 +115,7 @@ export default function QuizCard(props) {
       xValue < -xThreshold ||
       (xValue > -xThreshold && xVelocity < -750)
     ) {
+      // eslint-disable-next-line
       xValue > -xThreshold ? (xValue = -xThreshold) : (xValue = xValue);
       // left edge
       cardSwipe.start({
