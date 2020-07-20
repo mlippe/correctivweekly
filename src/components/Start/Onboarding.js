@@ -14,6 +14,7 @@ import clip4 from "../../assets/start/rightanswer.mov";
 import poster4 from "../../assets/start/rightanswer.jpg";
 import clip5 from "../../assets/start/wronganswer.mov";
 import SlideContent from "./SlideContent";
+import { ReactComponent as Logo } from "../../assets/correctiv-weekly.svg";
 
 SwiperCore.use([Pagination]);
 
@@ -100,6 +101,7 @@ export default function Onboarding(props) {
         </SwiperSlide>
         <SwiperSlide className="last-slide">
           <div className="logo-container">
+            <Logo />
             <div className="subline">Check Deine Realität!</div>
           </div>
           <h1>Alles klar?</h1>
