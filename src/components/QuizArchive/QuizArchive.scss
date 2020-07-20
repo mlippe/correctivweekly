@@ -5,6 +5,7 @@
     display: flex;
     margin: 4px -16px 0;
     overflow-x: auto;
+    overflow-y: hidden;
 
     .card {
       &:last-child {

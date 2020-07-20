@@ -113,22 +113,22 @@
               ],
               "videos": [
                 {
-                  "url": "https://www.deinemudda.org",
-                  "image": "question1/more-videos.jpg",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführendes Video1"
+                  "url": "https://www.easyvote.ch/de/school/unterrichtsmaterial/ausnahmezustand",
+                  "image": "question1/video1.jpg",
+                  "source": "Easyvote",
+                  "title": "Politik im Ausnahme-zustand"
                 },
                 {
-                  "url": "https://www.deinemudda.org",
-                  "image": "question1/more-videos.jpg",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführendes Video2"
+                  "url": "https://www.youtube.com/watch?v=hkuD2DUtkZU",
+                  "image": "question1/video2.jpg",
+                  "source": "Youtube",
+                  "title": "Prof. Emanuel Richter zum \"politischen Aus..."
                 },
                 {
-                  "url": "https://www.deinemudda.org",
-                  "image": "question1/more-videos.jpg",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführendes Video3"
+                  "url": "https://www.youtube.com/watch?v=sAO9YReZnJ8",
+                  "image": "question1/video3.jpg",
+                  "source": "Youtube",
+                  "title": "Political Philosophy: the State of Exception"
                 }
               ]
             }
