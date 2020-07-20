@@ -221,7 +221,7 @@
 
     .bot-content {
       margin-top: 20px;
-      margin-bottom: 200px;
+      margin-bottom: 100px;
 
       .bot-bubble {
         position: relative;
@@ -276,7 +276,7 @@
           }
         }
 
-        .text-container {
+        & div > .text-container {
           margin-top: 10px;
           max-width: 80%;
           padding: 15px 20px;
@@ -295,6 +295,16 @@
           border-radius: 10px;
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 
+          &.fullsize {
+            display: flex;
+            padding: 0;
+            overflow: hidden;
+
+            img {
+              object-fit: cover;
+            }
+          }
+
           img {
             width: 100%;
             object-fit: contain;
@@ -303,7 +313,7 @@
 
         .separator-container {
           width: 100%;
-          margin: 50px 0;
+          margin: 70px 0 40px;
           display: flex;
           justify-content: center;
 
@@ -316,6 +326,41 @@
             color: var(--bg);
             padding: 5px 10px;
             border-radius: 20px;
+          }
+        }
+
+        .card {
+          margin: 20px 0;
+          width: 100%;
+          overflow: hidden;
+          display: flex;
+          flex-direction: column;
+          background: var(--white);
+          border-radius: 10px;
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+
+          img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+          }
+
+          .text-container {
+            margin: 12px 20px;
+
+            .source {
+              font-size: 14px;
+              line-height: 16px;
+              text-transform: uppercase;
+              color: #8c8c8c;
+              margin-bottom: 5px;
+            }
+
+            .title {
+              font-size: 20px;
+              line-height: 24px;
+              color: var(--bg);
+            }
           }
         }
 
@@ -428,7 +473,7 @@
       width: 210px;
       height: 160px;
       overflow: hidden;
-      background: grey;
+      background: var(--bg);
       border-radius: 10px;
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 
@@ -439,6 +484,7 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+        opacity: 0.5;
       }
 
       .text-container {

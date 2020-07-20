@@ -77,10 +77,12 @@ export default function CorrectiBot(props) {
           <BotBubble
             key={index}
             type={item.type}
-            delay={item.delay}
             content={item.content}
             source={item.source}
             sourceUrl={item.sourceUrl}
+            url={item.url}
+            title={item.title}
+            image={item.image}
           />
         ))}
       </div>

@@ -7,68 +7,108 @@
       "questions": [
         {
           "id": 1,
-          "title": "Hat der Bundestag kürzlich den Ausnahmezustand bis 2022 verlängert?",
+          "title": "Hat der Bundestag kürzlich den Ausnahme-zustand bis 2022 verlängert?",
           "truth": false,
           "results": {
-            "subtitle": "Es gibt aktuell keine Belege dafür, dass Bielefeld existiert oder jemals existiert hat.",
-            "posPercentStat": 78,
+            "subtitle": "Der Bundestag hat kein Gesetz beschlossen, das „den Ausnahmezustand der Pandemie“ verlängert.",
+            "posPercentStat": 46,
             "chatbot": [
               {
                 "type": "text",
-                "content": "Bielefeld! Ein interessantes Thema. Du hast doch sicherlich mal von der Bielefeld-Verschwörung gehört?"
+                "content": "Auf Facebook kursiert seit Ende Juni ein Post, in dem behauptet wird, der Bundestag habe den „Ausnahmezustands der Pandemie“ bis März 2022 verlängert. "
               },
               {
                 "type": "text",
-                "content": "Die Bürgermeisterin hat 2019 sogar einen Wettbewerb ausgerufen, um der Verschwörung ein für alle Male ein Ende zu setzten."
+                "content": "„Dies ist keine Verschwörungstheorie, sondern eine Verschwörung in vollem Gange“ heißt es in dem Post."
               },
               {
                 "type": "text",
-                "content": "Bei dem Wettbewerb wurde 1 Million Euro Preisgeld darauf ausgesetzt, zu beweisen, dass Bielefeld nicht existiert."
+                "content": "Hier ein Screenshot des Facebook-Posts:"
+              },
+              {
+                "type": "image-full",
+                "content": "question1/fb-screenshot.jpg",
+                "source": "Archive.org Version des oben gezeigten Facebook Posts",
+                "sourceUrl": "http://archive.is/qrKJT"
+              },
+
+              {
+                "type": "text",
+                "content": "Es ist sogar eine Quelle in dem Post angegeben! Diese führt jedoch nur zu einem Gesetzesentwurf der FDP-Fraktion vom 16.6.2020."
               },
               {
                 "type": "text",
-                "content": "Schau mal, ich hab hier was cooles gefunden:"
+                "content": "Da hat jemand wohl etwas falsch verstanden:"
               },
               {
-                "type": "image",
-                "content": "question1/graph-1.svg",
-                "source": "Effects of Air Temperature and Relative Humidity on Coronavirus Survival on Surfaces",
-                "sourceUrl": "https://www.hallo.de"
+                "type": "image-full",
+                "content": "question1/gesetzentwurf.jpg",
+                "source": "Entwurf eines Gesetzes zu Weitergeltung von Rechtsverordungen und Anordungnen aus der epidemischen Lage von nationaler Tragweiter angesichts der Covid-19-Pandemie",
+                "sourceUrl": "https://dip21.bundestag.de/dip21/btd/19/181/1918111.pdf"
               },
               {
                 "type": "text",
-                "content": "Schau mal, ich hab hier was cooles gefunden:"
+                "content": "Kurz gesagt:"
+              },
+              {
+                "type": "text",
+                "content": "Hier geht es darum,  Auszubildende in Gesundheitsberufen zu schützen."
+              },
+              {
+                "type": "text",
+                "content": "Coronabedingte Änderungen an Ausbildungsordungen in diesem Bereich sollen bis maximal 31.3.2022 befristet werden."
+              },
+              {
+                "type": "text",
+                "content": "Somit hat das nichts damit zu tun, dass alle Corona-Rechtsverordungen wie z.B. die Maskenpflicht etc. verlängert werden."
               },
               {
                 "type": "separator",
-                "content": "Fun Facts"
+                "content": "Facts"
+              },
+              {
+                "type": "text",
+                "content": "Weltweit ist der Ausnahmezustand in vielen Ländern zur Normalität geworden. Tunesien befindet sich seit 2015, nach einem Terroranschlag, im Dauer-Ausnahmezustand. "
+              },
+              {
+                "type": "text",
+                "content": "In der Türkei ist die Situation seit 2016 ähnlich. Manche Regierungen benuzten solche Verordungen, um demokratische Kontrollmechanismen zu umgehen."
+              },
+              {
+                "type": "text",
+                "content": "Hier gibt es eine interaktive Karte, auf der man sich aktuelle Notstände weltweit ansehen kann:"
+              },
+              {
+                "type": "article",
+                "url": "https://www.global-monitoring.com/de",
+                "image": "question1/ausnahme_map.jpg",
+                "source": "global-monitoring.com",
+                "title": "Global Emergency Monitoring Map"
+              },
+              {
+                "type": "text",
+                "content": "Ziemlich spannend!"
               }
             ],
             "originalArticle": {
-              "url": "https://www.correctiv.org",
-              "image": "question1/original-article.jpg",
+              "url": "https://correctiv.org/faktencheck/2020/06/30/corona-nein-der-bundestag-hat-nicht-beschlossen-den-ausnahmezustand-bis-2022-zu-verlaengern/",
+              "image": "question1/reichstag.jpg",
               "source": "correctiv.org",
-              "title": "Ich bin ein Artikel und ich habe einen langen Titel"
+              "title": "Nein, der Bundestag hat nicht beschlossen, den „Ausnahmezustand“ bis 2022 zu verlängern"
             },
             "moreInfo": {
               "articles": [
                 {
-                  "url": "https://www.deinemudda.org",
-                  "image": "question1/more-articles.jpg",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführender Artikel1"
+                  "url": "https://www.reisereporter.de/artikel/3335-ausnahmezustand-als-dauerzustand-diese-laender-sind-am-unsichersten",
+                  "image": "question1/article1.JPG",
+                  "source": "Reisereporter",
+                  "title": "In diesen Ländern ist der Notstand..."
                 },
                 {
-                  "url": "https://www.deinemudda.org",
-                  "image": "question1/more-articles.jpg",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführender Artikel2"
-                },
-                {
-                  "url": "https://www.deinemudda.org",
-                  "image": "question1/more-articles.jpg",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführender Artikel3"
+                  "url": "https://correctiv.org/faktencheck/2020/06/30/nein-der-bundestag-hat-die-corona-verordnungen-nicht-bis-2022-verlaengert/",
+                  "image": "question1/article2.jpg",
+                  "source": "Correctiv",
+                  "title": "Der Bundestag hat die Corona-Verordnungen..."
                 }
               ],
               "videos": [

@@ -16,6 +16,8 @@ export default function QuizResults(props) {
     threshold: 0,
   });
 
+  //console.log(props.results);
+
   React.useEffect(() => {
     if (props.interactivesActive) {
       const bgSequence = async () => {
@@ -64,12 +66,12 @@ export default function QuizResults(props) {
 
   function clickHandler() {
     let nextQuestion;
-    console.log(
-      "props.currentQuestion + 1 ",
-      props.currentQuestion + 1,
-      "props.totalQuestions ",
-      props.totalQuestions
-    );
+    //console.log(
+    //   "props.currentQuestion + 1 ",
+    //   props.currentQuestion + 1,
+    //   "props.totalQuestions ",
+    //   props.totalQuestions
+    // );
 
     if (props.currentQuestion + 1 < props.totalQuestions) {
       nextQuestion = props.currentQuestion + 1;

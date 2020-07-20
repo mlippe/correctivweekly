@@ -46,21 +46,28 @@ export default function BotBubble(props) {
   }, [inView, props.delay]);
 
   React.useEffect(() => {
-    if (props.type === "image") {
+    if (props.type === "image" || props.type === "image-full") {
       setImageItem(require(`../../../assets/${props.content}`));
     }
   }, [props.type, props.content]);
 
   return (
     <div className={"bot-bubble " + visible} ref={ref}>
-      <motion.div className="active-animation" animate={indicatorAnimation}>
-        <img src={bot} alt="correctibot" />
-        <div className="thinking-indicator">
-          <div />
-          <div />
-          <div />
+      {props.type === "separator" ? (
+        <div className="separator-container">
+          <div>{props.content}</div>
         </div>
-      </motion.div>
+      ) : (
+        <motion.div className="active-animation" animate={indicatorAnimation}>
+          <img src={bot} alt="correctibot" />
+          <div className="thinking-indicator">
+            <div />
+            <div />
+            <div />
+          </div>
+        </motion.div>
+      )}
+
       <motion.div
         initial={{ scale: 0, opacity: 0 }}
         style={{ transformOrigin: "top left" }}
@@ -69,9 +76,15 @@ export default function BotBubble(props) {
         {props.type === "text" ? (
           <div className="text-container">{props.content}</div>
         ) : null}
-        {props.type === "image" ? (
+        {props.type === "image" || props.type === "image-full" ? (
           <>
-            <div className="image-container">
+            <div
+              className={
+                props.type === "image-full"
+                  ? "image-container fullsize"
+                  : "image-container"
+              }
+            >
               <img src={imageItem} alt="graph" />
             </div>
             <div className="source-wrap">
@@ -88,9 +101,18 @@ export default function BotBubble(props) {
             </div>
           </>
         ) : null}
-        {props.type === "separator" ? (
-          <div className="separator-container">
-            <div>{props.content}</div>
+        {props.type === "article" ? (
+          <div className="card">
+            <img
+              src={require(`../../../assets/${props.image}`)}
+              alt="artikelbild"
+            />
+            <a href={props.url} target="_blank" rel="noopener noreferrer">
+              <div className="text-container">
+                <div className="source">{props.source}</div>
+                <div className="title">{props.title}</div>
+              </div>
+            </a>
           </div>
         ) : null}
       </motion.div>

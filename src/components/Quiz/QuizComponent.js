@@ -23,7 +23,7 @@ export default function QuizComponent(props) {
           <h1>Glückwunsch!</h1>
           <h2>Du hast dieses Quiz durchgespielt!</h2>
           <h5>Mehr Quizzes findest Du im Quizarchiv auf der Startseite.</h5>
-          <Link to={"/"}>
+          <Link to={"/home"}>
             <button className="small">Zur Startseite</button>
           </Link>
         </motion.div>
