@@ -66,12 +66,6 @@ export default function QuizResults(props) {
 
   function clickHandler() {
     let nextQuestion;
-    //console.log(
-    //   "props.currentQuestion + 1 ",
-    //   props.currentQuestion + 1,
-    //   "props.totalQuestions ",
-    //   props.totalQuestions
-    // );
 
     if (props.currentQuestion + 1 < props.totalQuestions) {
       nextQuestion = props.currentQuestion + 1;
@@ -146,7 +140,10 @@ export default function QuizResults(props) {
         subtitle={props.results.subtitle}
         posPercentStat={props.results.posPercentStat}
       />
-      <CorrectiBot botData={props.results.chatbot} />
+      <CorrectiBot
+        botData={props.results.chatbot}
+        setIndicatorProgress={props.setIndicatorProgress}
+      />
       <OriginalArticle articleData={props.results.originalArticle} />
       {props.results.moreInfo ? (
         <MoreInfo infoData={props.results.moreInfo} />

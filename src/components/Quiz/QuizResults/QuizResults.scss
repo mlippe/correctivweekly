@@ -235,12 +235,11 @@
 
       .bot-bubble {
         position: relative;
-        transform-origin: left top;
-        transition-property: transform, opacity, height;
-        transition-duration: 0.2s;
-        transition-timing-function: ease-in;
+        opacity: 0;
+        transition: opacity 0.2s ease;
 
         &.bubble-visible {
+          opacity: 1;
           .active-animation {
             img {
               opacity: 1;

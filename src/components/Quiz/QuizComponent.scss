@@ -13,6 +13,22 @@
   display: flex;
   justify-content: center;
 
+  .bot-progress-indicator {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    z-index: 100;
+
+    .inner {
+      height: 100%;
+      background: linear-gradient(to right, #6589d7, #ce4790);
+      transition: width 0.5s ease, opacity 0.5s ease;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    }
+  }
+
   .quiz-done-container {
     height: 100%;
     display: flex;

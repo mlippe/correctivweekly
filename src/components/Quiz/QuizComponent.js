@@ -6,6 +6,9 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 export default function QuizComponent(props) {
+  const [indicatorProgress, setIndicatorProgress] = React.useState("");
+  console.log(indicatorProgress);
+
   return (
     <div className={"quiz-component"}>
       {props.quizDone ? (
@@ -48,20 +51,35 @@ export default function QuizComponent(props) {
             />
           ) : null}
           {props.resultsActive ? (
-            <QuizResults
-              answerStatus={props.answerStatus}
-              results={props.quizData.questions[props.currentQuestion].results}
-              totalQuestions={props.quizData.questions.length}
-              currentQuestion={props.currentQuestion}
-              setCurrentQuestion={props.setCurrentQuestion}
-              setResultsActive={props.setResultsActive}
-              setQuestionActive={props.setQuestionActive}
-              interactivesActive={props.interactivesActive}
-              setInteractivesActive={props.setInteractivesActive}
-              setAnswerStatus={props.setAnswerStatus}
-              setViewFixed={props.setViewFixed}
-              setQuizDone={props.setQuizDone}
-            />
+            <>
+              <div className="bot-progress-indicator">
+                <div
+                  className="inner"
+                  style={{
+                    width: 100 * indicatorProgress + "%",
+                    opacity:
+                      indicatorProgress > 0 && indicatorProgress < 1 ? 1 : 0,
+                  }}
+                ></div>
+              </div>
+              <QuizResults
+                answerStatus={props.answerStatus}
+                results={
+                  props.quizData.questions[props.currentQuestion].results
+                }
+                totalQuestions={props.quizData.questions.length}
+                currentQuestion={props.currentQuestion}
+                setCurrentQuestion={props.setCurrentQuestion}
+                setResultsActive={props.setResultsActive}
+                setQuestionActive={props.setQuestionActive}
+                interactivesActive={props.interactivesActive}
+                setInteractivesActive={props.setInteractivesActive}
+                setAnswerStatus={props.setAnswerStatus}
+                setViewFixed={props.setViewFixed}
+                setQuizDone={props.setQuizDone}
+                setIndicatorProgress={setIndicatorProgress}
+              />
+            </>
           ) : null}
         </>
       )}

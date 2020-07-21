@@ -11,7 +11,7 @@ export default function BotBubble(props) {
   const indicatorAnimation = useAnimation();
 
   const [ref, inView] = useInView({
-    threshold: 0,
+    threshold: 0.3,
     rootMargin: "0px 0px -40% 0px",
   });
 
@@ -20,6 +20,7 @@ export default function BotBubble(props) {
 
     if (inView) {
       setVisible("bubble-visible");
+      props.setCurrentProgress(props.itemIndex);
       setTimeout(() => {
         const sequence = async () => {
           bubbleAnimation.start({
