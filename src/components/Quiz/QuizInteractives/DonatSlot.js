@@ -3,7 +3,7 @@ import { useWindowDimension } from "./useWindowDimension";
 
 export default function DonatSlot(props) {
   const slot = React.useRef();
-
+  // eslint-disable-next-line
   const [width, height] = useWindowDimension();
 
   React.useEffect(() => {
