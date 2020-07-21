@@ -6,6 +6,7 @@ import bot from "../../../assets/correctibot.png";
 export default function BotBubble(props) {
   const [visible, setVisible] = React.useState("");
   const [imageItem, setImageItem] = React.useState("");
+  const [contentVisible, setContentVisible] = React.useState("");
   const bubbleAnimation = useAnimation();
   const indicatorAnimation = useAnimation();
 
@@ -20,24 +21,29 @@ export default function BotBubble(props) {
     if (inView) {
       setVisible("bubble-visible");
       setTimeout(() => {
-        bubbleAnimation.start({
-          scale: 1,
-          opacity: 1,
-          transition: {
-            duration: 0.3,
-          },
-        });
+        const sequence = async () => {
+          bubbleAnimation.start({
+            scale: 1,
+            opacity: 1,
+            transition: {
+              duration: 0.3,
+            },
+          });
 
-        indicatorAnimation.start({
-          y: "-10px",
-          opacity: 0,
-          transition: {
-            duration: 0.3,
-          },
-          transitionEnd: {
-            display: "none",
-          },
-        });
+          await indicatorAnimation.start({
+            y: "-10px",
+            opacity: 0,
+            transition: {
+              duration: 0.3,
+            },
+            transitionEnd: {
+              display: "none",
+            },
+          });
+
+          return setContentVisible("content-visible");
+        };
+        sequence();
       }, randomDelay);
     } else {
       setVisible("");
@@ -52,7 +58,7 @@ export default function BotBubble(props) {
   }, [props.type, props.content]);
 
   return (
-    <div className={"bot-bubble " + visible} ref={ref}>
+    <div className={"bot-bubble " + visible + " " + contentVisible} ref={ref}>
       {props.type === "separator" ? (
         <div className="separator-container">
           <div>{props.content}</div>

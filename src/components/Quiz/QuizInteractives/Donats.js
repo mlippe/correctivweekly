@@ -19,6 +19,7 @@ export default function Donats(props) {
   const [dragging, setDragging] = React.useState(initialState);
   const [isDraggable, setDraggable] = React.useState(true);
   const [donatHeight, setDonatHeight] = React.useState();
+  const [isInSlot, setIsInSlot] = React.useState(false);
 
   const donatAnimation = useAnimation();
   const draggableDonat = React.useRef();
@@ -85,7 +86,19 @@ export default function Donats(props) {
       const height = draggableDonat.current.clientHeight;
       setDonatHeight(height);
     }
-  }, []);
+    // eslint-disable-next-line
+  }, [props.slotTop]);
+
+  //update on resize
+  React.useEffect(() => {
+    if (isInSlot) {
+      donatAnimation.start({
+        y: props.slotTop - donatHeight + 15,
+      });
+      console.log("effect");
+    }
+    // eslint-disable-next-line
+  }, [props.slotTop]);
 
   function donatDragStart() {
     setDragClasses(true);
@@ -117,6 +130,7 @@ export default function Donats(props) {
           duration: 2,
         },
       });
+      setIsInSlot(true);
       setDraggable(false);
       props.setTipOpacity(0);
       props.setQuestionActive(true);

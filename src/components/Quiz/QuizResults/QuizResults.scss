@@ -225,18 +225,31 @@
       margin-top: 20px;
       margin-bottom: 100px;
 
+      .bot-bubble.content-visible + .bot-bubble {
+        .active-animation {
+          img {
+            opacity: 0.5;
+          }
+        }
+      }
+
       .bot-bubble {
         position: relative;
-        transform: translateY(3px);
         transform-origin: left top;
-        opacity: 0;
         transition-property: transform, opacity, height;
         transition-duration: 0.2s;
         transition-timing-function: ease-in;
 
         &.bubble-visible {
-          transform: translateY(0);
-          opacity: 1;
+          .active-animation {
+            img {
+              opacity: 1;
+            }
+
+            .thinking-indicator {
+              opacity: 1;
+            }
+          }
         }
 
         .active-animation {
@@ -247,6 +260,8 @@
 
           img {
             width: 50px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
           }
 
           .thinking-indicator {
@@ -259,6 +274,8 @@
             border-radius: 15px;
             display: flex;
             justify-content: space-between;
+            opacity: 0;
+            transition: opacity 0.3s ease;
 
             div {
               opacity: 0;

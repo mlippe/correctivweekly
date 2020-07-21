@@ -1,15 +1,19 @@
 import React from "react";
+import { useWindowDimension } from "./useWindowDimension";
 
 export default function DonatSlot(props) {
   const slot = React.useRef();
 
+  const [width, height] = useWindowDimension();
+
   React.useEffect(() => {
     if (slot.current) {
-      const top = slot.current.getBoundingClientRect().top;
+      const top = slot.current.getBoundingClientRect().top + height - height;
       props.setSlotTop(top);
+      console.log("top", top);
     }
     // eslint-disable-next-line
-  }, []);
+  }, [height]);
 
   return (
     <div
