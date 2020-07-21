@@ -45,11 +45,12 @@
     width: 100%;
     height: calc(100% - 125px);
     padding: 20px;
-    font-size: 38px;
-    line-height: 44px;
+    font-size: 36px;
+    line-height: 40px;
     z-index: 100;
     border-radius: 10px;
     max-width: 600px;
+    word-break: break-word;
   }
 
   @media screen and (max-height: 550px) {
