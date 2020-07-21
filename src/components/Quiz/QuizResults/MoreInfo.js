@@ -19,30 +19,38 @@ export default function MoreInfo(props) {
   return (
     <div className={"more-info scroll-animation " + visible} ref={ref}>
       <div className="headline">Weitere, relevante Infoquellen:</div>
-      <div className="media-title">Artikel</div>
-      <div className="media-container">
-        {props.infoData.articles.map((item, index) => (
-          <ArticleCard
-            key={index}
-            image={item.image}
-            source={item.source}
-            title={item.title}
-            url={item.url}
-          />
-        ))}
-      </div>
-      <div className="media-title">Videos</div>
-      <div className="media-container">
-        {props.infoData.videos.map((item, index) => (
-          <VideoCard
-            key={index}
-            image={item.image}
-            source={item.source}
-            title={item.title}
-            url={item.url}
-          />
-        ))}
-      </div>
+      {props.infoData.articles ? (
+        <>
+          <div className="media-title">Artikel</div>
+          <div className="media-container">
+            {props.infoData.articles.map((item, index) => (
+              <ArticleCard
+                key={index}
+                image={item.image}
+                source={item.source}
+                title={item.title}
+                url={item.url}
+              />
+            ))}
+          </div>
+        </>
+      ) : null}
+      {props.infoData.videos ? (
+        <>
+          <div className="media-title">Videos</div>
+          <div className="media-container">
+            {props.infoData.videos.map((item, index) => (
+              <VideoCard
+                key={index}
+                image={item.image}
+                source={item.source}
+                title={item.title}
+                url={item.url}
+              />
+            ))}
+          </div>
+        </>
+      ) : null}
     </div>
   );
 }

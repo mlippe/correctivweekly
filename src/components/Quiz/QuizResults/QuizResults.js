@@ -148,7 +148,9 @@ export default function QuizResults(props) {
       />
       <CorrectiBot botData={props.results.chatbot} />
       <OriginalArticle articleData={props.results.originalArticle} />
-      <MoreInfo infoData={props.results.moreInfo} />
+      {props.results.moreInfo ? (
+        <MoreInfo infoData={props.results.moreInfo} />
+      ) : null}
       <div className={"bottom-button-container"} ref={ref}>
         <Link to={"/quiz"}>
           <button className="big" onClick={clickHandler}>
