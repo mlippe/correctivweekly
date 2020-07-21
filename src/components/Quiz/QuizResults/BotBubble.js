@@ -12,7 +12,7 @@ export default function BotBubble(props) {
 
   const [ref, inView] = useInView({
     threshold: 0.3,
-    rootMargin: "0px 0px -40% 0px",
+    rootMargin: "20% 0px -40% 0px",
   });
 
   React.useEffect(() => {
