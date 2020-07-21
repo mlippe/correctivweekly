@@ -52,7 +52,7 @@
               },
               {
                 "type": "text",
-                "content": "Hier geht es darum,  Auszubildende in Gesundheitsberufen zu schützen."
+                "content": "Hier geht es darum, Auszubildende in Gesundheitsberufen zu schützen."
               },
               {
                 "type": "text",
@@ -136,90 +136,622 @@
         },
         {
           "id": 2,
-          "title": "Stimmt es, dass Bielefeld nicht existiert oder jemals existiert hat?",
+          "title": "Stimmt es, dass Donald Trumps Mutter ihn einen „Idioten“ genannt hat?",
           "truth": false,
           "results": {
-            "subtitle": "Es gibt aktuell keine Belege dafür, dass Bielefeld existiert oder jemals existiert hat.",
-            "posPercentStat": 78,
+            "subtitle": "Es gibt aktuell keine Belege dafür, dass Donald Trumps Mutter ihn einen „Idioten“ genannt hat.",
+            "posPercentStat": 82,
             "chatbot": [
               {
                 "type": "text",
-                "content": "Bielefeld! Ein interessantes Thema. Du hast doch sicherlich mal von der Bielefeld-Verschwörung gehört?"
+                "content": "Donald Trump! Mein Lieblingsthema."
               },
               {
                 "type": "text",
-                "content": "Die Bürgermeisterin hat 2019 sogar einen Wettbewerb ausgerufen, um der Verschwörung ein für alle Male ein Ende zu setzten."
+                "content": "Bei ihm weiss selbst ich manchmal nicht mehr, was echt und unecht ist 😅."
               },
               {
                 "type": "text",
-                "content": "Bei dem Wettbewerb wurde 1 Million Euro Preisgeld darauf ausgesetzt, zu beweisen, dass Bielefeld nicht existiert."
+                "content": "Aber lass uns nicht abschweifen."
               },
               {
                 "type": "text",
-                "content": "Schau mal, ich hab hier was cooles gefunden:"
-              },
-              {
-                "type": "image",
-                "content": "question1/graph-1.svg",
-                "source": "Effects of Air Temperature and Relative Humidity on Coronavirus Survival on Surfaces",
-                "sourceUrl": "https://www.hallo.de"
+                "content": "Mary Anne Trump soll laut zahlreicher Meldungen ihren eigenen Sohn als „Idioten“ bezeichnet haben."
               },
               {
                 "type": "text",
-                "content": "Schau mal, ich hab hier was cooles gefunden:"
+                "content": "Dafür gibt es allerdings keine Belege."
               },
               {
-                "type": "separator",
-                "content": "Fun Facts"
+                "type": "image-full",
+                "content": "question2/trump_post.jpg",
+                "source": "Das Bild, das im Zusammenhang mit dieser Falschmeldung verbreitet wurde.",
+                "sourceUrl": "https://correctiv.org/wp-content/uploads/2020/06/Trump2.jpg"
+              },
+              {
+                "type": "text",
+                "content": "In den USA ist dieses Bild schon länger im Umlauf. Zahlreiche US-Faktenchecker haben schon letzten Dezember berichtet, dass es keine Belege für das Zitat von Mrs. Trump gibt."
+              },
+              {
+                "type": "text",
+                "content": "Seit ein paar Wochen kursiert das Foto nun auch im deutschsprachigen Raum in den sozialen Netzwerken."
+              },
+              {
+                "type": "text",
+                "content": "Weder die dpa oder Mimikama, deutsche Faktenchecker, konnten Belege für die Echtheit dieses Zitates finden."
+              },
+              {
+                "type": "text",
+                "content": "Das Foto an sich ist jedoch echt:"
+              },
+              {
+                "type": "image-full",
+                "content": "question2/image_search.jpg",
+                "source": "Reverse Image Search zeigt: Das Foto wurde aus dem kontext gerissen.",
+                "sourceUrl": "https://correctiv.org/wp-content/uploads/2020/06/Trump.JPG.jpg"
+              },
+              {
+                "type": "text",
+                "content": "Es wurde schon 2016 in einem Artikel der New York Times über Trumps Mutter verwendet."
+              },
+              {
+                "type": "text",
+                "content": "In der Bildunterschrift der Bildquelle steht:"
+              },
+              {
+                "type": "text",
+                "content": "„Donald Trumps Mutter, Mary, war eine Immigrantin. Aber Trump erwähnt seine schottische Abstammung im Wahlkampf selten.“"
+              },
+              {
+                "type": "text",
+                "content": "Das ist also tatsächlich Trumps Mutter auf dem Bild."
+              },
+              {
+                "type": "text",
+                "content": "Ein gut gemachter Fake. Aber trotzdem ein Fake."
               }
             ],
             "originalArticle": {
-              "url": "https://www.correctiv.org",
-              "image": "question1/original-article.jpg",
+              "url": "https://correctiv.org/faktencheck/2020/06/22/keine-belege-dass-donald-trumps-mutter-ihn-einen-idioten-genannt-hat",
+              "image": "question2/original.jpg",
               "source": "correctiv.org",
-              "title": "Ich bin ein Artikel und ich habe einen langen Titel"
+              "title": "Keine Belege, dass Donald Trumps Mutter ihn einen „Idioten“ genannt hat"
             },
             "moreInfo": {
               "articles": [
                 {
-                  "url": "https://www.deinemudda.org",
-                  "image": "question1/more-articles.jpg",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführender Artikel1"
+                  "url": "https://www.newyorker.com/news/news-desk/donald-trumps-immigrant-mother",
+                  "image": "question2/article1.jpg",
+                  "source": "New York Times",
+                  "title": "Donald Trump’s Immigrant Mother"
                 },
                 {
-                  "url": "https://www.deinemudda.org",
-                  "image": "question1/more-articles.jpg",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführender Artikel2"
+                  "url": "https://www.instagram.com/p/CBX0bZ3Cn8D/?utm_source=ig_embed",
+                  "image": "question2/article2.jpg",
+                  "source": "Instagram",
+                  "title": "@realDonaldTrump hahaha, even your mom hates you!!!"
                 },
                 {
-                  "url": "https://www.deinemudda.org",
-                  "image": "question1/more-articles.jpg",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführender Artikel3"
+                  "url": "https://www.facebook.com/photo.php?fbid=10219297879692152&set=a.10201129789261246&type=3&theater",
+                  "image": "question2/article3.jpg",
+                  "source": "Facebook",
+                  "title": "Welch ein Weitblick, diese Frau war klug..."
                 }
               ],
               "videos": [
                 {
-                  "url": "https://www.deinemudda.org",
-                  "image": "question1/more-videos.jpg",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführendes Video1"
-                },
-                {
-                  "url": "https://www.deinemudda.org",
-                  "image": "question1/more-videos.jpg",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführendes Video2"
-                },
-                {
-                  "url": "https://www.deinemudda.org",
-                  "image": "question1/more-videos.jpg",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführendes Video3"
+                  "url": "https://www.youtube.com/watch?v=8fP95zyPePU",
+                  "image": "question2/video1.jpg",
+                  "source": "Youtube",
+                  "title": "'If you Google the word idiot, a picture of Donald Trump comes up' - BBC News"
                 }
               ]
+            }
+          }
+        },
+        {
+          "id": 3,
+          "title": "Werden auch Corona-Infizierte, die gewaltsam sterben, in die Statistik aufgnenommen?",
+          "truth": true,
+          "results": {
+            "subtitle": "Als Todesopfer im Zusammenhang mit dem Coronavirus gelten alle, die zum Zeitpunkt des Todes die Diagnose Covid-19 hatten.",
+            "posPercentStat": 56,
+            "chatbot": [
+              {
+                "type": "text",
+                "content": "Ach ja, die guten alten WhatsApp Kettennachrichten..."
+              },
+              {
+                "type": "text",
+                "content": "Vor kurzem wurde dieses Bild im Messenger WhatsApp zahlreich umhergeschickt:"
+              },
+              {
+                "type": "image-full",
+                "content": "question3/whatsapp.jpg",
+                "source": "Bild aus der WhatsApp-Kettennachricht",
+                "sourceUrl": "https://correctiv.org/wp-content/uploads/2020/04/IMG_20200407_223659_043.jpg"
+              },
+              {
+                "type": "text",
+                "content": "Zusammen mit dem Bild wurde folgende Nachricht geteilt:"
+              },
+              {
+                "type": "text",
+                "content": "„Die Statistik des RKI lügt. Selbst ein positiv getesteter Selbstmörder, dessen Todesursache offensichtlich nicht Corona ist, kommt in die Statistik der Coronatoten.“"
+              },
+              {
+                "type": "separator",
+                "content": "Facts"
+              },
+
+              {
+                "type": "text",
+                "content": "Es stimmt aber tatsächlich, dass ein Mensch, der unter Fremd- oder Eigeneinwirkung gewaltsam verstirbt und zuvor positiv auf Corona getestet wurde vom Robert-Koch-Institut als „Coronatoter“ gezählt wird."
+              },
+              {
+                "type": "text",
+                "content": "Dafür gibt es aber einen Grund:"
+              },
+              {
+                "type": "text",
+                "content": "In der RKI Statistik werden grundsätzlich alle COVID-19 Todesfälle gezählt, bei denen ein laborbestätigter Nachweis vorliegt."
+              },
+              {
+                "type": "text",
+                "content": "Hier wird aber unterschieden zwischen „verstorben an Coronavirus“ und „verstorben mit Coronavirus“."
+              },
+              {
+                "type": "text",
+                "content": "In der Praxis ist es, grade bei Personen mit Vorerkrankungen, nicht immer ganz einfach festzustellen, inwieweit das Virus wirklich zum Tod beigetragen hat."
+              },
+              {
+                "type": "text",
+                "content": "Würden nur die Fälle gezählt werden, die „an COVID-19 verstorben“ sind, läuft man Gefahr, die Todesfälle unterzuerfassen."
+              },
+              {
+                "type": "text",
+                "content": "Hier gehts zum offiziellen Dashboard mit allen aktuellen Zahlen vom RKI"
+              },
+              {
+                "type": "article",
+                "url": "https://experience.arcgis.com/experience/478220a4c454480e823b17327b2bf1d4",
+                "image": "question3/dashboard.jpg",
+                "source": "RKI",
+                "title": "Robert Koch-Institut: COVID-19-Dashboard"
+              },
+              {
+                "type": "text",
+                "content": "Somit werden auch Todesfälle zur Statistik gezählt, die nicht direkt an Corona verstorben sind."
+              },
+              {
+                "type": "text",
+                "content": "Die Pressesprecherin des RKI, Marieke Degen schreibt dazu:"
+              },
+              {
+                "type": "text",
+                "content": "„[...] Die beschriebene Situation ist aber sehr selten, so dass die Zahl der Todesfälle nicht verzerrt wird.“"
+              }
+            ],
+            "originalArticle": {
+              "url": "https://correctiv.org/faktencheck/2020/04/23/coronavirus-ja-auch-infizierte-die-gewaltsam-sterben-werden-in-die-statistik-aufgenommen",
+              "image": "question3/original.jpg",
+              "source": "correctiv.org",
+              "title": "Coronavirus: Ja, auch Infizierte, die gewaltsam sterben, werden in die Statistik aufgenommen"
+            },
+            "moreInfo": {
+              "articles": [
+                {
+                  "url": "https://www.merkur.de/welt/corona-rki-robert-koch-institut-hopkins-zahlen-infektionen-statistik-kritik-wieler-deutschland-zr-13602916.html",
+                  "image": "question3/article1.jpg",
+                  "source": "Merkur.de",
+                  "title": "Kritik an Robert-Koch-Institut wird lauter"
+                }
+              ],
+              "videos": [
+                {
+                  "url": "https://www.zdf.de/politik/berlin-direkt/berlin-direkt-clip-1-380.html",
+                  "image": "question3/video1.jpg",
+                  "source": "ZDF",
+                  "title": "Corona-Zahlen: Kritik am RKI"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": 4,
+          "title": "Ist es strafbar, mit dem Fahrrad auf Straßen zu fahren, die auch einen Radweg haben?",
+          "truth": false,
+          "results": {
+            "subtitle": "Es ist nicht strafbar, mit dem Fahrrad auf Straßen zu fahren, die auch einen Radweg haben. Höchstens ordnungswidrig.",
+            "posPercentStat": 62,
+            "chatbot": [
+              {
+                "type": "text",
+                "content": "Und wieder stammt dieses Gerücht von einem Social Media Post!"
+              },
+              {
+                "type": "text",
+                "content": "Und aus welchem Netzwerk dieses Mal?"
+              },
+              {
+                "type": "text",
+                "content": "👍 Richtig! Von Facebook:"
+              },
+              {
+                "type": "image-full",
+                "content": "question4/facebook.png",
+                "source": "Screenshot des Facebook Posts",
+                "sourceUrl": "https://correctiv.org/wp-content/uploads/2020/07/Bildschirmfoto-2020-07-07-um-11.12.53-400x202.png"
+              },
+              {
+                "type": "text",
+                "content": "In dem Post wird suggeriert, es sei strafbar, auf der Straße Fahrrad zu fahren, wenn eigentlich ein Radweg vorhanden ist."
+              },
+              {
+                "type": "separator",
+                "content": "Facts"
+              },
+
+              {
+                "type": "text",
+                "content": "Schauen wir doch mal, was die StVO dazu sagt:"
+              },
+              {
+                "type": "text",
+                "content": " „Eine Pflicht, Radwege in der jeweiligen Fahrtrichtung zu benutzen, besteht nur, wenn dies durch Zeichen 237, 240 oder 241 angeordnet ist.“ (StVO § 2 Absatz 4)"
+              },
+              {
+                "type": "text",
+                "content": "Zeichen 237, 240 oder 241 sind konkret die blauen Schilder mit dem weißen Fahrrad."
+              },
+              {
+                "type": "text",
+                "content": "Die hier:"
+              },
+              {
+                "type": "image-full",
+                "content": "question4/schilder.png",
+                "source": "Deutsche Verkehrssicherheitsrat",
+                "sourceUrl": "https://correctiv.org/wp-content/uploads/2020/07/Design-ohne-Titel.png"
+              },
+              {
+                "type": "text",
+                "content": "Fahrradfahrer müssen Radwege also nur nutzen, wenn es durch Verkehrsschilder angeordnet wird."
+              }
+            ],
+            "originalArticle": {
+              "url": "https://correctiv.org/faktencheck/2020/07/09/wann-man-auf-dem-radweg-fahren-muss-und-wann-nicht",
+              "image": "question4/original.jpg",
+              "source": "correctiv.org",
+              "title": "Wann man auf dem Radweg fahren muss – und wann nicht"
+            },
+            "moreInfo": {
+              "articles": [
+                {
+                  "url": "https://www.bussgeld-info.de/radweg/",
+                  "image": "question4/article2.jpg",
+                  "source": "Bussgeld-Info",
+                  "title": "Ein Radweg bedeutet Rechte, aber auch Pflichten"
+                },
+                {
+                  "url": "https://www.dvr.de/download/broschuere-sicher-rad-fahren-2017.pdf",
+                  "image": "question4/article1.jpg",
+                  "source": "Deutscher Verkehrssicherheitsrat",
+                  "title": "Sicher Rad fahren"
+                }
+              ],
+              "videos": [
+                {
+                  "url": "https://www.youtube.com/watch?v=-hONlvOvmGY",
+                  "image": "question4/video1.jpg",
+                  "source": "Youtube",
+                  "title": "Sicherheit für den Radverkehr"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": 5,
+          "title": "Darf die Polizei laut Gesetz in Dänemark Hunde von bestimmter Rasse töten?",
+          "truth": true,
+          "results": {
+            "subtitle": "Ein dänisches Gesetz verbietet 13 Hunderassen - die Polizei darf diese bei Verstoß töten.",
+            "posPercentStat": 12,
+            "chatbot": [
+              {
+                "type": "text",
+                "content": "Wow! DAS ist krass."
+              },
+              {
+                "type": "text",
+                "content": "Die armen Hunde 😨"
+              },
+              {
+                "type": "text",
+                "content": "Aber es ist wahr, in Dänemark gibt es ein Gesetz, dass die Haltung von 13 Hunderassen untersagt."
+              },
+              {
+                "type": "text",
+                "content": "Das gilt auch für Touristen, bzw. deren Vierbeiner."
+              },
+              {
+                "type": "text",
+                "content": "Schonmal vorweg:"
+              },
+              {
+                "type": "text",
+                "content": "Es wurden aber bisher keine Hunde von Touristen durch die Behörden getötet."
+              },
+              {
+                "type": "text",
+                "content": "Puhhh 😬"
+              },
+              {
+                "type": "text",
+                "content": "Einige Webseiten zum Thema Hund haben hierzu in letzter Artikel veröffentlicht."
+              },
+              {
+                "type": "text",
+                "content": "Hier wird davon abgeraten, mit dem Hund in Dänemark Urlaub zu machen."
+              },
+              {
+                "type": "image-full",
+                "content": "question5/screenshot1.jpg",
+                "source": "Screenshot MeinHund24",
+                "sourceUrl": "https://meinhund24.de/hundehoelle-daenemark/?fbclid=IwAR2aUGla6n4dRm70iAQlaqvna39InYGc1RVE7U_C3a7Dbn94QMX2eCEtKG4"
+              },
+              {
+                "type": "text",
+                "content": "Der Großteil der Behauptungen darin ist richtig: Das dänische Gesetz ist seit dem 1. Juli 2010 in Kraft und gilt auch für Touristen."
+              },
+              {
+                "type": "text",
+                "content": "Die Zahl der Hunde, die angeblich seit Einführung des Gesetzes getötet worden sein sollen, ist nach Behördenangaben aber übertrieben."
+              },
+              {
+                "type": "separator",
+                "content": "Facts"
+              },
+              {
+                "type": "text",
+                "content": "Hier gibt es offizielle des dänischen Umweltministeriums zu diesem Gesetz:"
+              },
+              {
+                "type": "article",
+                "url": "https://www.foedevarestyrelsen.dk/english/ImportExport/Travelling_with_pet_animals/Pages/The-Danish-dog-legislation.aspx",
+                "image": "question5/doggo.jpg",
+                "source": "foedevarestyrelsen",
+                "title": "Danish Legislation on Dogs"
+              },
+              {
+                "type": "text",
+                "content": "Trotz Allem eine gruselige Geschichte"
+              }
+            ],
+            "originalArticle": {
+              "url": "https://correctiv.org/faktencheck/2020/06/18/ja-diese-13-hunderassen-darf-die-polizei-in-daenemark-toeten-lassen",
+              "image": "question5/original.jpg",
+              "source": "correctiv.org",
+              "title": "Ja, diese 13 Hunderassen darf die Polizei in Dänemark töten lassen"
+            },
+            "moreInfo": {
+              "articles": [
+                {
+                  "url": "https://www.hundund.de/magazin/tierschutzexperten-raten-vom-urlaub-mit-hund-in-daenemark-ab-204.html?fbclid=IwAR2C45ACFDvPP3ECD7Irm1inhFMGNNsQ10sjS66p53Dk11iLKBK6kg3JX8M",
+                  "image": "question5/article1.jpg",
+                  "source": "Hundund",
+                  "title": "Tierschutzexperten raten vom Urlaub mit Hund in Dänemark ab"
+                },
+                {
+                  "url": "http://archive.is/WDrka",
+                  "image": "question5/article2.jpg",
+                  "source": "MeinHund24",
+                  "title": "Hundehölle Dänemark – Kein Land für Tierfreunde"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": 6,
+          "title": "Stimmt es, dass die Regierung ohne Zustimmung von Gemeinden 5G-Stationen ausbaut?",
+          "truth": false,
+          "results": {
+            "subtitle": "Es gibt aktuell keine Belege dafür, dass die Regierung ohne Zustimmung von Gemeinden 5G-Stationen ausbaut.",
+            "posPercentStat": 6,
+            "chatbot": [
+              {
+                "type": "text",
+                "content": "„So lässt die Merkel-Regierung das gefährliche 5G heimlich ausbauen“, wird in Artikel von Watergate.tv behauptet."
+              },
+              {
+                "type": "text",
+                "content": "„Offenbar heimlich“ wurden 5G-Stationen in der Gemeinde Dießen am Ammersee installiert. Diese seien als solche nicht zu erkennen."
+              },
+              {
+                "type": "article",
+                "url": "https://www.watergate.tv/so-laesst-die-merkel-regierung-das-gefaehrliche-5g-heimlich-ausbauen/",
+                "image": "question6/artikelbild.jpg",
+                "source": "Watergate.tv",
+                "title": "So lässt die Merkel-Regierung das gefährliche 5G heimlich ausbauen"
+              },
+              {
+                "type": "text",
+                "content": "Watergate schreibt in dem Artikel weiterhin, dass in der Gemeinde Dießen die Umrüstung heimlich und hinter dem Rücken des Gemeinderates geschehe."
+              },
+              {
+                "type": "text",
+                "content": "Angeblich wurde dem Gemeinderat gesagt, dass „eine neue Technik zur Messung der Luftverschmutzung und zur Verkehrsdichte nachgerüstet wird“ oder „Straßenlampen auf LED umgerüstet werden“."
+              },
+              {
+                "type": "text",
+                "content": "Hierbei sollen in Wirklichkeit 5G-Stationen installiert worden sein. 😂"
+              },
+              {
+                "type": "text",
+                "content": "Das ist in diesem Zusammenhang allerdings kompletter Unfug!"
+              },
+              {
+                "type": "text",
+                "content": "Eins stimmt jedoch: Das die Bundesregierung plant, vorhandene Infrastruktur, wie Ampeln oder Straßenlaternen für 5G-Stationen mitzubenutzen."
+              },
+              {
+                "type": "image-full",
+                "content": "question6/zitat.jpg",
+                "source": "Mitnutzungspotentiale kommunaler Trägerinfrastrukturen für den Ausbau der nächsten Mobilfunkgeneration 5G",
+                "sourceUrl": "https://www.bmvi.de/SharedDocs/DE/Artikel/DG/ag-digitale-netze-mitnutzungspotentiale-kommunale-traegerinfrastrukturen-5g.html"
+              },
+              {
+                "type": "text",
+                "content": "Die Pläne der Regierung für den Ausbau sind auch öffentlich verfügbar:"
+              },
+              {
+                "type": "article",
+                "url": "https://www.bmvi.de/blaetterkatalog/catalogs/350336/pdf/complete.pdf",
+                "image": "question6/5g.jpg",
+                "source": "bmvi",
+                "title": "5G-Strategie für Deutschland"
+              },
+              {
+                "type": "text",
+                "content": "Die Bürgermeisterin der Gemeinde Dießen Sandra Perzul schreibt auf Anfrage zu diesem Thema:"
+              },
+              {
+                "type": "text",
+                "content": "„Grundsätzlich kann ich Ihnen mitteilen, dass die Gemeinde Dießen seit meinem Amtsantritt am 01.05.2020 keine 5G-Stationen aufstellen ließ und auch mein Vorgänger hat dies ebenfalls nicht.“"
+              },
+              {
+                "type": "separator",
+                "content": "Facts"
+              },
+              {
+                "type": "text",
+                "content": "Auf der Netzwerkabdeckungskarte von „nperf“, die durch Feldtests 5G-Stationen notieren, finden sich keine Stationen in Dießen."
+              },
+              {
+                "type": "image-full",
+                "content": "question6/map.jpg",
+                "source": "5G coverage map worldwide - nperf",
+                "sourceUrl": "https://www.nperf.com/de/map/5g"
+              }
+            ],
+            "originalArticle": {
+              "url": "https://correctiv.org/faktencheck/2020/07/03/keine-belege-dafuer-dass-die-regierung-heimlich-5g-stationen-ausbaut",
+              "image": "question6/original.jpg",
+              "source": "correctiv.org",
+              "title": "Keine Belege dafür, dass die Regierung heimlich 5G-Stationen ausbaut"
+            },
+            "moreInfo": {
+              "articles": [
+                {
+                  "url": "https://www.5g-anbieter.info/5g-ausbau/",
+                  "image": "question6/article1.jpg",
+                  "source": "5g-Anbieter",
+                  "title": "5G Ausbau"
+                },
+                {
+                  "url": "https://www.handelsblatt.com/technik/it-internet/umstrittener-ausruester-aus-china-deutsche-telekom-will-5g-gemeinsam-mit-huawei-ausbauen/25932704.html?ticket=ST-10487431-nFD4f6inLJF2iy2ydAPy-ap2",
+                  "image": "question6/article2.jpg",
+                  "source": "Handelsblatt",
+                  "title": "Deutsche Telekom will 5G gemeinsam mit Huawei ausbauen"
+                }
+              ],
+              "videos": [
+                {
+                  "url": "https://www.youtube.com/watch?v=NgReR_QXPPg",
+                  "image": "question6/video1.jpg",
+                  "source": "Youtube",
+                  "title": "Mobilfunkstandard 5G: Was kann die neue Technik | Erklärvideo | Gut zu wissen"
+                },
+                {
+                  "url": "https://www.youtube.com/watch?v=bDCj3Gtwmp8",
+                  "image": "question6/video2.jpg",
+                  "source": "Youtube",
+                  "title": "Wie gefährlich ist 5G? | Odysso - Wissen im SWR"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": 7,
+          "title": "Stimmt es, dass Angela Merkel vor Kurzem eine Abstimmung ohne Mund-Nasen-Schutz besucht hat?",
+          "truth": false,
+          "results": {
+            "subtitle": "Es gibt aktuell keine Belege dafür, dass Angela Merkel vor Kurzem eine Abstimmung ohne Mund-Nasen-Schutz besucht hat.",
+            "posPercentStat": 32,
+            "chatbot": [
+              {
+                "type": "text",
+                "content": "In den Sozialen Netzwerken kursieren angeblich aktuelle Fotos von Angela Merkel, auf denen sie ohne Mund-Nasen-Schutz bei einer CDU-Abstimmung zur Frauenquote sitzt."
+              },
+              {
+                "type": "text",
+                "content": "Dabei ist sie umgeben von Menschen, die ebenfalls keine Maske tragen."
+              },
+              {
+                "type": "text",
+                "content": "Die Fotos stammen jedoch nicht von der Abstimmung Anfang Juli."
+              },
+              {
+                "type": "image-full",
+                "content": "question7/social_screens.jpg",
+                "source": " Zeyno Mol/Twitter, Screenshot und Collage: CORRECTIV",
+                "sourceUrl": "https://correctiv.org/wp-content/uploads/2020/07/Header-706x386.jpg"
+              },
+              {
+                "type": "text",
+                "content": "In den Posts wird behauptet, die obigen Bilder am 7. Juli entstanden sind."
+              },
+              {
+                "type": "text",
+                "content": "Die Abstimmung fand tatsächlich am 7. und 8. Juli statt, jedoch ohne die Kanzlerin."
+              },
+              {
+                "type": "text",
+                "content": "Das kann man sogar selber nachsehen."
+              },
+              {
+                "type": "text",
+                "content": "In ihrem öffentlichen Terminkalender sind an diesem Datum keine Eintragungen vorhanden:"
+              },
+              {
+                "type": "article",
+                "url": "http://archive.is/Rgc5b",
+                "image": "question7/merkel_kalender.jpg",
+                "source": "bundeskanzlerin.de",
+                "title": "Angela Merkel - Terminkalender"
+              },
+              {
+                "type": "text",
+                "content": "Die Fotos sind also an einem anderen Tag entstanden. Da alle auf den Bildern keinen Masken tragen, wahrscheinlich vor Corona."
+              },
+              {
+                "type": "text",
+                "content": "Aha! Im dpa-Archiv wird man fündig:"
+              },
+              {
+                "type": "image-full",
+                "content": "question7/dpa.jpg",
+                "source": "Picture Alliance/Sven Simon",
+                "sourceUrl": "https://correctiv.org/wp-content/uploads/2020/07/picture-allianca-Sven-Simon-2.jpg"
+              },
+              {
+                "type": "text",
+                "content": "Auf dem Foto kann man Merkel im gleichen pertolfarbenen Blazer sehen, wie auf den anderen Bildern."
+              },
+              {
+                "type": "text",
+                "content": "Es kann also gut sein, dass alle Fotos am 31. CDU-Parteitag im Dezember 2018 entstanden sind."
+              }
+            ],
+            "originalArticle": {
+              "url": "https://correctiv.org/faktencheck/2020/07/16/nein-angela-merkel-war-nicht-ohne-mund-nasen-schutz-bei-abstimmung-zur-frauenquote",
+              "image": "question7/social_screens.jpg",
+              "source": "correctiv.org",
+              "title": "Nein, Angela Merkel war nicht ohne Mund-Nasen-Schutz bei Abstimmung zur Frauenquote"
             }
           }
         }
@@ -228,89 +760,351 @@
     "archivedQuiz": {
       "questions": [
         {
-          "id": 1,
-          "title": "Stimmt es, dass Bielefeld nicht existiert oder jemals existiert hat?",
-          "truth": false,
+          "id": 5,
+          "title": "Darf die Polizei laut Gesetz in Dänemark Hunde von bestimmter Rasse töten?",
+          "truth": true,
           "results": {
-            "subtitle": "Es gibt aktuell keine Belege dafür, dass Bielefeld existiert oder jemals existiert hat.",
-            "posPercentStat": 78,
+            "subtitle": "Ein dänisches Gesetz verbietet 13 Hunderassen - die Polizei darf diese bei Verstoß töten.",
+            "posPercentStat": 12,
             "chatbot": [
               {
                 "type": "text",
-                "content": "Bielefeld! Ein interessantes Thema. Du hast doch sicherlich mal von der Bielefeld-Verschwörung gehört?"
+                "content": "Wow! DAS ist krass."
               },
               {
                 "type": "text",
-                "content": "Die Bürgermeisterin hat 2019 sogar einen Wettbewerb ausgerufen, um der Verschwörung ein für alle Male ein Ende zu setzten."
+                "content": "Die armen Hunde 😨"
               },
               {
                 "type": "text",
-                "content": "Bei dem Wettbewerb wurde 1 Million Euro Preisgeld darauf ausgesetzt, zu beweisen, dass Bielefeld nicht existiert."
+                "content": "Aber es ist wahr, in Dänemark gibt es ein Gesetz, dass die Haltung von 13 Hunderassen untersagt."
               },
               {
                 "type": "text",
-                "content": "Schau mal, ich hab hier was cooles gefunden:"
-              },
-              {
-                "type": "image",
-                "content": "question1/graph-1.svg",
-                "source": "Effects of Air Temperature and Relative Humidity on Coronavirus Survival on Surfaces",
-                "sourceUrl": "https://www.hallo.de"
+                "content": "Das gilt auch für Touristen, bzw. deren Vierbeiner."
               },
               {
                 "type": "text",
-                "content": "Schau mal, ich hab hier was cooles gefunden:"
+                "content": "Schonmal vorweg:"
+              },
+              {
+                "type": "text",
+                "content": "Es wurden aber bisher keine Hunde von Touristen durch die Behörden getötet."
+              },
+              {
+                "type": "text",
+                "content": "Puhhh 😬"
+              },
+              {
+                "type": "text",
+                "content": "Einige Webseiten zum Thema Hund haben hierzu in letzter Artikel veröffentlicht."
+              },
+              {
+                "type": "text",
+                "content": "Hier wird davon abgeraten, mit dem Hund in Dänemark Urlaub zu machen."
+              },
+              {
+                "type": "image-full",
+                "content": "question5/screenshot1.jpg",
+                "source": "Screenshot MeinHund24",
+                "sourceUrl": "https://meinhund24.de/hundehoelle-daenemark/?fbclid=IwAR2aUGla6n4dRm70iAQlaqvna39InYGc1RVE7U_C3a7Dbn94QMX2eCEtKG4"
+              },
+              {
+                "type": "text",
+                "content": "Der Großteil der Behauptungen darin ist richtig: Das dänische Gesetz ist seit dem 1. Juli 2010 in Kraft und gilt auch für Touristen."
+              },
+              {
+                "type": "text",
+                "content": "Die Zahl der Hunde, die angeblich seit Einführung des Gesetzes getötet worden sein sollen, ist nach Behördenangaben aber übertrieben."
               },
               {
                 "type": "separator",
-                "content": "Fun Facts"
+                "content": "Facts"
+              },
+              {
+                "type": "text",
+                "content": "Hier gibt es offizielle des dänischen Umweltministeriums zu diesem Gesetz:"
+              },
+              {
+                "type": "article",
+                "url": "https://www.foedevarestyrelsen.dk/english/ImportExport/Travelling_with_pet_animals/Pages/The-Danish-dog-legislation.aspx",
+                "image": "question5/doggo.jpg",
+                "source": "foedevarestyrelsen",
+                "title": "Danish Legislation on Dogs"
+              },
+              {
+                "type": "text",
+                "content": "Trotz Allem eine gruselige Geschichte"
               }
             ],
             "originalArticle": {
-              "url": "https://www.correctiv.org",
-              "image": "question1/original-article.jpg",
+              "url": "https://correctiv.org/faktencheck/2020/06/18/ja-diese-13-hunderassen-darf-die-polizei-in-daenemark-toeten-lassen",
+              "image": "question5/original.jpg",
               "source": "correctiv.org",
-              "title": "Ich bin ein Artikel und ich habe einen langen Titel"
+              "title": "Ja, diese 13 Hunderassen darf die Polizei in Dänemark töten lassen"
             },
             "moreInfo": {
               "articles": [
                 {
-                  "url": "https://www.deinemudda.org",
-                  "image": "question1/more-articles.jpg",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführender Artikel1"
+                  "url": "https://www.hundund.de/magazin/tierschutzexperten-raten-vom-urlaub-mit-hund-in-daenemark-ab-204.html?fbclid=IwAR2C45ACFDvPP3ECD7Irm1inhFMGNNsQ10sjS66p53Dk11iLKBK6kg3JX8M",
+                  "image": "question5/article1.jpg",
+                  "source": "Hundund",
+                  "title": "Tierschutzexperten raten vom Urlaub mit Hund in Dänemark ab"
                 },
                 {
-                  "url": "https://www.deinemudda.org",
-                  "image": "question1/more-articles.jpg",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführender Artikel2"
+                  "url": "http://archive.is/WDrka",
+                  "image": "question5/article2.jpg",
+                  "source": "MeinHund24",
+                  "title": "Hundehölle Dänemark – Kein Land für Tierfreunde"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": 6,
+          "title": "Stimmt es, dass die Regierung ohne Zustimmung von Gemeinden 5G-Stationen ausbaut?",
+          "truth": false,
+          "results": {
+            "subtitle": "Es gibt aktuell keine Belege dafür, dass die Regierung ohne Zustimmung von Gemeinden 5G-Stationen ausbaut.",
+            "posPercentStat": 6,
+            "chatbot": [
+              {
+                "type": "text",
+                "content": "„So lässt die Merkel-Regierung das gefährliche 5G heimlich ausbauen“, wird in Artikel von Watergate.tv behauptet."
+              },
+              {
+                "type": "text",
+                "content": "„Offenbar heimlich“ wurden 5G-Stationen in der Gemeinde Dießen am Ammersee installiert. Diese seien als solche nicht zu erkennen."
+              },
+              {
+                "type": "article",
+                "url": "https://www.watergate.tv/so-laesst-die-merkel-regierung-das-gefaehrliche-5g-heimlich-ausbauen/",
+                "image": "question6/artikelbild.jpg",
+                "source": "Watergate.tv",
+                "title": "So lässt die Merkel-Regierung das gefährliche 5G heimlich ausbauen"
+              },
+              {
+                "type": "text",
+                "content": "Watergate schreibt in dem Artikel weiterhin, dass in der Gemeinde Dießen die Umrüstung heimlich und hinter dem Rücken des Gemeinderates geschehe."
+              },
+              {
+                "type": "text",
+                "content": "Angeblich wurde dem Gemeinderat gesagt, dass „eine neue Technik zur Messung der Luftverschmutzung und zur Verkehrsdichte nachgerüstet wird“ oder „Straßenlampen auf LED umgerüstet werden“."
+              },
+              {
+                "type": "text",
+                "content": "Hierbei sollen in Wirklichkeit 5G-Stationen installiert worden sein. 😂"
+              },
+              {
+                "type": "text",
+                "content": "Das ist in diesem Zusammenhang allerdings kompletter Unfug!"
+              },
+              {
+                "type": "text",
+                "content": "Eins stimmt jedoch: Das die Bundesregierung plant, vorhandene Infrastruktur, wie Ampeln oder Straßenlaternen für 5G-Stationen mitzubenutzen."
+              },
+              {
+                "type": "image-full",
+                "content": "question6/zitat.jpg",
+                "source": "Mitnutzungspotentiale kommunaler Trägerinfrastrukturen für den Ausbau der nächsten Mobilfunkgeneration 5G",
+                "sourceUrl": "https://www.bmvi.de/SharedDocs/DE/Artikel/DG/ag-digitale-netze-mitnutzungspotentiale-kommunale-traegerinfrastrukturen-5g.html"
+              },
+              {
+                "type": "text",
+                "content": "Die Pläne der Regierung für den Ausbau sind auch öffentlich verfügbar:"
+              },
+              {
+                "type": "article",
+                "url": "https://www.bmvi.de/blaetterkatalog/catalogs/350336/pdf/complete.pdf",
+                "image": "question6/5g.jpg",
+                "source": "bmvi",
+                "title": "5G-Strategie für Deutschland"
+              },
+              {
+                "type": "text",
+                "content": "Die Bürgermeisterin der Gemeinde Dießen Sandra Perzul schreibt auf Anfrage zu diesem Thema:"
+              },
+              {
+                "type": "text",
+                "content": "„Grundsätzlich kann ich Ihnen mitteilen, dass die Gemeinde Dießen seit meinem Amtsantritt am 01.05.2020 keine 5G-Stationen aufstellen ließ und auch mein Vorgänger hat dies ebenfalls nicht.“"
+              },
+              {
+                "type": "separator",
+                "content": "Facts"
+              },
+              {
+                "type": "text",
+                "content": "Auf der Netzwerkabdeckungskarte von „nperf“, die durch Feldtests 5G-Stationen notieren, finden sich keine Stationen in Dießen."
+              },
+              {
+                "type": "image-full",
+                "content": "question6/map.jpg",
+                "source": "5G coverage map worldwide - nperf",
+                "sourceUrl": "https://www.nperf.com/de/map/5g"
+              }
+            ],
+            "originalArticle": {
+              "url": "https://correctiv.org/faktencheck/2020/07/03/keine-belege-dafuer-dass-die-regierung-heimlich-5g-stationen-ausbaut",
+              "image": "question6/original.jpg",
+              "source": "correctiv.org",
+              "title": "Keine Belege dafür, dass die Regierung heimlich 5G-Stationen ausbaut"
+            },
+            "moreInfo": {
+              "articles": [
+                {
+                  "url": "https://www.5g-anbieter.info/5g-ausbau/",
+                  "image": "question6/article1.jpg",
+                  "source": "5g-Anbieter",
+                  "title": "5G Ausbau"
                 },
                 {
-                  "url": "https://www.deinemudda.org",
-                  "image": "question1/more-articles.jpg",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführender Artikel3"
+                  "url": "https://www.handelsblatt.com/technik/it-internet/umstrittener-ausruester-aus-china-deutsche-telekom-will-5g-gemeinsam-mit-huawei-ausbauen/25932704.html?ticket=ST-10487431-nFD4f6inLJF2iy2ydAPy-ap2",
+                  "image": "question6/article2.jpg",
+                  "source": "Handelsblatt",
+                  "title": "Deutsche Telekom will 5G gemeinsam mit Huawei ausbauen"
                 }
               ],
               "videos": [
                 {
-                  "url": "https://www.deinemudda.org",
-                  "image": "question1/more-videos.jpg",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführendes Video1"
+                  "url": "https://www.youtube.com/watch?v=NgReR_QXPPg",
+                  "image": "question6/video1.jpg",
+                  "source": "Youtube",
+                  "title": "Mobilfunkstandard 5G: Was kann die neue Technik | Erklärvideo | Gut zu wissen"
                 },
                 {
-                  "url": "https://www.deinemudda.org",
-                  "image": "question1/more-videos.jpg",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführendes Video2"
+                  "url": "https://www.youtube.com/watch?v=bDCj3Gtwmp8",
+                  "image": "question6/video2.jpg",
+                  "source": "Youtube",
+                  "title": "Wie gefährlich ist 5G? | Odysso - Wissen im SWR"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": 1,
+          "title": "Hat der Bundestag kürzlich den Ausnahme-zustand bis 2022 verlängert?",
+          "truth": false,
+          "results": {
+            "subtitle": "Der Bundestag hat kein Gesetz beschlossen, das „den Ausnahmezustand der Pandemie“ verlängert.",
+            "posPercentStat": 46,
+            "chatbot": [
+              {
+                "type": "text",
+                "content": "Auf Facebook kursiert seit Ende Juni ein Post, in dem behauptet wird, der Bundestag habe den „Ausnahmezustands der Pandemie“ bis März 2022 verlängert. "
+              },
+              {
+                "type": "text",
+                "content": "„Dies ist keine Verschwörungstheorie, sondern eine Verschwörung in vollem Gange“ heißt es in dem Post."
+              },
+              {
+                "type": "text",
+                "content": "Hier ein Screenshot des Facebook-Posts:"
+              },
+              {
+                "type": "image-full",
+                "content": "question1/fb-screenshot.jpg",
+                "source": "Archive.org Version des oben gezeigten Facebook Posts",
+                "sourceUrl": "http://archive.is/qrKJT"
+              },
+              {
+                "type": "text",
+                "content": "Es ist sogar eine Quelle in dem Post angegeben! Diese führt jedoch nur zu einem Gesetzesentwurf der FDP-Fraktion vom 16.6.2020."
+              },
+              {
+                "type": "text",
+                "content": "Da hat jemand wohl etwas falsch verstanden:"
+              },
+              {
+                "type": "image-full",
+                "content": "question1/gesetzentwurf.jpg",
+                "source": "Entwurf eines Gesetzes zu Weitergeltung von Rechtsverordungen und Anordungnen aus der epidemischen Lage von nationaler Tragweiter angesichts der Covid-19-Pandemie",
+                "sourceUrl": "https://dip21.bundestag.de/dip21/btd/19/181/1918111.pdf"
+              },
+              {
+                "type": "text",
+                "content": "Kurz gesagt:"
+              },
+              {
+                "type": "text",
+                "content": "Hier geht es darum, Auszubildende in Gesundheitsberufen zu schützen."
+              },
+              {
+                "type": "text",
+                "content": "Coronabedingte Änderungen an Ausbildungsordungen in diesem Bereich sollen bis maximal 31.3.2022 befristet werden."
+              },
+              {
+                "type": "text",
+                "content": "Somit hat das nichts damit zu tun, dass alle Corona-Rechtsverordungen wie z.B. die Maskenpflicht etc. verlängert werden."
+              },
+              {
+                "type": "separator",
+                "content": "Facts"
+              },
+              {
+                "type": "text",
+                "content": "Weltweit ist der Ausnahmezustand in vielen Ländern zur Normalität geworden. Tunesien befindet sich seit 2015, nach einem Terroranschlag, im Dauer-Ausnahmezustand. "
+              },
+              {
+                "type": "text",
+                "content": "In der Türkei ist die Situation seit 2016 ähnlich. Manche Regierungen benuzten solche Verordungen, um demokratische Kontrollmechanismen zu umgehen."
+              },
+              {
+                "type": "text",
+                "content": "Hier gibt es eine interaktive Karte, auf der man sich aktuelle Notstände weltweit ansehen kann:"
+              },
+              {
+                "type": "article",
+                "url": "https://www.global-monitoring.com/de",
+                "image": "question1/ausnahme_map.jpg",
+                "source": "global-monitoring.com",
+                "title": "Global Emergency Monitoring Map"
+              },
+              {
+                "type": "text",
+                "content": "Ziemlich spannend!"
+              }
+            ],
+            "originalArticle": {
+              "url": "https://correctiv.org/faktencheck/2020/06/30/corona-nein-der-bundestag-hat-nicht-beschlossen-den-ausnahmezustand-bis-2022-zu-verlaengern/",
+              "image": "question1/reichstag.jpg",
+              "source": "correctiv.org",
+              "title": "Nein, der Bundestag hat nicht beschlossen, den „Ausnahmezustand“ bis 2022 zu verlängern"
+            },
+            "moreInfo": {
+              "articles": [
+                {
+                  "url": "https://www.reisereporter.de/artikel/3335-ausnahmezustand-als-dauerzustand-diese-laender-sind-am-unsichersten",
+                  "image": "question1/article1.JPG",
+                  "source": "Reisereporter",
+                  "title": "In diesen Ländern ist der Notstand..."
                 },
                 {
-                  "url": "https://www.deinemudda.org",
-                  "image": "question1/more-videos.jpg",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführendes Video3"
+                  "url": "https://correctiv.org/faktencheck/2020/06/30/nein-der-bundestag-hat-die-corona-verordnungen-nicht-bis-2022-verlaengert/",
+                  "image": "question1/article2.jpg",
+                  "source": "Correctiv",
+                  "title": "Der Bundestag hat die Corona-Verordnungen..."
+                }
+              ],
+              "videos": [
+                {
+                  "url": "https://www.easyvote.ch/de/school/unterrichtsmaterial/ausnahmezustand",
+                  "image": "question1/video1.jpg",
+                  "source": "Easyvote",
+                  "title": "Politik im Ausnahme-zustand"
+                },
+                {
+                  "url": "https://www.youtube.com/watch?v=hkuD2DUtkZU",
+                  "image": "question1/video2.jpg",
+                  "source": "Youtube",
+                  "title": "Prof. Emanuel Richter zum \"politischen Aus..."
+                },
+                {
+                  "url": "https://www.youtube.com/watch?v=sAO9YReZnJ8",
+                  "image": "question1/video3.jpg",
+                  "source": "Youtube",
+                  "title": "Political Philosophy: the State of Exception"
                 }
               ]
             }
@@ -318,88 +1112,114 @@
         },
         {
           "id": 2,
-          "title": "Stimmt es, dass Bielefeld nicht existiert oder jemals existiert hat?",
+          "title": "Stimmt es, dass Donald Trumps Mutter ihn einen „Idioten“ genannt hat?",
           "truth": false,
           "results": {
-            "subtitle": "Es gibt aktuell keine Belege dafür, dass Bielefeld existiert oder jemals existiert hat.",
-            "posPercentStat": 78,
+            "subtitle": "Es gibt aktuell keine Belege dafür, dass Donald Trumps Mutter ihn einen „Idioten“ genannt hat.",
+            "posPercentStat": 82,
             "chatbot": [
               {
                 "type": "text",
-                "content": "Bielefeld! Ein interessantes Thema. Du hast doch sicherlich mal von der Bielefeld-Verschwörung gehört?"
+                "content": "Donald Trump! Mein Lieblingsthema."
               },
               {
                 "type": "text",
-                "content": "Die Bürgermeisterin hat 2019 sogar einen Wettbewerb ausgerufen, um der Verschwörung ein für alle Male ein Ende zu setzten."
+                "content": "Bei ihm weiss selbst ich manchmal nicht mehr, was echt und unecht ist 😅."
               },
               {
                 "type": "text",
-                "content": "Bei dem Wettbewerb wurde 1 Million Euro Preisgeld darauf ausgesetzt, zu beweisen, dass Bielefeld nicht existiert."
+                "content": "Aber lass uns nicht abschweifen."
               },
               {
                 "type": "text",
-                "content": "Schau mal, ich hab hier was cooles gefunden:"
-              },
-              {
-                "type": "image",
-                "content": "question1/graph-1.svg",
-                "source": "Effects of Air Temperature and Relative Humidity on Coronavirus Survival on Surfaces",
-                "sourceUrl": "https://www.hallo.de"
+                "content": "Mary Anne Trump soll laut zahlreicher Meldungen ihren eigenen Sohn als „Idioten“ bezeichnet haben."
               },
               {
                 "type": "text",
-                "content": "Schau mal, ich hab hier was cooles gefunden:"
+                "content": "Dafür gibt es allerdings keine Belege."
               },
               {
-                "type": "separator",
-                "content": "Fun Facts"
+                "type": "image-full",
+                "content": "question2/trump_post.jpg",
+                "source": "Das Bild, das im Zusammenhang mit dieser Falschmeldung verbreitet wurde.",
+                "sourceUrl": "https://correctiv.org/wp-content/uploads/2020/06/Trump2.jpg"
+              },
+              {
+                "type": "text",
+                "content": "In den USA ist dieses Bild schon länger im Umlauf. Zahlreiche US-Faktenchecker haben schon letzten Dezember berichtet, dass es keine Belege für das Zitat von Mrs. Trump gibt."
+              },
+              {
+                "type": "text",
+                "content": "Seit ein paar Wochen kursiert das Foto nun auch im deutschsprachigen Raum in den sozialen Netzwerken."
+              },
+              {
+                "type": "text",
+                "content": "Weder die dpa oder Mimikama, deutsche Faktenchecker, konnten Belege für die Echtheit dieses Zitates finden."
+              },
+              {
+                "type": "text",
+                "content": "Das Foto an sich ist jedoch echt:"
+              },
+              {
+                "type": "image-full",
+                "content": "question2/image_search.jpg",
+                "source": "Reverse Image Search zeigt: Das Foto wurde aus dem kontext gerissen.",
+                "sourceUrl": "https://correctiv.org/wp-content/uploads/2020/06/Trump.JPG.jpg"
+              },
+              {
+                "type": "text",
+                "content": "Es wurde schon 2016 in einem Artikel der New York Times über Trumps Mutter verwendet."
+              },
+              {
+                "type": "text",
+                "content": "In der Bildunterschrift der Bildquelle steht:"
+              },
+              {
+                "type": "text",
+                "content": "„Donald Trumps Mutter, Mary, war eine Immigrantin. Aber Trump erwähnt seine schottische Abstammung im Wahlkampf selten.“"
+              },
+              {
+                "type": "text",
+                "content": "Das ist also tatsächlich Trumps Mutter auf dem Bild."
+              },
+              {
+                "type": "text",
+                "content": "Ein gut gemachter Fake. Aber trotzdem ein Fake."
               }
             ],
             "originalArticle": {
-              "url": "https://www.correctiv.org",
-              "image": "question1/original-article.jpg",
+              "url": "https://correctiv.org/faktencheck/2020/06/22/keine-belege-dass-donald-trumps-mutter-ihn-einen-idioten-genannt-hat",
+              "image": "question2/original.jpg",
               "source": "correctiv.org",
-              "title": "Ich bin ein Artikel und ich habe einen langen Titel"
+              "title": "Keine Belege, dass Donald Trumps Mutter ihn einen „Idioten“ genannt hat"
             },
             "moreInfo": {
               "articles": [
                 {
-                  "url": "https://www.deinemudda.org",
-                  "image": "question1/more-articles.jpg",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführender Artikel1"
+                  "url": "https://www.newyorker.com/news/news-desk/donald-trumps-immigrant-mother",
+                  "image": "question2/article1.jpg",
+                  "source": "New York Times",
+                  "title": "Donald Trump’s Immigrant Mother"
                 },
                 {
-                  "url": "https://www.deinemudda.org",
-                  "image": "question1/more-articles.jpg",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführender Artikel2"
+                  "url": "https://www.instagram.com/p/CBX0bZ3Cn8D/?utm_source=ig_embed",
+                  "image": "question2/article2.jpg",
+                  "source": "Instagram",
+                  "title": "@realDonaldTrump hahaha, even your mom hates you!!!"
                 },
                 {
-                  "url": "https://www.deinemudda.org",
-                  "image": "question1/more-articles.jpg",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführender Artikel3"
+                  "url": "https://www.facebook.com/photo.php?fbid=10219297879692152&set=a.10201129789261246&type=3&theater",
+                  "image": "question2/article3.jpg",
+                  "source": "Facebook",
+                  "title": "Welch ein Weitblick, diese Frau war klug..."
                 }
               ],
               "videos": [
                 {
-                  "url": "https://www.deinemudda.org",
-                  "image": "question1/more-videos.jpg",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführendes Video1"
-                },
-                {
-                  "url": "https://www.deinemudda.org",
-                  "image": "question1/more-videos.jpg",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführendes Video2"
-                },
-                {
-                  "url": "https://www.deinemudda.org",
-                  "image": "question1/more-videos.jpg",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführendes Video3"
+                  "url": "https://www.youtube.com/watch?v=8fP95zyPePU",
+                  "image": "question2/video1.jpg",
+                  "source": "Youtube",
+                  "title": "'If you Google the word idiot, a picture of Donald Trump comes up' - BBC News"
                 }
               ]
             }
@@ -407,90 +1227,282 @@
         },
         {
           "id": 3,
-          "title": "Stimmt es, dass Bielefeld nicht existiert oder jemals existiert hat?",
-          "truth": false,
+          "title": "Werden auch Corona-Infizierte, die gewaltsam sterben, in die Statistik aufgnenommen?",
+          "truth": true,
           "results": {
-            "subtitle": "Es gibt aktuell keine Belege dafür, dass Bielefeld existiert oder jemals existiert hat.",
-            "posPercentStat": 78,
+            "subtitle": "Als Todesopfer im Zusammenhang mit dem Coronavirus gelten alle, die zum Zeitpunkt des Todes die Diagnose Covid-19 hatten.",
+            "posPercentStat": 56,
             "chatbot": [
               {
                 "type": "text",
-                "content": "Bielefeld! Ein interessantes Thema. Du hast doch sicherlich mal von der Bielefeld-Verschwörung gehört?"
+                "content": "Ach ja, die guten alten WhatsApp Kettennachrichten..."
               },
               {
                 "type": "text",
-                "content": "Die Bürgermeisterin hat 2019 sogar einen Wettbewerb ausgerufen, um der Verschwörung ein für alle Male ein Ende zu setzten."
+                "content": "Vor kurzem wurde dieses Bild im Messenger WhatsApp zahlreich umhergeschickt:"
+              },
+              {
+                "type": "image-full",
+                "content": "question3/whatsapp.jpg",
+                "source": "Bild aus der WhatsApp-Kettennachricht",
+                "sourceUrl": "https://correctiv.org/wp-content/uploads/2020/04/IMG_20200407_223659_043.jpg"
               },
               {
                 "type": "text",
-                "content": "Bei dem Wettbewerb wurde 1 Million Euro Preisgeld darauf ausgesetzt, zu beweisen, dass Bielefeld nicht existiert."
+                "content": "Zusammen mit dem Bild wurde folgende Nachricht geteilt:"
               },
               {
                 "type": "text",
-                "content": "Schau mal, ich hab hier was cooles gefunden:"
-              },
-              {
-                "type": "image",
-                "content": "question1/graph-1.svg",
-                "source": "Effects of Air Temperature and Relative Humidity on Coronavirus Survival on Surfaces",
-                "sourceUrl": "https://www.hallo.de"
-              },
-              {
-                "type": "text",
-                "content": "Schau mal, ich hab hier was cooles gefunden:"
+                "content": "„Die Statistik des RKI lügt. Selbst ein positiv getesteter Selbstmörder, dessen Todesursache offensichtlich nicht Corona ist, kommt in die Statistik der Coronatoten.“"
               },
               {
                 "type": "separator",
-                "content": "Fun Facts"
+                "content": "Facts"
+              },
+              {
+                "type": "text",
+                "content": "Es stimmt aber tatsächlich, dass ein Mensch, der unter Fremd- oder Eigeneinwirkung gewaltsam verstirbt und zuvor positiv auf Corona getestet wurde vom Robert-Koch-Institut als „Coronatoter“ gezählt wird."
+              },
+              {
+                "type": "text",
+                "content": "Dafür gibt es aber einen Grund:"
+              },
+              {
+                "type": "text",
+                "content": "In der RKI Statistik werden grundsätzlich alle COVID-19 Todesfälle gezählt, bei denen ein laborbestätigter Nachweis vorliegt."
+              },
+              {
+                "type": "text",
+                "content": "Hier wird aber unterschieden zwischen „verstorben an Coronavirus“ und „verstorben mit Coronavirus“."
+              },
+              {
+                "type": "text",
+                "content": "In der Praxis ist es, grade bei Personen mit Vorerkrankungen, nicht immer ganz einfach festzustellen, inwieweit das Virus wirklich zum Tod beigetragen hat."
+              },
+              {
+                "type": "text",
+                "content": "Würden nur die Fälle gezählt werden, die „an COVID-19 verstorben“ sind, läuft man Gefahr, die Todesfälle unterzuerfassen."
+              },
+              {
+                "type": "text",
+                "content": "Hier gehts zum offiziellen Dashboard mit allen aktuellen Zahlen vom RKI"
+              },
+              {
+                "type": "article",
+                "url": "https://experience.arcgis.com/experience/478220a4c454480e823b17327b2bf1d4",
+                "image": "question3/dashboard.jpg",
+                "source": "RKI",
+                "title": "Robert Koch-Institut: COVID-19-Dashboard"
+              },
+              {
+                "type": "text",
+                "content": "Somit werden auch Todesfälle zur Statistik gezählt, die nicht direkt an Corona verstorben sind."
+              },
+              {
+                "type": "text",
+                "content": "Die Pressesprecherin des RKI, Marieke Degen schreibt dazu:"
+              },
+              {
+                "type": "text",
+                "content": "„[...] Die beschriebene Situation ist aber sehr selten, so dass die Zahl der Todesfälle nicht verzerrt wird.“"
               }
             ],
             "originalArticle": {
-              "url": "https://www.correctiv.org",
-              "image": "question1/original-article.jpg",
+              "url": "https://correctiv.org/faktencheck/2020/04/23/coronavirus-ja-auch-infizierte-die-gewaltsam-sterben-werden-in-die-statistik-aufgenommen",
+              "image": "question3/original.jpg",
               "source": "correctiv.org",
-              "title": "Ich bin ein Artikel und ich habe einen langen Titel"
+              "title": "Coronavirus: Ja, auch Infizierte, die gewaltsam sterben, werden in die Statistik aufgenommen"
             },
             "moreInfo": {
               "articles": [
                 {
-                  "url": "https://www.deinemudda.org",
-                  "image": "question1/more-articles.jpg",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführender Artikel1"
-                },
-                {
-                  "url": "https://www.deinemudda.org",
-                  "image": "question1/more-articles.jpg",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführender Artikel2"
-                },
-                {
-                  "url": "https://www.deinemudda.org",
-                  "image": "question1/more-articles.jpg",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführender Artikel3"
+                  "url": "https://www.merkur.de/welt/corona-rki-robert-koch-institut-hopkins-zahlen-infektionen-statistik-kritik-wieler-deutschland-zr-13602916.html",
+                  "image": "question3/article1.jpg",
+                  "source": "Merkur.de",
+                  "title": "Kritik an Robert-Koch-Institut wird lauter"
                 }
               ],
               "videos": [
                 {
-                  "url": "https://www.deinemudda.org",
-                  "image": "question1/more-videos.jpg",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführendes Video1"
-                },
-                {
-                  "url": "https://www.deinemudda.org",
-                  "image": "question1/more-videos.jpg",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführendes Video2"
-                },
-                {
-                  "url": "https://www.deinemudda.org",
-                  "image": "question1/more-videos.jpg",
-                  "source": "Quelle",
-                  "title": "Ich bin ein weiterführendes Video3"
+                  "url": "https://www.zdf.de/politik/berlin-direkt/berlin-direkt-clip-1-380.html",
+                  "image": "question3/video1.jpg",
+                  "source": "ZDF",
+                  "title": "Corona-Zahlen: Kritik am RKI"
                 }
               ]
+            }
+          }
+        },
+        {
+          "id": 4,
+          "title": "Ist es strafbar, mit dem Fahrrad auf Straßen zu fahren, die auch einen Radweg haben?",
+          "truth": false,
+          "results": {
+            "subtitle": "Es ist nicht strafbar, mit dem Fahrrad auf Straßen zu fahren, die auch einen Radweg haben. Höchstens ordnungswidrig.",
+            "posPercentStat": 62,
+            "chatbot": [
+              {
+                "type": "text",
+                "content": "Und wieder stammt dieses Gerücht von einem Social Media Post!"
+              },
+              {
+                "type": "text",
+                "content": "Und aus welchem Netzwerk dieses Mal?"
+              },
+              {
+                "type": "text",
+                "content": "👍 Richtig! Von Facebook:"
+              },
+              {
+                "type": "image-full",
+                "content": "question4/facebook.png",
+                "source": "Screenshot des Facebook Posts",
+                "sourceUrl": "https://correctiv.org/wp-content/uploads/2020/07/Bildschirmfoto-2020-07-07-um-11.12.53-400x202.png"
+              },
+              {
+                "type": "text",
+                "content": "In dem Post wird suggeriert, es sei strafbar, auf der Straße Fahrrad zu fahren, wenn eigentlich ein Radweg vorhanden ist."
+              },
+              {
+                "type": "separator",
+                "content": "Facts"
+              },
+              {
+                "type": "text",
+                "content": "Schauen wir doch mal, was die StVO dazu sagt:"
+              },
+              {
+                "type": "text",
+                "content": " „Eine Pflicht, Radwege in der jeweiligen Fahrtrichtung zu benutzen, besteht nur, wenn dies durch Zeichen 237, 240 oder 241 angeordnet ist.“ (StVO § 2 Absatz 4)"
+              },
+              {
+                "type": "text",
+                "content": "Zeichen 237, 240 oder 241 sind konkret die blauen Schilder mit dem weißen Fahrrad."
+              },
+              {
+                "type": "text",
+                "content": "Die hier:"
+              },
+              {
+                "type": "image-full",
+                "content": "question4/schilder.png",
+                "source": "Deutsche Verkehrssicherheitsrat",
+                "sourceUrl": "https://correctiv.org/wp-content/uploads/2020/07/Design-ohne-Titel.png"
+              },
+              {
+                "type": "text",
+                "content": "Fahrradfahrer müssen Radwege also nur nutzen, wenn es durch Verkehrsschilder angeordnet wird."
+              }
+            ],
+            "originalArticle": {
+              "url": "https://correctiv.org/faktencheck/2020/07/09/wann-man-auf-dem-radweg-fahren-muss-und-wann-nicht",
+              "image": "question4/original.jpg",
+              "source": "correctiv.org",
+              "title": "Wann man auf dem Radweg fahren muss – und wann nicht"
+            },
+            "moreInfo": {
+              "articles": [
+                {
+                  "url": "https://www.bussgeld-info.de/radweg/",
+                  "image": "question4/article2.jpg",
+                  "source": "Bussgeld-Info",
+                  "title": "Ein Radweg bedeutet Rechte, aber auch Pflichten"
+                },
+                {
+                  "url": "https://www.dvr.de/download/broschuere-sicher-rad-fahren-2017.pdf",
+                  "image": "question4/article1.jpg",
+                  "source": "Deutscher Verkehrssicherheitsrat",
+                  "title": "Sicher Rad fahren"
+                }
+              ],
+              "videos": [
+                {
+                  "url": "https://www.youtube.com/watch?v=-hONlvOvmGY",
+                  "image": "question4/video1.jpg",
+                  "source": "Youtube",
+                  "title": "Sicherheit für den Radverkehr"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": 7,
+          "title": "Stimmt es, dass Angela Merkel vor Kurzem eine Abstimmung ohne Mund-Nasen-Schutz besucht hat?",
+          "truth": false,
+          "results": {
+            "subtitle": "Es gibt aktuell keine Belege dafür, dass Angela Merkel vor Kurzem eine Abstimmung ohne Mund-Nasen-Schutz besucht hat.",
+            "posPercentStat": 32,
+            "chatbot": [
+              {
+                "type": "text",
+                "content": "In den Sozialen Netzwerken kursieren angeblich aktuelle Fotos von Angela Merkel, auf denen sie ohne Mund-Nasen-Schutz bei einer CDU-Abstimmung zur Frauenquote sitzt."
+              },
+              {
+                "type": "text",
+                "content": "Dabei ist sie umgeben von Menschen, die ebenfalls keine Maske tragen."
+              },
+              {
+                "type": "text",
+                "content": "Die Fotos stammen jedoch nicht von der Abstimmung Anfang Juli."
+              },
+              {
+                "type": "image-full",
+                "content": "question7/social_screens.jpg",
+                "source": " Zeyno Mol/Twitter, Screenshot und Collage: CORRECTIV",
+                "sourceUrl": "https://correctiv.org/wp-content/uploads/2020/07/Header-706x386.jpg"
+              },
+              {
+                "type": "text",
+                "content": "In den Posts wird behauptet, die obigen Bilder am 7. Juli entstanden sind."
+              },
+              {
+                "type": "text",
+                "content": "Die Abstimmung fand tatsächlich am 7. und 8. Juli statt, jedoch ohne die Kanzlerin."
+              },
+              {
+                "type": "text",
+                "content": "Das kann man sogar selber nachsehen."
+              },
+              {
+                "type": "text",
+                "content": "In ihrem öffentlichen Terminkalender sind an diesem Datum keine Eintragungen vorhanden:"
+              },
+              {
+                "type": "article",
+                "url": "http://archive.is/Rgc5b",
+                "image": "question7/merkel_kalender.jpg",
+                "source": "bundeskanzlerin.de",
+                "title": "Angela Merkel - Terminkalender"
+              },
+              {
+                "type": "text",
+                "content": "Die Fotos sind also an einem anderen Tag entstanden. Da alle auf den Bildern keinen Masken tragen, wahrscheinlich vor Corona."
+              },
+              {
+                "type": "text",
+                "content": "Aha! Im dpa-Archiv wird man fündig:"
+              },
+              {
+                "type": "image-full",
+                "content": "question7/dpa.jpg",
+                "source": "Picture Alliance/Sven Simon",
+                "sourceUrl": "https://correctiv.org/wp-content/uploads/2020/07/picture-allianca-Sven-Simon-2.jpg"
+              },
+              {
+                "type": "text",
+                "content": "Auf dem Foto kann man Merkel im gleichen pertolfarbenen Blazer sehen, wie auf den anderen Bildern."
+              },
+              {
+                "type": "text",
+                "content": "Es kann also gut sein, dass alle Fotos am 31. CDU-Parteitag im Dezember 2018 entstanden sind."
+              }
+            ],
+            "originalArticle": {
+              "url": "https://correctiv.org/faktencheck/2020/07/16/nein-angela-merkel-war-nicht-ohne-mund-nasen-schutz-bei-abstimmung-zur-frauenquote",
+              "image": "question7/social_screens.jpg",
+              "source": "correctiv.org",
+              "title": "Nein, Angela Merkel war nicht ohne Mund-Nasen-Schutz bei Abstimmung zur Frauenquote"
             }
           }
         }
