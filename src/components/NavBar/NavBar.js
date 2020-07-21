@@ -22,95 +22,99 @@ export default function NavBar(props) {
         <div />
       ) : (
         <div className={"nav-bar"}>
-          {props.currentView === "home" ? (
-            <>
-              <div className={"left"}>
-                <div className={"logo"}>
-                  <Link to={"/home"}>
-                    <LogoIc />
-                  </Link>
+          <div className="inner">
+            {props.currentView === "home" ? (
+              <>
+                <div className={"left"}>
+                  <div className={"logo"}>
+                    <Link to={"/home"}>
+                      <LogoIc />
+                    </Link>
+                  </div>
                 </div>
-              </div>
-              <div className={"right"}>
-                <div className={"logo-container"}>
-                  <Link to={"/leaderboard"}>
-                    <LeaderboardIc />
-                  </Link>
-                  <Link to={"/profile"}>
-                    <ProfileIc />
-                  </Link>
+                <div className={"right"}>
+                  <div className={"logo-container"}>
+                    <Link to={"/leaderboard"}>
+                      <LeaderboardIc />
+                    </Link>
+                    <Link to={"/profile"}>
+                      <ProfileIc />
+                    </Link>
+                  </div>
                 </div>
-              </div>
-            </>
-          ) : null}
-          {props.currentView === "profile" ? (
-            <>
-              <div className={"left"}>
-                <div className={"donat-count"}>
-                  <img src={donat} alt={"donat"} />
-                  <div className="number">{props.donatCount}</div>
+              </>
+            ) : null}
+            {props.currentView === "profile" ? (
+              <>
+                <div className={"left"}>
+                  <div className={"donat-count"}>
+                    <img src={donat} alt={"donat"} />
+                    <div className="number">{props.donatCount}</div>
+                  </div>
                 </div>
-              </div>
-              <div className={"center"}>Profil</div>
-              <div className={"right"}>
-                <div className={"logo-container"}>
-                  <SettingsIc />
-                  <Link to={"/home"}>
-                    <CloseIc />
-                  </Link>
+                <div className={"center"}>Profil</div>
+                <div className={"right"}>
+                  <div className={"logo-container"}>
+                    <SettingsIc />
+                    <Link to={"/home"}>
+                      <CloseIc />
+                    </Link>
+                  </div>
                 </div>
-              </div>
-            </>
-          ) : null}
-          {props.currentView === "leaderboard" ? (
-            <>
-              <div className={"left"}>
-                <div className={"logo"}>
-                  <Link to={"/home"}>
-                    <LogoIc />
-                  </Link>
+              </>
+            ) : null}
+            {props.currentView === "leaderboard" ? (
+              <>
+                <div className={"left"}>
+                  <div className={"logo"}>
+                    <Link to={"/home"}>
+                      <LogoIc />
+                    </Link>
+                  </div>
                 </div>
-              </div>
-              <div className={"center"}>Bestenliste</div>
-              <div className={"right"}>
-                <div className={"logo-container"}>
-                  <Link to={"/profile"}>
-                    <ProfileIc />
-                  </Link>
-                  <Link to={"/home"}>
-                    <CloseIc />
-                  </Link>
+                <div className={"center"}>Bestenliste</div>
+                <div className={"right"}>
+                  <div className={"logo-container"}>
+                    <Link to={"/profile"}>
+                      <ProfileIc />
+                    </Link>
+                    <Link to={"/home"}>
+                      <CloseIc />
+                    </Link>
+                  </div>
                 </div>
-              </div>
-            </>
-          ) : null}
-          {props.currentView === "quiz" ? (
-            <>
-              <div className={"left"}>
-                <div className={"logo"}>
-                  <Link to={"/home"}>
-                    <span>{"<"}</span>
-                    <LogoIc />
-                  </Link>
+              </>
+            ) : null}
+            {props.currentView === "quiz" ? (
+              <>
+                <div className={"left"}>
+                  <div className={"logo"}>
+                    <Link to={"/home"}>
+                      <span>{"<"}</span>
+                      <LogoIc />
+                    </Link>
+                  </div>
                 </div>
-              </div>
-              <div className={"center progress"}>
-                <span className="current">{props.currentQuestion + 1}</span>
-                <span className="of"> von </span>
-                <span className="total">{props.quizData.questions.length}</span>
-              </div>
-              <div className={"right"}>
-                <div className={"logo-container"}>
-                  <Link to={"/leaderboard"}>
-                    <LeaderboardIc />
-                  </Link>
-                  <Link to={"/profile"}>
-                    <ProfileIc />
-                  </Link>
+                <div className={"center progress"}>
+                  <span className="current">{props.currentQuestion + 1}</span>
+                  <span className="of"> von </span>
+                  <span className="total">
+                    {props.quizData.questions.length}
+                  </span>
                 </div>
-              </div>
-            </>
-          ) : null}
+                <div className={"right"}>
+                  <div className={"logo-container"}>
+                    <Link to={"/leaderboard"}>
+                      <LeaderboardIc />
+                    </Link>
+                    <Link to={"/profile"}>
+                      <ProfileIc />
+                    </Link>
+                  </div>
+                </div>
+              </>
+            ) : null}
+          </div>
         </div>
       )}
     </>

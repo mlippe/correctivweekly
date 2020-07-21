@@ -10,6 +10,8 @@
 
 .quiz-component {
   height: 100%;
+  display: flex;
+  justify-content: center;
 
   .quiz-done-container {
     height: 100%;
@@ -47,6 +49,7 @@
     line-height: 44px;
     z-index: 100;
     border-radius: 10px;
+    max-width: 600px;
   }
 
   @media screen and (max-height: 550px) {

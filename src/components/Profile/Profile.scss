@@ -1,4 +1,7 @@
 .profile-view {
+  max-width: 600px;
+  margin: 0 auto;
+
   .profile-top {
     margin: -90px -16px 0;
     display: flex;
@@ -10,7 +13,6 @@
     img {
       margin-top: 40px;
       width: 90%;
-      min-height: 90vw;
     }
 
     .user-name {
@@ -38,8 +40,7 @@
       align-items: flex-start;
       justify-content: space-between;
       flex-wrap: wrap;
-      
-    
+
       .profile-stat {
         width: 150px;
         margin-top: 20px;
@@ -65,7 +66,6 @@
             width: 150px;
             margin-left: -10px;
 
-
             .odometer-value {
               text-align: center;
             }
@@ -73,7 +73,7 @@
         }
 
         .subtitle {
-          color: #AAAAAA;
+          color: #aaaaaa;
           font-size: 20px;
           line-height: 22px;
           text-transform: uppercase;
@@ -87,7 +87,7 @@
 
     .donat-subtitle {
       margin-top: 20px;
-      font-size: 22px; 
+      font-size: 22px;
       line-height: 26px;
 
       span {
@@ -148,14 +148,13 @@
         transition: max-height 1.5s ease;
 
         &.collapsed {
-        max-height: 175px;
-        overflow: hidden;
+          max-height: 175px;
+          overflow: hidden;
 
-        .gradient-overlay {
-          opacity: 1;
+          .gradient-overlay {
+            opacity: 1;
+          }
         }
-      }
-
 
         .text {
           margin-top: 15px;
@@ -178,15 +177,13 @@
             position: absolute;
             bottom: 0;
             left: 0;
-            font-size: 14px; 
+            font-size: 14px;
             line-height: 18px;
-            color: #8C8C8C;
+            color: #8c8c8c;
             text-transform: uppercase;
           }
         }
       }
-
     }
   }
-
 }

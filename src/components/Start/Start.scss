@@ -6,6 +6,8 @@
   height: 100%;
   transition: background 0.2s ease;
   background: #5e5e5e;
+  display: flex;
+  justify-content: center;
 
   &.is-last {
     background: var(--bg);
@@ -22,6 +24,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 600px;
 
     svg {
       width: 75%;
@@ -38,11 +41,9 @@
   }
 
   .onboarding {
-    position: fixed;
-    top: 0;
-    left: 0;
     height: 100%;
     width: 100%;
+    max-width: 600px;
 
     .swiper-container {
       display: flex;
