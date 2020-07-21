@@ -490,7 +490,7 @@
               },
               {
                 "type": "text",
-                "content": "Einige Webseiten zum Thema Hund haben hierzu in letzter Artikel veröffentlicht."
+                "content": "Einige Webseiten zum Thema Hund haben hierzu Artikel veröffentlicht."
               },
               {
                 "type": "text",
@@ -632,7 +632,7 @@
               },
               {
                 "type": "image-full",
-                "content": "question6/map.jpg",
+                "content": "question6/map.png",
                 "source": "5G coverage map worldwide - nperf",
                 "sourceUrl": "https://www.nperf.com/de/map/5g"
               }
@@ -797,7 +797,7 @@
               },
               {
                 "type": "text",
-                "content": "Einige Webseiten zum Thema Hund haben hierzu in letzter Artikel veröffentlicht."
+                "content": "Einige Webseiten zum Thema Hund haben hierzu Artikel veröffentlicht."
               },
               {
                 "type": "text",
@@ -939,7 +939,7 @@
               },
               {
                 "type": "image-full",
-                "content": "question6/map.jpg",
+                "content": "question6/map.png",
                 "source": "5G coverage map worldwide - nperf",
                 "sourceUrl": "https://www.nperf.com/de/map/5g"
               }
