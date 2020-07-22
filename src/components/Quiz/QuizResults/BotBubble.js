@@ -16,7 +16,7 @@ export default function BotBubble(props) {
   });
 
   React.useEffect(() => {
-    let randomDelay = Math.floor(Math.random() * (2001 - 50)) + 500;
+    let randomDelay = Math.floor(Math.random() * (1501 - 50)) + 500;
 
     if (inView) {
       setVisible("bubble-visible");

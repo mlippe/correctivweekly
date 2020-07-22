@@ -226,6 +226,7 @@
       margin-bottom: 100px;
 
       .bot-bubble.content-visible + .bot-bubble {
+        opacity: 1;
         .active-animation {
           img {
             opacity: 0.5;
