@@ -6,7 +6,7 @@
   "main": "src/index.js",
   "dependencies": {
     "framer-motion": "1.11.1",
-    "node-sass": "4.14.1",
+    "node-sass": "7.0.0",
     "react": "16.12.0",
     "react-backdrop-filter": "2.1.0",
     "react-dom": "16.12.0",
